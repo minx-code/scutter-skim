@@ -26,17 +26,29 @@ if (!window.scutterSkimUI) {
 
             const cssUrl = browser.runtime.getURL('content/ui.css') + '?v=' + Date.now();
 
-            this.shadow.innerHTML = `
-        <link rel="stylesheet" href="${cssUrl}">
-        <div class="scutter-modal">
-          <button class="scutter-close" title="${browser.i18n.getMessage('uiCloseTitle') || 'Close'}">&times;</button>
-          <div class="scutter-content" id="scutter-body">
-            <!-- Content will be injected here -->
-          </div>
-        </div>
-      `;
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = cssUrl;
 
-            this.shadow.querySelector('.scutter-close').addEventListener('click', () => {
+            const modal = document.createElement('div');
+            modal.className = 'scutter-modal';
+
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'scutter-close';
+            closeBtn.title = browser.i18n.getMessage('uiCloseTitle') || 'Close';
+            closeBtn.textContent = '×';
+
+            const bodyEl = document.createElement('div');
+            bodyEl.className = 'scutter-content';
+            bodyEl.id = 'scutter-body';
+
+            modal.appendChild(closeBtn);
+            modal.appendChild(bodyEl);
+
+            this.shadow.appendChild(link);
+            this.shadow.appendChild(modal);
+
+            closeBtn.addEventListener('click', () => {
                 this.close();
             });
 
@@ -47,12 +59,20 @@ if (!window.scutterSkimUI) {
         showLoading() {
             if (!this.shadow) return;
             const bodyEl = this.shadow.getElementById('scutter-body');
-            bodyEl.innerHTML = `
-        <div class="scutter-loading">
-          <div class="scutter-spinner"></div>
-          <span>${browser.i18n.getMessage('uiLoadingText') || 'Generating summary... please wait.'}</span>
-        </div>
-      `;
+            bodyEl.replaceChildren(); // clear existing
+
+            const loadingDiv = document.createElement('div');
+            loadingDiv.className = 'scutter-loading';
+
+            const spinner = document.createElement('div');
+            spinner.className = 'scutter-spinner';
+
+            const span = document.createElement('span');
+            span.textContent = browser.i18n.getMessage('uiLoadingText') || 'Generating summary... please wait.';
+
+            loadingDiv.appendChild(spinner);
+            loadingDiv.appendChild(span);
+            bodyEl.appendChild(loadingDiv);
         },
 
         updateContent(markdownText) {
@@ -82,8 +102,8 @@ if (!window.scutterSkimUI) {
 
                     let rawHtml = marked.parse(md);
 
-                    const cleanHtml = DOMPurify.sanitize(rawHtml);
-                    bodyEl.innerHTML = cleanHtml;
+                    const cleanNode = DOMPurify.sanitize(rawHtml, { RETURN_DOM_FRAGMENT: true });
+                    bodyEl.replaceChildren(cleanNode);
 
                     // Ensure all links open in a new tab
                     const links = bodyEl.querySelectorAll('a');
@@ -102,7 +122,7 @@ if (!window.scutterSkimUI) {
         showError(errorMessage) {
             if (!this.shadow) return;
             const bodyEl = this.shadow.getElementById('scutter-body');
-            bodyEl.innerHTML = ''; // Clear previous content
+            bodyEl.replaceChildren(); // Clear previous content
 
             const errorDiv = document.createElement('div');
             errorDiv.className = 'scutter-error';

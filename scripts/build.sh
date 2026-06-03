@@ -17,6 +17,8 @@ cp background/background.js dist/background/
 cp content/extractor.js dist/content/
 cp content/ui.css dist/content/
 cp content/ui.js dist/content/
+cp content/fab.css dist/content/
+cp content/fab.js dist/content/
 cp lib/marked.min.js dist/lib/
 cp lib/purify.min.js dist/lib/
 cp options/options.css dist/options/
