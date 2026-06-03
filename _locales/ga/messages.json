@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Sliocht téacs ó leathanaigh agus déan achoimre air ag úsáid AI."
+    },
+    "optionsTitle": {
+        "message": "Socruithe Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Eochair API an tSoláthraí AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Cuir isteach d'eochair API..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Stóráiltear d'eochair go slán i do bhrabhsálaí agus ní sheoltar í áit ar bith ach go díreach chuig an soláthraí AI."
+    },
+    "optionsModelLabel": {
+        "message": "Múnla AI"
+    },
+    "optionsLoadModels": {
+        "message": "Luchtaigh ón API"
+    },
+    "optionsModelHint": {
+        "message": "Roghnaigh múnla nó luchtaigh an liosta reatha tríd an API (teastaíonn eochair API bhailí shábháilte)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Teanga na hAchoimre"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Teanga an ailt"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Teanga an bhrabhsálaí"
+    },
+    "optionsSaveBtn": {
+        "message": "Sábháil Socruithe"
+    },
+    "optionsSaveSuccess": {
+        "message": "Socruithe sábháilte go rathúil!"
+    },
+    "optionsSaveFail": {
+        "message": "Earráid agus socruithe á sábháil: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Cuir isteach eochair API le do thoil chun múnlaí a luchtú."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Ag luchtú..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Múnlaí luchtaithe go rathúil."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "Níor fhill an API aon mhúnlaí."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Theip ar luchtú na múnlaí: "
+    },
+    "uiCloseTitle": {
+        "message": "Dún"
+    },
+    "uiLoadingText": {
+        "message": "Ag giniúint achoimre... fan le do thoil."
+    },
+    "uiErrorMarkdown": {
+        "message": "Earráid ag próiseáil Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Earráid: Theip ar luchtú na leabharlanna rindreála."
+    },
+    "bgErrorNoText": {
+        "message": "Níl aon téacs bríoch sa leathanach le hachoimriú."
+    },
+    "bgErrorNoKey": {
+        "message": "Eochair API ar iarraidh. Cliceáil ar dheis ar dheilbhín an fhorlíontáin, roghnaigh 'Options' (nó 'Manage Extension' -> 'Preferences') agus socraigh d'eochair API."
+    },
+    "bgErrorUnsupported": {
+        "message": "Ní thacaítear leis an soláthraí AI roghnaithe faoi láthair."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Earráid Fíordheimhnithe: Eochair API neamhbhailí. Seiceáil socruithe an fhorlíontáin."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Earráid Fíordheimhnithe: Rochtain neamhúdaraithe (401/403). Seiceáil do chuid socruithe."
+    },
+    "bgErrorRateLimit": {
+        "message": "Sáraíodh an teorainn ráta (429). Bain triail eile as níos déanaí."
+    },
+    "bgErrorAIService": {
+        "message": "Earráid Seirbhíse AI: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Níor fhill an AI aon téacs bailí."
+    },
+    "bgErrorNetwork": {
+        "message": "Earráid Líonra: Ní féidir nascadh leis an tseirbhís AI."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Ní féidir an earráid a thaispeáint sa chomhéadan úsáideora."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Ní féidir rith ar leathanaigh chórais."
+    },
+    "promptTags": {
+        "message": "Clibeanna:"
+    },
+    "promptSummary": {
+        "message": "### Achoimre Ghearr"
+    },
+    "promptKeyPoints": {
+        "message": "### Príomhphointí"
+    },
+    "promptSources": {
+        "message": "### Foinsí Ábhartha"
+    },
+    "promptNoSources": {
+        "message": "Níor luadh aon fhoinsí ar leith."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nach bhfuil eochair API agat? Is féidir leat ceann saor in aisce a fháil ó"
+    },
+    "extensionActionTitle": {
+        "message": "Achoimrigh le Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Déan achoimre ar an leathanach reatha"
+    },
+    "promptQualityWarning": {
+        "message": "Rabhadh Cáilíochta:"
+    }
+}

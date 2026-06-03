@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Ištraukite tekstą iš puslapių ir apibendrinkite jį naudodami DI."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim nustatymai"
+    },
+    "optionsApiKeyLabel": {
+        "message": "DI teikėjo API raktas"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Įveskite savo API raktą..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Jūsų raktas saugiai laikomas naršyklėje ir niekada niekur nesiunčiamas, išskyrus tiesiogiai DI teikėjui."
+    },
+    "optionsModelLabel": {
+        "message": "DI modelis"
+    },
+    "optionsLoadModels": {
+        "message": "Įkelti iš API"
+    },
+    "optionsModelHint": {
+        "message": "Pasirinkite modelį arba įkelkite dabartinį sąrašą per API (reikalingas išsaugotas galiojantis API raktas)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Apibendrinimo kalba"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Straipsnio kalba"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Naršyklės kalba"
+    },
+    "optionsSaveBtn": {
+        "message": "Išsaugoti nustatymus"
+    },
+    "optionsSaveSuccess": {
+        "message": "Nustatymai sėkmingai išsaugoti!"
+    },
+    "optionsSaveFail": {
+        "message": "Klaida išsaugant nustatymus: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Norėdami įkelti modelius, įveskite API raktą."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Įkeliama..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeliai sėkmingai įkelti."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API negrąžino jokių modelių."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nepavyko įkelti modelių: "
+    },
+    "uiCloseTitle": {
+        "message": "Uždaryti"
+    },
+    "uiLoadingText": {
+        "message": "Generuojamas apibendrinimas... palaukite."
+    },
+    "uiErrorMarkdown": {
+        "message": "Klaida apdorojant „Markdown“."
+    },
+    "uiErrorLibraries": {
+        "message": "Klaida: nepavyko įkelti atvaizdavimo bibliotekų."
+    },
+    "bgErrorNoText": {
+        "message": "Puslapyje nėra jokio prasmingo teksto, kurį būtų galima apibendrinti."
+    },
+    "bgErrorNoKey": {
+        "message": "Nėra API rakto. Dešiniuoju pelės mygtuku spustelėkite plėtinio piktogramą, pasirinkite „Nustatymai“ (arba „Tvarkyti plėtinį“ -> „Nuostatos“) ir įveskite savo API raktą."
+    },
+    "bgErrorUnsupported": {
+        "message": "Pasirinktas DI teikėjas šiuo metu nepalaikomas."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Autentifikavimo klaida: netinkamas API raktas. Patikrinkite plėtinio nustatymus."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Autentifikavimo klaida: neteisėta prieiga (401/403). Patikrinkite savo nustatymus."
+    },
+    "bgErrorRateLimit": {
+        "message": "Viršytas užklausų limitas (429). Bandykite dar kartą vėliau."
+    },
+    "bgErrorAIService": {
+        "message": "DI paslaugos klaida: "
+    },
+    "bgErrorNoValidText": {
+        "message": "DI negrąžino jokio tinkamo teksto."
+    },
+    "bgErrorNetwork": {
+        "message": "Tinklo klaida: nepavyksta prisijungti prie DI paslaugos."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: nepavyksta parodyti klaidos vartotojo sąsajoje."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: negalima vykdyti sistemos puslapiuose."
+    },
+    "promptTags": {
+        "message": "Žymos:"
+    },
+    "promptSummary": {
+        "message": "### Trumpas apibendrinimas"
+    },
+    "promptKeyPoints": {
+        "message": "### Pagrindiniai punktai"
+    },
+    "promptSources": {
+        "message": "### Atitinkami šaltiniai"
+    },
+    "promptNoSources": {
+        "message": "Konkrečių šaltinių nepaminėta."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Neturite API rakto? Nemokamą galite gauti iš"
+    },
+    "extensionActionTitle": {
+        "message": "Apibendrinti su „Scutter Skim“"
+    },
+    "extensionShortcutDescription": {
+        "message": "Apibendrinti esamą puslapį"
+    },
+    "promptQualityWarning": {
+        "message": "Kokybės įspėjimas:"
+    }
+}

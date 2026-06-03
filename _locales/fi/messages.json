@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Poimi tekstiä sivuilta ja tiivistä se tekoälyn avulla."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim -asetukset"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Tekoälypalvelun API-avain"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Syötä API-avaimesi..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Avaimesi tallennetaan turvallisesti selaimeesi, eikä sitä lähetetä muualle kuin suoraan tekoälypalvelun tarjoajalle."
+    },
+    "optionsModelLabel": {
+        "message": "Tekoälymalli"
+    },
+    "optionsLoadModels": {
+        "message": "Lataa API:sta"
+    },
+    "optionsModelHint": {
+        "message": "Valitse malli tai lataa nykyinen luettelo API:n kautta (vaatii tallennetun ja voimassa olevan API-avaimen)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Tiivistelmän kieli"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikkelin kieli"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Selaimen kieli"
+    },
+    "optionsSaveBtn": {
+        "message": "Tallenna asetukset"
+    },
+    "optionsSaveSuccess": {
+        "message": "Asetukset tallennettu onnistuneesti!"
+    },
+    "optionsSaveFail": {
+        "message": "Virhe tallennettaessa asetuksia: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Syötä API-avain ladataksesi mallit."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Ladataan..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Mallit ladattu onnistuneesti."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API ei palauttanut yhtään mallia."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Mallien lataaminen epäonnistui: "
+    },
+    "uiCloseTitle": {
+        "message": "Sulje"
+    },
+    "uiLoadingText": {
+        "message": "Luodaan tiivistelmää... odota hetki."
+    },
+    "uiErrorMarkdown": {
+        "message": "Virhe Markdown-käsittelyssä."
+    },
+    "uiErrorLibraries": {
+        "message": "Virhe: Renderöintikirjastojen lataaminen epäonnistui."
+    },
+    "bgErrorNoText": {
+        "message": "Sivu ei sisällä tiivistettävää tekstiä."
+    },
+    "bgErrorNoKey": {
+        "message": "API-avain puuttuu. Napsauta laajennuksen kuvaketta hiiren kakkospainikkeella, valitse 'Asetukset' (tai 'Hallitse laajennusta' -> 'Asetukset') ja määritä API-avaimesi."
+    },
+    "bgErrorUnsupported": {
+        "message": "Valittua tekoälypalvelua ei tällä hetkellä tueta."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Todennusvirhe: Virheellinen API-avain. Tarkista laajennuksen asetukset."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Todennusvirhe: Luvaton pääsy (401/403). Tarkista asetuksesi."
+    },
+    "bgErrorRateLimit": {
+        "message": "Nopeusrajoitus ylittynyt (429). Yritä myöhemmin uudelleen."
+    },
+    "bgErrorAIService": {
+        "message": "Tekoälypalvelun virhe: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Tekoäly ei palauttanut kelvollista tekstiä."
+    },
+    "bgErrorNetwork": {
+        "message": "Verkkovirhe: Ei yhteyttä tekoälypalveluun."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Virhettä ei voitu näyttää käyttöliittymässä."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Ei voi suorittaa järjestelmäsivuilla."
+    },
+    "promptTags": {
+        "message": "Tunnisteet:"
+    },
+    "promptSummary": {
+        "message": "### Lyhyt tiivistelmä"
+    },
+    "promptKeyPoints": {
+        "message": "### Keskeiset kohdat"
+    },
+    "promptSources": {
+        "message": "### Asiaankuuluvat lähteet"
+    },
+    "promptNoSources": {
+        "message": "Ei mainittuja erityisiä lähteitä."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Eikö sinulla ole API-avainta? Voit hankkia ilmaisen avaimen osoitteesta"
+    },
+    "extensionActionTitle": {
+        "message": "Tiivistä Scutter Skimillä"
+    },
+    "extensionShortcutDescription": {
+        "message": "Tiivistä nykyinen sivu"
+    },
+    "promptQualityWarning": {
+        "message": "Laatuvaroitus:"
+    }
+}

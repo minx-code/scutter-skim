@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Izdvojite tekst sa stranica i sažmite ga pomoću umjetne inteligencije."
+    },
+    "optionsTitle": {
+        "message": "Postavke za Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API ključ pružatelja AI usluga"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Unesite svoj API ključ..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Vaš ključ je sigurno pohranjen u vašem pregledniku i nikada se ne šalje nigdje osim izravno pružatelju AI usluga."
+    },
+    "optionsModelLabel": {
+        "message": "AI model"
+    },
+    "optionsLoadModels": {
+        "message": "Učitaj iz API-ja"
+    },
+    "optionsModelHint": {
+        "message": "Odaberite model ili učitajte trenutni popis putem API-ja (zahtijeva spremljen važeći API ključ)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Jezik sažetka"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Jezik članka"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Jezik preglednika"
+    },
+    "optionsSaveBtn": {
+        "message": "Spremi postavke"
+    },
+    "optionsSaveSuccess": {
+        "message": "Postavke su uspješno spremljene!"
+    },
+    "optionsSaveFail": {
+        "message": "Pogreška pri spremanju postavki: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Molimo unesite API ključ za učitavanje modela."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Učitavanje..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeli su uspješno učitani."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API nije vratio nijedan model."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Neuspjelo učitavanje modela: "
+    },
+    "uiCloseTitle": {
+        "message": "Zatvori"
+    },
+    "uiLoadingText": {
+        "message": "Generiranje sažetka... molimo pričekajte."
+    },
+    "uiErrorMarkdown": {
+        "message": "Pogreška pri obradi Markdowna."
+    },
+    "uiErrorLibraries": {
+        "message": "Pogreška: Biblioteke za prikaz nisu se uspjele učitati."
+    },
+    "bgErrorNoText": {
+        "message": "Stranica ne sadrži nikakav smislen tekst za sažimanje."
+    },
+    "bgErrorNoKey": {
+        "message": "Nedostaje API ključ. Molimo kliknite desnom tipkom miša na ikonu proširenja, odaberite 'Opcije' (ili 'Upravljanje proširenjem' -> 'Postavke') i unesite svoj API ključ."
+    },
+    "bgErrorUnsupported": {
+        "message": "Odabrani pružatelj AI usluga trenutno nije podržan."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Pogreška autentifikacije: Nevažeći API ključ. Provjerite postavke proširenja."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Pogreška autentifikacije: Neovlašten pristup (401/403). Provjerite svoje postavke."
+    },
+    "bgErrorRateLimit": {
+        "message": "Prekoračeno ograničenje broja zahtjeva (429). Molimo pokušajte ponovno kasnije."
+    },
+    "bgErrorAIService": {
+        "message": "Pogreška AI usluge: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI nije vratio nikakav važeći tekst."
+    },
+    "bgErrorNetwork": {
+        "message": "Mrežna pogreška: Nije moguće povezati se s AI uslugom."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Nije moguće prikazati pogrešku u sučelju."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Ne može se pokrenuti na sistemskim stranicama."
+    },
+    "promptTags": {
+        "message": "Oznake:"
+    },
+    "promptSummary": {
+        "message": "### Kratki sažetak"
+    },
+    "promptKeyPoints": {
+        "message": "### Ključne točke"
+    },
+    "promptSources": {
+        "message": "### Relevantni izvori"
+    },
+    "promptNoSources": {
+        "message": "Nisu navedeni posebni izvori."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nemate API ključ? Besplatni možete dobiti na"
+    },
+    "extensionActionTitle": {
+        "message": "Sažmi uz Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Sažmi trenutnu stranicu"
+    },
+    "promptQualityWarning": {
+        "message": "Upozorenje o kvaliteti:"
+    }
+}

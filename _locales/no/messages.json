@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Trekk ut tekst fra nettsider og oppsummer den ved hjelp av AI."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim-innstillinger"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-nøkkel for AI-leverandør"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Skriv inn API-nøkkelen din..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Nøkkelen din lagres sikkert i nettleseren og sendes aldri noe annet sted enn direkte til AI-leverandøren."
+    },
+    "optionsModelLabel": {
+        "message": "AI-modell"
+    },
+    "optionsLoadModels": {
+        "message": "Last inn fra API"
+    },
+    "optionsModelHint": {
+        "message": "Velg en modell eller last inn gjeldende liste via API (krever en lagret gyldig API-nøkkel)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Språk for oppsummering"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikkelens språk"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Nettleserens språk"
+    },
+    "optionsSaveBtn": {
+        "message": "Lagre innstillinger"
+    },
+    "optionsSaveSuccess": {
+        "message": "Innstillinger lagret!"
+    },
+    "optionsSaveFail": {
+        "message": "Feil ved lagring av innstillinger: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Vennligst skriv inn en API-nøkkel for å laste inn modeller."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Laster inn..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeller lastet inn."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API-et returnerte ingen modeller."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Kunne ikke laste inn modeller: "
+    },
+    "uiCloseTitle": {
+        "message": "Lukk"
+    },
+    "uiLoadingText": {
+        "message": "Genererer oppsummering... vennligst vent."
+    },
+    "uiErrorMarkdown": {
+        "message": "Feil ved behandling av Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Feil: Biblioteker for gjengivelse kunne ikke lastes inn."
+    },
+    "bgErrorNoText": {
+        "message": "Siden inneholder ingen meningsfull tekst som kan oppsummeres."
+    },
+    "bgErrorNoKey": {
+        "message": "Mangler API-nøkkel. Høyreklikk på utvidelsesikonet, velg 'Alternativer' (eller 'Administrer utvidelse' -> 'Innstillinger') og angi API-nøkkelen din."
+    },
+    "bgErrorUnsupported": {
+        "message": "Den valgte AI-leverandøren støttes ikke for øyeblikket."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Autentiseringsfeil: Ugyldig API-nøkkel. Sjekk utvidelsesinnstillingene."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Autentiseringsfeil: Uautorisert tilgang (401/403). Sjekk innstillingene dine."
+    },
+    "bgErrorRateLimit": {
+        "message": "Hastighetsgrense overskredet (429). Vennligst prøv igjen senere."
+    },
+    "bgErrorAIService": {
+        "message": "AI-tjenestefeil: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI-en returnerte ingen gyldig tekst."
+    },
+    "bgErrorNetwork": {
+        "message": "Nettverksfeil: Kan ikke koble til AI-tjenesten."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Kan ikke vise feil i brukergrensesnittet."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Kan ikke kjøre på systemsider."
+    },
+    "promptTags": {
+        "message": "Merker:"
+    },
+    "promptSummary": {
+        "message": "### Kort oppsummering"
+    },
+    "promptKeyPoints": {
+        "message": "### Hovedpunkter"
+    },
+    "promptSources": {
+        "message": "### Relevante kilder"
+    },
+    "promptNoSources": {
+        "message": "Ingen spesifikke kilder nevnt."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Har du ikke en API-nøkkel? Du kan få en gratis en fra"
+    },
+    "extensionActionTitle": {
+        "message": "Oppsummer med Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Oppsummer gjeldende side"
+    },
+    "promptQualityWarning": {
+        "message": "Kvalitetsadvarsel:"
+    }
+}

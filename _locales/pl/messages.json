@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Wyodrębniaj tekst ze stron i podsumowuj go za pomocą AI."
+    },
+    "optionsTitle": {
+        "message": "Ustawienia Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Klucz API dostawcy AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Wprowadź swój klucz API..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Twój klucz jest przechowywany bezpiecznie w przeglądarce i nigdy nie jest wysyłany nigdzie poza bezpośrednim połączeniem z dostawcą AI."
+    },
+    "optionsModelLabel": {
+        "message": "Model AI"
+    },
+    "optionsLoadModels": {
+        "message": "Wczytaj z API"
+    },
+    "optionsModelHint": {
+        "message": "Wybierz model lub wczytaj aktualną listę przez API (wymaga zapisanego poprawnego klucza API)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Język podsumowania"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Język artykułu"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Język przeglądarki"
+    },
+    "optionsSaveBtn": {
+        "message": "Zapisz ustawienia"
+    },
+    "optionsSaveSuccess": {
+        "message": "Ustawienia zostały zapisane!"
+    },
+    "optionsSaveFail": {
+        "message": "Błąd podczas zapisywania ustawień: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Wprowadź klucz API, aby wczytać modele."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Wczytywanie..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modele zostały pomyślnie wczytane."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API nie zwróciło żadnych modeli."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nie udało się wczytać modeli: "
+    },
+    "uiCloseTitle": {
+        "message": "Zamknij"
+    },
+    "uiLoadingText": {
+        "message": "Generowanie podsumowania... proszę czekać."
+    },
+    "uiErrorMarkdown": {
+        "message": "Błąd przetwarzania Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Błąd: Nie udało się załadować bibliotek renderowania."
+    },
+    "bgErrorNoText": {
+        "message": "Strona nie zawiera żadnego znaczącego tekstu do podsumowania."
+    },
+    "bgErrorNoKey": {
+        "message": "Brak klucza API. Kliknij prawym przyciskiem myszy ikonę rozszerzenia, wybierz „Opcje” (lub „Zarządzaj rozszerzeniem” -> „Preferencje”) i ustaw swój klucz API."
+    },
+    "bgErrorUnsupported": {
+        "message": "Wybrany dostawca AI nie jest obecnie obsługiwany."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Błąd uwierzytelniania: Nieprawidłowy klucz API. Sprawdź ustawienia rozszerzenia."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Błąd uwierzytelniania: Brak dostępu (401/403). Sprawdź swoje ustawienia."
+    },
+    "bgErrorRateLimit": {
+        "message": "Przekroczono limit zapytań (429). Spróbuj ponownie później."
+    },
+    "bgErrorAIService": {
+        "message": "Błąd usługi AI: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI nie zwróciło żadnego poprawnego tekstu."
+    },
+    "bgErrorNetwork": {
+        "message": "Błąd sieci: Nie można połączyć się z usługą AI."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Nie można wyświetlić błędu w interfejsie użytkownika."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Nie można uruchomić na stronach systemowych."
+    },
+    "promptTags": {
+        "message": "Tagi:"
+    },
+    "promptSummary": {
+        "message": "### Krótkie podsumowanie"
+    },
+    "promptKeyPoints": {
+        "message": "### Kluczowe punkty"
+    },
+    "promptSources": {
+        "message": "### Istotne źródła"
+    },
+    "promptNoSources": {
+        "message": "Nie wspomniano o żadnych konkretnych źródłach."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nie masz klucza API? Możesz uzyskać darmowy klucz na stronie"
+    },
+    "extensionActionTitle": {
+        "message": "Podsumuj za pomocą Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Podsumuj bieżącą stronę"
+    },
+    "promptQualityWarning": {
+        "message": "Ostrzeżenie o jakości:"
+    }
+}

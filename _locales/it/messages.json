@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Estrai testo dalle pagine e riassumilo usando l'IA."
+    },
+    "optionsTitle": {
+        "message": "Impostazioni di Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Chiave API del provider IA"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Inserisci la tua chiave API..."
+    },
+    "optionsApiKeyHint": {
+        "message": "La tua chiave viene archiviata in modo sicuro nel browser e non viene inviata da nessuna parte se non direttamente al provider IA."
+    },
+    "optionsModelLabel": {
+        "message": "Modello IA"
+    },
+    "optionsLoadModels": {
+        "message": "Carica da API"
+    },
+    "optionsModelHint": {
+        "message": "Seleziona un modello o carica l'elenco corrente tramite API (richiede una chiave API valida salvata)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Lingua del riassunto"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Lingua dell'articolo"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Lingua del browser"
+    },
+    "optionsSaveBtn": {
+        "message": "Salva impostazioni"
+    },
+    "optionsSaveSuccess": {
+        "message": "Impostazioni salvate con successo!"
+    },
+    "optionsSaveFail": {
+        "message": "Errore durante il salvataggio delle impostazioni: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Inserisci una chiave API per caricare i modelli."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Caricamento in corso..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modelli caricati con successo."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "L'API non ha restituito alcun modello."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Impossibile caricare i modelli: "
+    },
+    "uiCloseTitle": {
+        "message": "Chiudi"
+    },
+    "uiLoadingText": {
+        "message": "Generazione del riassunto in corso... attendere."
+    },
+    "uiErrorMarkdown": {
+        "message": "Errore durante l'elaborazione del Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Errore: impossibile caricare le librerie di rendering."
+    },
+    "bgErrorNoText": {
+        "message": "La pagina non contiene alcun testo significativo da riassumere."
+    },
+    "bgErrorNoKey": {
+        "message": "Chiave API mancante. Fai clic destro sull'icona dell'estensione, seleziona 'Opzioni' (o 'Gestisci estensione' -> 'Preferenze') e imposta la tua chiave API."
+    },
+    "bgErrorUnsupported": {
+        "message": "Il provider IA selezionato non è attualmente supportato."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Errore di autenticazione: chiave API non valida. Controlla le impostazioni dell'estensione."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Errore di autenticazione: accesso non autorizzato (401/403). Controlla le tue impostazioni."
+    },
+    "bgErrorRateLimit": {
+        "message": "Limite di frequenza superato (429). Riprova più tardi."
+    },
+    "bgErrorAIService": {
+        "message": "Errore del servizio IA: "
+    },
+    "bgErrorNoValidText": {
+        "message": "L'IA non ha restituito alcun testo valido."
+    },
+    "bgErrorNetwork": {
+        "message": "Errore di rete: impossibile connettersi al servizio IA."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: impossibile visualizzare l'errore nell'interfaccia utente."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: impossibile eseguire sulle pagine di sistema."
+    },
+    "promptTags": {
+        "message": "Tag:"
+    },
+    "promptSummary": {
+        "message": "### Breve riassunto"
+    },
+    "promptKeyPoints": {
+        "message": "### Punti chiave"
+    },
+    "promptSources": {
+        "message": "### Fonti rilevanti"
+    },
+    "promptNoSources": {
+        "message": "Nessuna fonte specifica menzionata."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Non hai una chiave API? Puoi ottenerne una gratuita da"
+    },
+    "extensionActionTitle": {
+        "message": "Riassumi con Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Riassumi la pagina corrente"
+    },
+    "promptQualityWarning": {
+        "message": "Avviso di qualità:"
+    }
+}

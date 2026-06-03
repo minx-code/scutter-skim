@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Izvlecite besedilo s strani in ga povzemite s pomočjo umetne inteligence."
+    },
+    "optionsTitle": {
+        "message": "Nastavitve Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API ključ ponudnika umetne inteligence"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Vnesite svoj API ključ..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Vaš ključ je varno shranjen v brskalniku in se nikoli ne pošilja nikamor drugam, razen neposredno ponudniku umetne inteligence."
+    },
+    "optionsModelLabel": {
+        "message": "Model umetne inteligence"
+    },
+    "optionsLoadModels": {
+        "message": "Naloži iz API-ja"
+    },
+    "optionsModelHint": {
+        "message": "Izberite model ali naložite trenutni seznam prek API-ja (zahteva shranjen veljaven API ključ)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Jezik povzetka"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Jezik članka"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Jezik brskalnika"
+    },
+    "optionsSaveBtn": {
+        "message": "Shrani nastavitve"
+    },
+    "optionsSaveSuccess": {
+        "message": "Nastavitve so bile uspešno shranjene!"
+    },
+    "optionsSaveFail": {
+        "message": "Napaka pri shranjevanju nastavitev: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Za nalaganje modelov vnesite API ključ."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Nalaganje..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeli so bili uspešno naloženi."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API ni vrnil nobenih modelov."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nalaganje modelov ni uspelo: "
+    },
+    "uiCloseTitle": {
+        "message": "Zapri"
+    },
+    "uiLoadingText": {
+        "message": "Ustvarjanje povzetka... prosimo, počakajte."
+    },
+    "uiErrorMarkdown": {
+        "message": "Napaka pri obdelavi Markdowna."
+    },
+    "uiErrorLibraries": {
+        "message": "Napaka: Knjižnice za upodabljanje se niso naložile."
+    },
+    "bgErrorNoText": {
+        "message": "Stran ne vsebuje nobenega smiselnega besedila za povzetek."
+    },
+    "bgErrorNoKey": {
+        "message": "Manjka API ključ. Z desno tipko miške kliknite ikono razširitve, izberite 'Možnosti' (ali 'Upravljanje razširitve' -> 'Nastavitve') in nastavite svoj API ključ."
+    },
+    "bgErrorUnsupported": {
+        "message": "Izbrani ponudnik umetne inteligence trenutno ni podprt."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Napaka pri preverjanju pristnosti: Neveljaven API ključ. Preverite nastavitve razširitve."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Napaka pri preverjanju pristnosti: Nepooblaščen dostop (401/403). Preverite svoje nastavitve."
+    },
+    "bgErrorRateLimit": {
+        "message": "Presežena omejitev hitrosti (429). Poskusite znova pozneje."
+    },
+    "bgErrorAIService": {
+        "message": "Napaka storitve umetne inteligence: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Umetna inteligenca ni vrnila nobenega veljavnega besedila."
+    },
+    "bgErrorNetwork": {
+        "message": "Omrežna napaka: Povezava s storitvijo umetne inteligence ni mogoča."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Napake ni mogoče prikazati v uporabniškem vmesniku."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Ne more delovati na sistemskih straneh."
+    },
+    "promptTags": {
+        "message": "Oznake:"
+    },
+    "promptSummary": {
+        "message": "### Kratek povzetek"
+    },
+    "promptKeyPoints": {
+        "message": "### Ključne točke"
+    },
+    "promptSources": {
+        "message": "### Ustrezni viri"
+    },
+    "promptNoSources": {
+        "message": "Ni navedenih posebnih virov."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nimate API ključa? Brezplačnega lahko pridobite na"
+    },
+    "extensionActionTitle": {
+        "message": "Povzemi s Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Povzemi trenutno stran"
+    },
+    "promptQualityWarning": {
+        "message": "Opozorilo o kakovosti:"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Витягуйте текст зі сторінок та створюйте його резюме за допомогою ШІ."
+    },
+    "optionsTitle": {
+        "message": "Налаштування Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-ключ постачальника ШІ"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Введіть ваш API-ключ..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Ваш ключ безпечно зберігається у браузері та ніколи не надсилається нікуди, окрім як безпосередньо постачальнику ШІ."
+    },
+    "optionsModelLabel": {
+        "message": "Модель ШІ"
+    },
+    "optionsLoadModels": {
+        "message": "Завантажити з API"
+    },
+    "optionsModelHint": {
+        "message": "Виберіть модель або завантажте поточний список через API (потрібен збережений дійсний API-ключ)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Мова резюме"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Мова статті"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Мова браузера"
+    },
+    "optionsSaveBtn": {
+        "message": "Зберегти налаштування"
+    },
+    "optionsSaveSuccess": {
+        "message": "Налаштування успішно збережено!"
+    },
+    "optionsSaveFail": {
+        "message": "Помилка при збереженні налаштувань: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Будь ласка, введіть API-ключ, щоб завантажити моделі."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Завантаження..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Моделі успішно завантажено."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API не повернуло жодної моделі."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Не вдалося завантажити моделі: "
+    },
+    "uiCloseTitle": {
+        "message": "Закрити"
+    },
+    "uiLoadingText": {
+        "message": "Створення резюме... будь ласка, зачекайте."
+    },
+    "uiErrorMarkdown": {
+        "message": "Помилка обробки Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Помилка: не вдалося завантажити бібліотеки візуалізації."
+    },
+    "bgErrorNoText": {
+        "message": "Сторінка не містить значущого тексту для створення резюме."
+    },
+    "bgErrorNoKey": {
+        "message": "Відсутній API-ключ. Будь ласка, натисніть правою кнопкою миші на іконку розширення, виберіть «Налаштування» (або «Керування розширенням» -> «Параметри») і вкажіть свій API-ключ."
+    },
+    "bgErrorUnsupported": {
+        "message": "Вибраний постачальник ШІ наразі не підтримується."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Помилка автентифікації: недійсний API-ключ. Перевірте налаштування розширення."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Помилка автентифікації: несанкціонований доступ (401/403). Перевірте свої налаштування."
+    },
+    "bgErrorRateLimit": {
+        "message": "Перевищено ліміт запитів (429). Будь ласка, спробуйте пізніше."
+    },
+    "bgErrorAIService": {
+        "message": "Помилка сервісу ШІ: "
+    },
+    "bgErrorNoValidText": {
+        "message": "ШІ не повернув жодного дійсного тексту."
+    },
+    "bgErrorNetwork": {
+        "message": "Помилка мережі: неможливо підключитися до сервісу ШІ."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: неможливо відобразити помилку в інтерфейсі."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: неможливо запустити на системних сторінках."
+    },
+    "promptTags": {
+        "message": "Теги:"
+    },
+    "promptSummary": {
+        "message": "### Короткий зміст"
+    },
+    "promptKeyPoints": {
+        "message": "### Ключові моменти"
+    },
+    "promptSources": {
+        "message": "### Відповідні джерела"
+    },
+    "promptNoSources": {
+        "message": "Конкретних джерел не вказано."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Не маєте ключа API? Ви можете отримати безкоштовний ключ на"
+    },
+    "extensionActionTitle": {
+        "message": "Підсумувати за допомогою Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Підсумувати поточну сторінку"
+    },
+    "promptQualityWarning": {
+        "message": "Попередження про якість:"
+    }
+}

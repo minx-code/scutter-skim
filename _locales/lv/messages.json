@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Izvelciet tekstu no lapām un apkopojiet to, izmantojot AI."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim iestatījumi"
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI pakalpojumu sniedzēja API atslēga"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Ievadiet savu API atslēgu..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Jūsu atslēga tiek droši glabāta pārlūkprogrammā un nekad netiek sūtīta nekur citur, kā tikai tieši AI pakalpojumu sniedzējam."
+    },
+    "optionsModelLabel": {
+        "message": "AI modelis"
+    },
+    "optionsLoadModels": {
+        "message": "Ielādēt no API"
+    },
+    "optionsModelHint": {
+        "message": "Atlasiet modeli vai ielādējiet pašreizējo sarakstu, izmantojot API (nepieciešama saglabāta derīga API atslēga)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Kopsavilkuma valoda"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Raksta valoda"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Pārlūkprogrammas valoda"
+    },
+    "optionsSaveBtn": {
+        "message": "Saglabāt iestatījumus"
+    },
+    "optionsSaveSuccess": {
+        "message": "Iestatījumi veiksmīgi saglabāti!"
+    },
+    "optionsSaveFail": {
+        "message": "Kļūda saglabājot iestatījumus: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Lūdzu, ievadiet API atslēgu, lai ielādētu modeļus."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Notiek ielāde..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeļi veiksmīgi ielādēti."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API neatgrieza nevienu modeli."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Neizdevās ielādēt modeļus: "
+    },
+    "uiCloseTitle": {
+        "message": "Aizvērt"
+    },
+    "uiLoadingText": {
+        "message": "Tiek ģenerēts kopsavilkums... lūdzu, uzgaidiet."
+    },
+    "uiErrorMarkdown": {
+        "message": "Kļūda apstrādājot Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Kļūda: Neizdevās ielādēt renderēšanas bibliotēkas."
+    },
+    "bgErrorNoText": {
+        "message": "Lapa nesatur nekādu nozīmīgu tekstu, ko apkopot."
+    },
+    "bgErrorNoKey": {
+        "message": "Trūkst API atslēgas. Lūdzu, ar peles labo pogu noklikšķiniet uz paplašinājuma ikonas, atlasiet 'Iestatījumi' (vai 'Pārvaldīt paplašinājumu' -> 'Preferences') un iestatiet savu API atslēgu."
+    },
+    "bgErrorUnsupported": {
+        "message": "Atlasītais AI pakalpojumu sniedzējs pašlaik netiek atbalstīts."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Autentifikācijas kļūda: Nederīga API atslēga. Pārbaudiet paplašinājuma iestatījumus."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Autentifikācijas kļūda: Neautorizēta piekļuve (401/403). Pārbaudiet savus iestatījumus."
+    },
+    "bgErrorRateLimit": {
+        "message": "Pārsniegts pieprasījumu limits (429). Lūdzu, mēģiniet vēlreiz vēlāk."
+    },
+    "bgErrorAIService": {
+        "message": "AI pakalpojuma kļūda: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI neatgrieza nekādu derīgu tekstu."
+    },
+    "bgErrorNetwork": {
+        "message": "Tīkla kļūda: Nevar izveidot savienojumu ar AI pakalpojumu."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Nevar parādīt kļūdu lietotāja saskarnē."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Nevar darboties sistēmas lapās."
+    },
+    "promptTags": {
+        "message": "Birkas:"
+    },
+    "promptSummary": {
+        "message": "### Īss kopsavilkums"
+    },
+    "promptKeyPoints": {
+        "message": "### Galvenie punkti"
+    },
+    "promptSources": {
+        "message": "### Attiecīgie avoti"
+    },
+    "promptNoSources": {
+        "message": "Nav minēti konkrēti avoti."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nav API atslēgas? Jūs varat saņemt bezmaksas atslēgu šeit:"
+    },
+    "extensionActionTitle": {
+        "message": "Apkopot ar Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Apkopot pašreizējo lapu"
+    },
+    "promptQualityWarning": {
+        "message": "Kvalitātes brīdinājums:"
+    }
+}

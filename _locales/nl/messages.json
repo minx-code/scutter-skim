@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Extraheer tekst van pagina's en vat deze samen met AI."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim Instellingen"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-sleutel van AI-provider"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Voer uw API-sleutel in..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Uw sleutel wordt veilig opgeslagen in uw browser en wordt nergens anders naartoe gestuurd dan rechtstreeks naar de AI-provider."
+    },
+    "optionsModelLabel": {
+        "message": "AI-model"
+    },
+    "optionsLoadModels": {
+        "message": "Laden via API"
+    },
+    "optionsModelHint": {
+        "message": "Selecteer een model of laad de huidige lijst via de API (vereist een opgeslagen geldige API-sleutel)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Taal van samenvatting"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Taal van het artikel"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Browser-taal"
+    },
+    "optionsSaveBtn": {
+        "message": "Instellingen opslaan"
+    },
+    "optionsSaveSuccess": {
+        "message": "Instellingen succesvol opgeslagen!"
+    },
+    "optionsSaveFail": {
+        "message": "Fout bij het opslaan van instellingen: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Voer een API-sleutel in om modellen te laden."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Laden..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modellen succesvol geladen."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API heeft geen modellen geretourneerd."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Kon modellen niet laden: "
+    },
+    "uiCloseTitle": {
+        "message": "Sluiten"
+    },
+    "uiLoadingText": {
+        "message": "Samenvatting genereren... even geduld."
+    },
+    "uiErrorMarkdown": {
+        "message": "Fout bij het verwerken van Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Fout: Rendering-bibliotheken konden niet worden geladen."
+    },
+    "bgErrorNoText": {
+        "message": "De pagina bevat geen zinvolle tekst om samen te vatten."
+    },
+    "bgErrorNoKey": {
+        "message": "API-sleutel ontbreekt. Klik met de rechtermuisknop op het extensiepictogram, selecteer 'Opties' (of 'Extensie beheren' -> 'Voorkeuren') en stel uw API-sleutel in."
+    },
+    "bgErrorUnsupported": {
+        "message": "De geselecteerde AI-provider wordt momenteel niet ondersteund."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Authenticatiefout: Ongeldige API-sleutel. Controleer de extensie-instellingen."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Authenticatiefout: Ongeautoriseerde toegang (401/403). Controleer uw instellingen."
+    },
+    "bgErrorRateLimit": {
+        "message": "Snelheidslimiet overschreden (429). Probeer het later opnieuw."
+    },
+    "bgErrorAIService": {
+        "message": "AI-servicefout: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI heeft geen geldige tekst geretourneerd."
+    },
+    "bgErrorNetwork": {
+        "message": "Netwerkfout: Kan geen verbinding maken met de AI-service."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Kan fout niet weergeven in de UI."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Kan niet worden uitgevoerd op systeempagina's."
+    },
+    "promptTags": {
+        "message": "Tags:"
+    },
+    "promptSummary": {
+        "message": "### Korte samenvatting"
+    },
+    "promptKeyPoints": {
+        "message": "### Kernpunten"
+    },
+    "promptSources": {
+        "message": "### Relevante bronnen"
+    },
+    "promptNoSources": {
+        "message": "Geen specifieke bronnen vermeld."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Heb je nog geen API-sleutel? Je kunt er gratis een krijgen via"
+    },
+    "extensionActionTitle": {
+        "message": "Samenvatten met Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Vat de huidige pagina samen"
+    },
+    "promptQualityWarning": {
+        "message": "Kwaliteitswaarschuwing:"
+    }
+}

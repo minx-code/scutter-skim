@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Szöveg kinyerése weboldalakról és összefoglalása mesterséges intelligencia segítségével."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim beállítások"
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI szolgáltató API-kulcsa"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Írja be az API-kulcsát..."
+    },
+    "optionsApiKeyHint": {
+        "message": "A kulcs biztonságosan tárolódik a böngészőjében, és soha nem kerül máshová, csak közvetlenül az AI-szolgáltatóhoz."
+    },
+    "optionsModelLabel": {
+        "message": "AI-modell"
+    },
+    "optionsLoadModels": {
+        "message": "Betöltés API-ból"
+    },
+    "optionsModelHint": {
+        "message": "Válasszon ki egy modellt, vagy töltse be az aktuális listát API-n keresztül (érvényes, elmentett API-kulcs szükséges)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Összefoglaló nyelve"
+    },
+    "optionsOutputLangArticle": {
+        "message": "A cikk nyelve"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Böngésző nyelve"
+    },
+    "optionsSaveBtn": {
+        "message": "Beállítások mentése"
+    },
+    "optionsSaveSuccess": {
+        "message": "A beállítások sikeresen mentve!"
+    },
+    "optionsSaveFail": {
+        "message": "Hiba a beállítások mentésekor: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Kérjük, adja meg az API-kulcsot a modellek betöltéséhez."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Betöltés..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "A modellek sikeresen betöltve."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "Az API nem adott vissza modelleket."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nem sikerült betölteni a modelleket: "
+    },
+    "uiCloseTitle": {
+        "message": "Bezárás"
+    },
+    "uiLoadingText": {
+        "message": "Összefoglaló generálása... kérjük, várjon."
+    },
+    "uiErrorMarkdown": {
+        "message": "Hiba a Markdown feldolgozása közben."
+    },
+    "uiErrorLibraries": {
+        "message": "Hiba: A megjelenítő könyvtárak betöltése sikertelen."
+    },
+    "bgErrorNoText": {
+        "message": "Az oldal nem tartalmaz összefoglalható érdemi szöveget."
+    },
+    "bgErrorNoKey": {
+        "message": "Hiányzó API-kulcs. Kérjük, kattintson jobb gombbal a bővítmény ikonjára, válassza az 'Opciók' (vagy 'Bővítmény kezelése' -> 'Beállítások') lehetőséget, és adja meg az API-kulcsát."
+    },
+    "bgErrorUnsupported": {
+        "message": "A kiválasztott AI-szolgáltató jelenleg nem támogatott."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Hitelesítési hiba: Érvénytelen API-kulcs. Ellenőrizze a bővítmény beállításait."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Hitelesítési hiba: Jogosulatlan hozzáférés (401/403). Ellenőrizze a beállításait."
+    },
+    "bgErrorRateLimit": {
+        "message": "Túllépte a sebességkorlátot (429). Kérjük, próbálja újra később."
+    },
+    "bgErrorAIService": {
+        "message": "AI-szolgáltatási hiba: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Az AI nem adott vissza érvényes szöveget."
+    },
+    "bgErrorNetwork": {
+        "message": "Hálózati hiba: Nem sikerült csatlakozni az AI-szolgáltatáshoz."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: A hiba nem jeleníthető meg a felhasználói felületen."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Rendszeroldalakon nem futtatható."
+    },
+    "promptTags": {
+        "message": "Címkék:"
+    },
+    "promptSummary": {
+        "message": "### Rövid összefoglaló"
+    },
+    "promptKeyPoints": {
+        "message": "### Főbb pontok"
+    },
+    "promptSources": {
+        "message": "### Releváns források"
+    },
+    "promptNoSources": {
+        "message": "Nincsenek konkrét források említve."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nincs API-kulcsa? Igényelhet egy ingyeneset innen:"
+    },
+    "extensionActionTitle": {
+        "message": "Összegzés a Scutter Skim segítségével"
+    },
+    "extensionShortcutDescription": {
+        "message": "Az aktuális oldal összefoglalása"
+    },
+    "promptQualityWarning": {
+        "message": "Minőségi figyelmeztetés:"
+    }
+}

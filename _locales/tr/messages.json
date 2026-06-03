@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Sayfalardaki metinleri ayıklar ve yapay zeka kullanarak özetler."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim Ayarları"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Yapay Zeka Sağlayıcı API Anahtarı"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "API anahtarınızı girin..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Anahtarınız tarayıcınızda güvenli bir şekilde saklanır ve doğrudan yapay zeka sağlayıcısı dışında hiçbir yere gönderilmez."
+    },
+    "optionsModelLabel": {
+        "message": "Yapay Zeka Modeli"
+    },
+    "optionsLoadModels": {
+        "message": "API'den Yükle"
+    },
+    "optionsModelHint": {
+        "message": "Bir model seçin veya API aracılığıyla güncel listeyi yükleyin (kayıtlı ve geçerli bir API anahtarı gerektirir)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Özet Dili"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Makalenin dili"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Tarayıcı dili"
+    },
+    "optionsSaveBtn": {
+        "message": "Ayarları Kaydet"
+    },
+    "optionsSaveSuccess": {
+        "message": "Ayarlar başarıyla kaydedildi!"
+    },
+    "optionsSaveFail": {
+        "message": "Ayarlar kaydedilirken hata oluştu: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Modelleri yüklemek için lütfen bir API anahtarı girin."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Yükleniyor..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeller başarıyla yüklendi."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API herhangi bir model döndürmedi."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Modeller yüklenemedi: "
+    },
+    "uiCloseTitle": {
+        "message": "Kapat"
+    },
+    "uiLoadingText": {
+        "message": "Özet oluşturuluyor... lütfen bekleyin."
+    },
+    "uiErrorMarkdown": {
+        "message": "Markdown işlenirken hata oluştu."
+    },
+    "uiErrorLibraries": {
+        "message": "Hata: Oluşturma kütüphaneleri yüklenemedi."
+    },
+    "bgErrorNoText": {
+        "message": "Sayfa, özetlenebilecek anlamlı bir metin içermiyor."
+    },
+    "bgErrorNoKey": {
+        "message": "API anahtarı eksik. Lütfen uzantı simgesine sağ tıklayın, 'Seçenekler'i (veya 'Uzantıyı Yönet' -> 'Tercihler') seçin ve API anahtarınızı ayarlayın."
+    },
+    "bgErrorUnsupported": {
+        "message": "Seçilen yapay zeka sağlayıcısı şu anda desteklenmiyor."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Kimlik Doğrulama Hatası: Geçersiz API anahtarı. Uzantı ayarlarını kontrol edin."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Kimlik Doğrulama Hatası: Yetkisiz erişim (401/403). Ayarlarınızı kontrol edin."
+    },
+    "bgErrorRateLimit": {
+        "message": "Hız sınırı aşıldı (429). Lütfen daha sonra tekrar deneyin."
+    },
+    "bgErrorAIService": {
+        "message": "Yapay Zeka Hizmet Hatası: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Yapay zeka geçerli bir metin döndürmedi."
+    },
+    "bgErrorNetwork": {
+        "message": "Ağ Hatası: Yapay zeka hizmetine bağlanılamıyor."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Hata arayüzde görüntülenemiyor."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Sistem sayfalarında çalıştırılamaz."
+    },
+    "promptTags": {
+        "message": "Etiketler:"
+    },
+    "promptSummary": {
+        "message": "### Kısa Özet"
+    },
+    "promptKeyPoints": {
+        "message": "### Önemli Noktalar"
+    },
+    "promptSources": {
+        "message": "### İlgili Kaynaklar"
+    },
+    "promptNoSources": {
+        "message": "Belirtilen özel bir kaynak yok."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "API anahtarınız yok mu? Buradan ücretsiz bir tane alabilirsiniz"
+    },
+    "extensionActionTitle": {
+        "message": "Scutter Skim ile Özetle"
+    },
+    "extensionShortcutDescription": {
+        "message": "Geçerli sayfayı özetle"
+    },
+    "promptQualityWarning": {
+        "message": "Kalite Uyarısı:"
+    }
+}

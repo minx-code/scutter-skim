@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Okamžitě shrňte aktuální webovou stránku pomocí umělé inteligence."
+    },
+    "extensionActionTitle": {
+        "message": "Shrnout pomocí Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Shrnout aktuální stránku"
+    },
+    "optionsTitle": {
+        "message": "Nastavení Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API klíč poskytovatele AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Zadejte svůj API klíč..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Váš klíč je bezpečně uložen v prohlížeči a není zasílán nikam jinam než přímo poskytovateli umělé inteligence."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nemáte API klíč? Můžete si zdarma vygenerovat nový na"
+    },
+    "optionsModelLabel": {
+        "message": "Model AI"
+    },
+    "optionsLoadModels": {
+        "message": "Načíst z API"
+    },
+    "optionsModelHint": {
+        "message": "Vyberte model nebo načtěte aktuální seznam přes API (vyžaduje uložený platný API klíč)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Jazyk shrnutí"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Jazyk článku"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Jazyk prohlížeče"
+    },
+    "optionsSaveBtn": {
+        "message": "Uložit nastavení"
+    },
+    "optionsSaveSuccess": {
+        "message": "Nastavení bylo úspěšně uloženo!"
+    },
+    "optionsSaveFail": {
+        "message": "Chyba při ukládání nastavení: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Pro načtení modelů prosím zadejte API klíč."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Načítání..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modely byly úspěšně načteny."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API nevrátilo žádné modely."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nepodařilo se načíst modely: "
+    },
+    "uiCloseTitle": {
+        "message": "Zavřít"
+    },
+    "uiLoadingText": {
+        "message": "Generuji shrnutí... prosím čekejte."
+    },
+    "uiErrorMarkdown": {
+        "message": "Chyba při zpracování Markdownu."
+    },
+    "uiErrorLibraries": {
+        "message": "Chyba: Vykreslovací knihovny se nepodařilo načíst."
+    },
+    "bgErrorNoText": {
+        "message": "Stránka neobsahuje žádný smysluplný text ke shrnutí."
+    },
+    "bgErrorNoKey": {
+        "message": "Chybí API klíč. Klikněte pravým tlačítkem na ikonu rozšíření, vyberte „Možnosti“ (nebo „Správa rozšíření“ -> „Nastavení“) a zadejte svůj API klíč."
+    },
+    "bgErrorUnsupported": {
+        "message": "Vybraný poskytovatel AI není aktuálně podporován."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Chyba autentizace: Neplatný API klíč. Zkontrolujte nastavení rozšíření."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Chyba autentizace: Neoprávněný přístup (401/403). Zkontrolujte své nastavení."
+    },
+    "bgErrorRateLimit": {
+        "message": "Byl překročen limit požadavků (429). Zkuste to prosím později."
+    },
+    "bgErrorAIService": {
+        "message": "Chyba služby AI: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI nevrátila žádný platný text."
+    },
+    "bgErrorNetwork": {
+        "message": "Chyba sítě: Nelze se připojit ke službě AI."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Nelze zobrazit chybu v uživatelském rozhraní."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Nelze spustit na systémových stránkách."
+    },
+    "promptTags": {
+        "message": "Štítky:"
+    },
+    "promptSummary": {
+        "message": "### Stručné shrnutí"
+    },
+    "promptKeyPoints": {
+        "message": "### Klíčové body"
+    },
+    "promptSources": {
+        "message": "### Relevantní zdroje"
+    },
+    "promptNoSources": {
+        "message": "Nebyly zmíněny žádné konkrétní zdroje."
+    },
+    "promptQualityWarning": {
+        "message": "Upozornění na kvalitu:"
+    }
+}

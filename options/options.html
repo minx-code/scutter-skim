@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title data-i18n="optionsTitle">Scutter Skim Settings</title>
+        <link rel="stylesheet" href="options.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="../icons/icon.svg" alt="Scutter Skim Logo" class="logo" />
+                <h1>Scutter Skim</h1>
+                <p class="subtitle">AI Provider Configuration</p>
+            </header>
+
+            <div class="card">
+                <div class="form-group">
+                    <label for="provider">AI Provider</label>
+                    <select id="provider">
+                        <option value="gemini">Google Gemini</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="apiKey" data-i18n="optionsApiKeyLabel">API Key</label>
+                    <input type="password" id="apiKey" data-i18n-placeholder="optionsApiKeyPlaceholder" placeholder="Enter your API key" />
+                    <small data-i18n="optionsApiKeyHint"
+                        >Your key is stored securely in your browser and never sent anywhere except directly to the AI provider.</small
+                    >
+                    <small class="api-help" style="display: block; margin-top: 8px">
+                        <span data-i18n="optionsApiKeyHelpText">Don't have an API key? You can get a free one from</span>
+                        <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">Google AI Studio</a>.
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label for="model" data-i18n="optionsModelLabel">AI Model</label>
+                    <div style="display: flex; gap: 10px">
+                        <select id="model" style="flex: 1"></select>
+                        <button id="loadModels" class="btn-secondary" type="button" data-i18n="optionsLoadModels" data-i18n-title="optionsLoadModels">
+                            Load from API
+                        </button>
+                    </div>
+                    <small data-i18n="optionsModelHint">Select a model or load the current list via API (requires a saved valid API key).</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="outputLang" data-i18n="optionsOutputLangLabel">Summary Language</label>
+                    <select id="outputLang">
+                        <option value="article" data-i18n="optionsOutputLangArticle">Language of the article</option>
+                        <option value="browser" data-i18n="optionsOutputLangBrowser">Browser language</option>
+                    </select>
+                </div>
+
+                <div class="actions">
+                    <button id="save" class="btn-primary" data-i18n="optionsSaveBtn">Save Settings</button>
+                </div>
+                <div id="status" class="status-message"></div>
+            </div>
+        </div>
+        <script src="options.js"></script>
+    </body>
+</html>

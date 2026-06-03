@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Udtræk tekst fra sider og opsummér den ved hjælp af AI."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim-indstillinger"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-nøgle til AI-udbyder"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Indtast din API-nøgle..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Din nøgle gemmes sikkert i din browser og sendes aldrig andre steder hen end direkte til AI-udbyderen."
+    },
+    "optionsModelLabel": {
+        "message": "AI-model"
+    },
+    "optionsLoadModels": {
+        "message": "Indlæs fra API"
+    },
+    "optionsModelHint": {
+        "message": "Vælg en model eller indlæs den aktuelle liste via API (kræver en gemt gyldig API-nøgle)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Sprog for opsummering"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artiklens sprog"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Browsersprog"
+    },
+    "optionsSaveBtn": {
+        "message": "Gem indstillinger"
+    },
+    "optionsSaveSuccess": {
+        "message": "Indstillinger blev gemt!"
+    },
+    "optionsSaveFail": {
+        "message": "Fejl ved lagring af indstillinger: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Indtast venligst en API-nøgle for at indlæse modeller."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Indlæser..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeller blev indlæst."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API'en returnerede ingen modeller."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Kunne ikke indlæse modeller: "
+    },
+    "uiCloseTitle": {
+        "message": "Luk"
+    },
+    "uiLoadingText": {
+        "message": "Genererer opsummering... vent venligst."
+    },
+    "uiErrorMarkdown": {
+        "message": "Fejl ved behandling af Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Fejl: Rendering-biblioteker kunne ikke indlæses."
+    },
+    "bgErrorNoText": {
+        "message": "Siden indeholder ingen meningsfuld tekst, der kan opsummeres."
+    },
+    "bgErrorNoKey": {
+        "message": "Manglende API-nøgle. Højreklik på udvidelsesikonet, vælg 'Indstillinger' (eller 'Administrer udvidelse' -> 'Indstillinger') og angiv din API-nøgle."
+    },
+    "bgErrorUnsupported": {
+        "message": "Den valgte AI-udbyder understøttes ikke i øjeblikket."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Godkendelsesfejl: Ugyldig API-nøgle. Tjek udvidelsens indstillinger."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Godkendelsesfejl: Uautoriseret adgang (401/403). Tjek dine indstillinger."
+    },
+    "bgErrorRateLimit": {
+        "message": "Hastighedsbegrænsning overskredet (429). Prøv venligst igen senere."
+    },
+    "bgErrorAIService": {
+        "message": "AI-tjenestefejl: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI returnerede ingen gyldig tekst."
+    },
+    "bgErrorNetwork": {
+        "message": "Netværksfejl: Kan ikke oprette forbindelse til AI-tjenesten."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Kan ikke vise fejl i brugerfladen."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Kan ikke køre på system-sider."
+    },
+    "promptTags": {
+        "message": "Tags:"
+    },
+    "promptSummary": {
+        "message": "### Kort opsummering"
+    },
+    "promptKeyPoints": {
+        "message": "### Hovedpunkter"
+    },
+    "promptSources": {
+        "message": "### Relevante kilder"
+    },
+    "promptNoSources": {
+        "message": "Ingen specifikke kilder nævnt."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Har du ikke en API-nøgle? Du kan få en gratis en fra"
+    },
+    "extensionActionTitle": {
+        "message": "Opsummér med Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Opsummer den aktuelle side"
+    },
+    "promptQualityWarning": {
+        "message": "Kvalitetsadvarsel:"
+    }
+}

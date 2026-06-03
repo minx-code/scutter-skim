@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Eralda lehtedelt tekst ja võta see tehisintellekti abil kokku."
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim seaded"
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI-teenuse API-võti"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Sisesta oma API-võti..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Sinu võtit hoitakse brauseris turvaliselt ja seda ei saadeta kuhugi mujale kui otse AI-teenuse pakkujale."
+    },
+    "optionsModelLabel": {
+        "message": "AI-mudel"
+    },
+    "optionsLoadModels": {
+        "message": "Laadi API-st"
+    },
+    "optionsModelHint": {
+        "message": "Vali mudel või laadi praegune loend API kaudu (nõuab salvestatud kehtivat API-võtit)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Kokkuvõtte keel"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikli keel"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Brauseri keel"
+    },
+    "optionsSaveBtn": {
+        "message": "Salvesta seaded"
+    },
+    "optionsSaveSuccess": {
+        "message": "Seaded on salvestatud!"
+    },
+    "optionsSaveFail": {
+        "message": "Viga seadete salvestamisel: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Mudelite laadimiseks sisesta palun API-võti."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Laadimine..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Mudelid on edukalt laaditud."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API ei tagastanud ühtegi mudelit."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Mudelite laadimine ebaõnnestus: "
+    },
+    "uiCloseTitle": {
+        "message": "Sulge"
+    },
+    "uiLoadingText": {
+        "message": "Koostan kokkuvõtet... palun oota."
+    },
+    "uiErrorMarkdown": {
+        "message": "Viga Markdowni töötlemisel."
+    },
+    "uiErrorLibraries": {
+        "message": "Viga: Renderdamisteegid ei laadinud."
+    },
+    "bgErrorNoText": {
+        "message": "Leht ei sisalda kokkuvõtte tegemiseks vajalikku teksti."
+    },
+    "bgErrorNoKey": {
+        "message": "API-võti puudub. Paremklõpsa laienduse ikoonil, vali 'Options' (või 'Manage Extension' -> 'Preferences') ja määra oma API-võti."
+    },
+    "bgErrorUnsupported": {
+        "message": "Valitud AI-teenuse pakkuja ei ole hetkel toetatud."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Autentimisviga: Vigane API-võti. Kontrolli laienduse seadeid."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Autentimisviga: Juurdepääs keelatud (401/403). Kontrolli oma seadeid."
+    },
+    "bgErrorRateLimit": {
+        "message": "Päringute limiit ületatud (429). Palun proovi hiljem uuesti."
+    },
+    "bgErrorAIService": {
+        "message": "AI-teenuse viga: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI ei tagastanud ühtegi kehtivat teksti."
+    },
+    "bgErrorNetwork": {
+        "message": "Võrguviga: AI-teenusega ei saa ühendust luua."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Viga ei saa kasutajaliideses kuvada."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Ei saa käivitada süsteemilehtedel."
+    },
+    "promptTags": {
+        "message": "Sildid:"
+    },
+    "promptSummary": {
+        "message": "### Lühikokkuvõte"
+    },
+    "promptKeyPoints": {
+        "message": "### Põhipunktid"
+    },
+    "promptSources": {
+        "message": "### Asjakohased allikad"
+    },
+    "promptNoSources": {
+        "message": "Konkreetseid allikaid ei mainitud."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Kas teil pole API-võtit? Saate tasuta võtme hankida siit:"
+    },
+    "extensionActionTitle": {
+        "message": "Võta kokku Scutter Skimiga"
+    },
+    "extensionShortcutDescription": {
+        "message": "Võta praegune leht kokku"
+    },
+    "promptQualityWarning": {
+        "message": "Kvaliteedihoiatus:"
+    }
+}

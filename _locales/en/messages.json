@@ -1,0 +1,78 @@
+{
+    "extensionName": { "message": "Scutter Skim" },
+    "extensionDescription": {
+        "message": "Instantly summarize the current web page using AI."
+    },
+    "extensionActionTitle": { "message": "Summarize with Scutter Skim" },
+    "extensionShortcutDescription": { "message": "Summarize the current page" },
+    "optionsTitle": { "message": "Scutter Skim Settings" },
+    "optionsApiKeyLabel": { "message": "AI Provider API Key" },
+    "optionsApiKeyPlaceholder": { "message": "Enter your API key..." },
+    "optionsApiKeyHint": {
+        "message": "Your key is stored securely in your browser and never sent anywhere except directly to the AI provider."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Don't have an API key? You can get a free one from"
+    },
+    "optionsModelLabel": { "message": "AI Model" },
+    "optionsLoadModels": { "message": "Load from API" },
+    "optionsModelHint": {
+        "message": "Select a model or load the current list via API (requires a saved valid API key)."
+    },
+    "optionsOutputLangLabel": { "message": "Summary Language" },
+    "optionsOutputLangArticle": { "message": "Language of the article" },
+    "optionsOutputLangBrowser": { "message": "Browser language" },
+    "optionsSaveBtn": { "message": "Save Settings" },
+    "optionsSaveSuccess": { "message": "Settings saved successfully!" },
+    "optionsSaveFail": { "message": "Error saving settings: " },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Please enter an API key to load models."
+    },
+    "optionsLoadModelsLoading": { "message": "Loading..." },
+    "optionsLoadModelsSuccess": { "message": "Models loaded successfully." },
+    "optionsLoadModelsEmpty": { "message": "API returned no models." },
+    "optionsLoadModelsFail": { "message": "Failed to load models: " },
+    "uiCloseTitle": { "message": "Close" },
+    "uiLoadingText": { "message": "Generating summary... please wait." },
+    "uiErrorMarkdown": { "message": "Error processing Markdown." },
+    "uiErrorLibraries": {
+        "message": "Error: Rendering libraries failed to load."
+    },
+    "bgErrorNoText": {
+        "message": "The page does not contain any meaningful text to summarize."
+    },
+    "bgErrorNoKey": {
+        "message": "Missing API key. Please right-click the extension icon, select 'Options' (or 'Manage Extension' -> 'Preferences') and set your API key."
+    },
+    "bgErrorUnsupported": {
+        "message": "The selected AI provider is not currently supported."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Authentication Error: Invalid API key. Check the extension settings."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Authentication Error: Unauthorized access (401/403). Check your settings."
+    },
+    "bgErrorRateLimit": {
+        "message": "Rate limit exceeded (429). Please try again later."
+    },
+    "bgErrorAIService": { "message": "AI Service Error: " },
+    "bgErrorNoValidText": { "message": "AI did not return any valid text." },
+    "bgErrorNetwork": {
+        "message": "Network Error: Cannot connect to AI service."
+    },
+    "bgErrorUIShow": { "message": "Scutter Skim: Cannot display error in UI." },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Cannot run on system pages."
+    },
+    "promptTags": { "message": "Tags:" },
+    "promptSummary": { "message": "### Brief Summary" },
+    "promptKeyPoints": { "message": "### Key Points" },
+    "promptSources": { "message": "### Relevant Sources" },
+    "promptNoSources": {
+        "message": "No specific sources mentioned."
+    },
+    "promptQualityWarning": {
+        "message": "Quality Warning:"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Extrage textul din pagini și rezumă-l folosind AI."
+    },
+    "optionsTitle": {
+        "message": "Setări Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Cheie API furnizor AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Introdu cheia API..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Cheia ta este stocată în siguranță în browser și nu este trimisă nicăieri în afară de furnizorul AI."
+    },
+    "optionsModelLabel": {
+        "message": "Model AI"
+    },
+    "optionsLoadModels": {
+        "message": "Încarcă din API"
+    },
+    "optionsModelHint": {
+        "message": "Selectează un model sau încarcă lista curentă prin API (necesită o cheie API validă salvată)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Limba rezumatului"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Limba articolului"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Limba browserului"
+    },
+    "optionsSaveBtn": {
+        "message": "Salvează setările"
+    },
+    "optionsSaveSuccess": {
+        "message": "Setările au fost salvate cu succes!"
+    },
+    "optionsSaveFail": {
+        "message": "Eroare la salvarea setărilor: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Te rugăm să introduci o cheie API pentru a încărca modelele."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Se încarcă..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modelele au fost încărcate cu succes."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API-ul nu a returnat niciun model."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Eroare la încărcarea modelelor: "
+    },
+    "uiCloseTitle": {
+        "message": "Închide"
+    },
+    "uiLoadingText": {
+        "message": "Se generează rezumatul... te rugăm să aștepți."
+    },
+    "uiErrorMarkdown": {
+        "message": "Eroare la procesarea Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Eroare: Bibliotecile de randare nu s-au încărcat."
+    },
+    "bgErrorNoText": {
+        "message": "Pagina nu conține text relevant pentru a fi rezumat."
+    },
+    "bgErrorNoKey": {
+        "message": "Cheie API lipsă. Te rugăm să dai click dreapta pe pictograma extensiei, să selectezi „Opțiuni” (sau „Gestionare extensie” -> „Preferințe”) și să setezi cheia API."
+    },
+    "bgErrorUnsupported": {
+        "message": "Furnizorul AI selectat nu este acceptat momentan."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Eroare de autentificare: Cheie API invalidă. Verifică setările extensiei."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Eroare de autentificare: Acces neautorizat (401/403). Verifică setările."
+    },
+    "bgErrorRateLimit": {
+        "message": "Limită de rată depășită (429). Te rugăm să încerci din nou mai târziu."
+    },
+    "bgErrorAIService": {
+        "message": "Eroare serviciu AI: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI-ul nu a returnat niciun text valid."
+    },
+    "bgErrorNetwork": {
+        "message": "Eroare de rețea: Nu se poate conecta la serviciul AI."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Nu se poate afișa eroarea în interfață."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Nu poate rula pe paginile de sistem."
+    },
+    "promptTags": {
+        "message": "Etichete:"
+    },
+    "promptSummary": {
+        "message": "### Rezumat pe scurt"
+    },
+    "promptKeyPoints": {
+        "message": "### Puncte cheie"
+    },
+    "promptSources": {
+        "message": "### Surse relevante"
+    },
+    "promptNoSources": {
+        "message": "Nu au fost menționate surse specifice."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nu ai o cheie API? Poți obține una gratuit de la"
+    },
+    "extensionActionTitle": {
+        "message": "Rezumat cu Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Rezumatul paginii curente"
+    },
+    "promptQualityWarning": {
+        "message": "Avertisment privind calitatea:"
+    }
+}

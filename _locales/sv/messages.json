@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Extrahera text från sidor och sammanfatta den med hjälp av AI."
+    },
+    "optionsTitle": {
+        "message": "Inställningar för Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-nyckel för AI-leverantör"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Ange din API-nyckel..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Din nyckel lagras säkert i din webbläsare och skickas aldrig någon annanstans än direkt till AI-leverantören."
+    },
+    "optionsModelLabel": {
+        "message": "AI-modell"
+    },
+    "optionsLoadModels": {
+        "message": "Läs in från API"
+    },
+    "optionsModelHint": {
+        "message": "Välj en modell eller läs in den aktuella listan via API (kräver en sparad giltig API-nyckel)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Språk för sammanfattning"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikelns språk"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Webbläsarens språk"
+    },
+    "optionsSaveBtn": {
+        "message": "Spara inställningar"
+    },
+    "optionsSaveSuccess": {
+        "message": "Inställningarna sparades!"
+    },
+    "optionsSaveFail": {
+        "message": "Fel vid sparande av inställningar: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Ange en API-nyckel för att läsa in modeller."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Läser in..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeller har lästs in."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API:et returnerade inga modeller."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Det gick inte att läsa in modeller: "
+    },
+    "uiCloseTitle": {
+        "message": "Stäng"
+    },
+    "uiLoadingText": {
+        "message": "Genererar sammanfattning... vänligen vänta."
+    },
+    "uiErrorMarkdown": {
+        "message": "Fel vid bearbetning av Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Fel: Renderingsbibliotek kunde inte läsas in."
+    },
+    "bgErrorNoText": {
+        "message": "Sidan innehåller ingen meningsfull text att sammanfatta."
+    },
+    "bgErrorNoKey": {
+        "message": "Saknad API-nyckel. Högerklicka på tilläggsikonen, välj 'Alternativ' (eller 'Hantera tillägg' -> 'Inställningar') och ange din API-nyckel."
+    },
+    "bgErrorUnsupported": {
+        "message": "Den valda AI-leverantören stöds för närvarande inte."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Autentiseringsfel: Ogiltig API-nyckel. Kontrollera tilläggsinställningarna."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Autentiseringsfel: Obehörig åtkomst (401/403). Kontrollera dina inställningar."
+    },
+    "bgErrorRateLimit": {
+        "message": "Hastighetsbegränsning överskriden (429). Vänligen försök igen senare."
+    },
+    "bgErrorAIService": {
+        "message": "Fel i AI-tjänst: "
+    },
+    "bgErrorNoValidText": {
+        "message": "AI returnerade ingen giltig text."
+    },
+    "bgErrorNetwork": {
+        "message": "Nätverksfel: Kan inte ansluta till AI-tjänsten."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Kan inte visa fel i användargränssnittet."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Kan inte köras på systemsidor."
+    },
+    "promptTags": {
+        "message": "Taggar:"
+    },
+    "promptSummary": {
+        "message": "### Kort sammanfattning"
+    },
+    "promptKeyPoints": {
+        "message": "### Huvudpunkter"
+    },
+    "promptSources": {
+        "message": "### Relevanta källor"
+    },
+    "promptNoSources": {
+        "message": "Inga specifika källor nämnda."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Har du ingen API-nyckel? Du kan få en gratis från"
+    },
+    "extensionActionTitle": {
+        "message": "Sammanfatta med Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Sammanfatta den aktuella sidan"
+    },
+    "promptQualityWarning": {
+        "message": "Kvalitetsvarning:"
+    }
+}

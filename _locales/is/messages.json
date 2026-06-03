@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Útdráttur texta af vefsíðum og samantekt með gervigreind."
+    },
+    "optionsTitle": {
+        "message": "Stillingar Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-lykill fyrir gervigreindarþjónustu"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Sláðu inn API-lykilinn þinn..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Lykillinn þinn er geymdur á öruggan hátt í vafranum og er aldrei sendur neitt annað en beint til gervigreindarþjónustunnar."
+    },
+    "optionsModelLabel": {
+        "message": "Gervigreindarlíkan"
+    },
+    "optionsLoadModels": {
+        "message": "Hlaða frá API"
+    },
+    "optionsModelHint": {
+        "message": "Veldu líkan eða hlaðið núverandi lista í gegnum API (krefst vistaðs gilda API-lykils)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Tungumál samantektar"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Tungumál greinarinnar"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Tungumál vafra"
+    },
+    "optionsSaveBtn": {
+        "message": "Vista stillingar"
+    },
+    "optionsSaveSuccess": {
+        "message": "Stillingar vistaðar!"
+    },
+    "optionsSaveFail": {
+        "message": "Villa við vistun stillinga: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Vinsamlegast sláðu inn API-lykil til að hlaða líkönum."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Hleður..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Líkön hlaðin."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API skilaði engum líkönum."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Mistókst að hlaða líkönum: "
+    },
+    "uiCloseTitle": {
+        "message": "Loka"
+    },
+    "uiLoadingText": {
+        "message": "Býr til samantekt... vinsamlegast bíðið."
+    },
+    "uiErrorMarkdown": {
+        "message": "Villa við úrvinnslu á Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Villa: Mistókst að hlaða birtingarsöfnum."
+    },
+    "bgErrorNoText": {
+        "message": "Síðan inniheldur engan marktækan texta til að draga saman."
+    },
+    "bgErrorNoKey": {
+        "message": "API-lykill vantar. Vinsamlegast hægrismelltu á táknmynd viðbótarinnar, veldu 'Options' (eða 'Manage Extension' -> 'Preferences') og stilltu API-lykilinn þinn."
+    },
+    "bgErrorUnsupported": {
+        "message": "Valin gervigreindarþjónusta er ekki studd í augnablikinu."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Auðkenningarvilla: Ógildur API-lykill. Athugaðu stillingar viðbótarinnar."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Auðkenningarvilla: Óheimill aðgangur (401/403). Athugaðu stillingarnar þínar."
+    },
+    "bgErrorRateLimit": {
+        "message": "Fjöldatakmörkun náð (429). Vinsamlegast reyndu aftur síðar."
+    },
+    "bgErrorAIService": {
+        "message": "Villa í gervigreindarþjónustu: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Gervigreindin skilaði engum gildum texta."
+    },
+    "bgErrorNetwork": {
+        "message": "Netvilla: Get ekki tengst gervigreindarþjónustu."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Get ekki birt villu í notendaviðmóti."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Get ekki keyrt á kerfissíðum."
+    },
+    "promptTags": {
+        "message": "Merki:"
+    },
+    "promptSummary": {
+        "message": "### Stutt samantekt"
+    },
+    "promptKeyPoints": {
+        "message": "### Helstu atriði"
+    },
+    "promptSources": {
+        "message": "### Viðeigandi heimildir"
+    },
+    "promptNoSources": {
+        "message": "Engar sérstakar heimildir nefndar."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Ertu ekki með API-lykil? Þú getur fengið ókeypis lykil hjá"
+    },
+    "extensionActionTitle": {
+        "message": "Taka saman með Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Taka saman núverandi síðu"
+    },
+    "promptQualityWarning": {
+        "message": "Gæðaviðvörun:"
+    }
+}

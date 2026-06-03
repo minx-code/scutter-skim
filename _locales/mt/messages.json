@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Estratti t-test mill-paġni u agħmel sommarju tiegħu bl-użu tal-AI."
+    },
+    "optionsTitle": {
+        "message": "Settings ta' Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "API Key tal-Fornitur tal-AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Daħħal l-API key tiegħek..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Iċ-ċavetta tiegħek tinħażen b'mod sigur fil-browser tiegħek u qatt ma tintbagħat imkien ħlief direttament lill-fornitur tal-AI."
+    },
+    "optionsModelLabel": {
+        "message": "Mudell tal-AI"
+    },
+    "optionsLoadModels": {
+        "message": "Tagħbija mill-API"
+    },
+    "optionsModelHint": {
+        "message": "Agħżel mudell jew tagħbija l-lista kurrenti permezz tal-API (teħtieġ API key valida ssejvjata)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Lingwa tas-Sommarju"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Lingwa tal-artiklu"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Lingwa tal-browser"
+    },
+    "optionsSaveBtn": {
+        "message": "Issejvja s-Settings"
+    },
+    "optionsSaveSuccess": {
+        "message": "Is-settings ġew issejvjati b'suċċess!"
+    },
+    "optionsSaveFail": {
+        "message": "Żball waqt l-issejvjar tas-settings: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Jekk jogħġbok daħħal API key biex tagħbija l-mudelli."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Qed jitgħabba..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Il-mudelli ġew mgħobbija b'suċċess."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "L-API ma rritornat l-ebda mudell."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Naqset milli tgħabbi l-mudelli: "
+    },
+    "uiCloseTitle": {
+        "message": "Agħlaq"
+    },
+    "uiLoadingText": {
+        "message": "Qed jiġġenera sommarju... jekk jogħġbok stenna."
+    },
+    "uiErrorMarkdown": {
+        "message": "Żball fl-ipproċessar tal-Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Żball: Il-libreriji tar-rendering naqsu milli jitgħabbew."
+    },
+    "bgErrorNoText": {
+        "message": "Il-paġna ma fihiex test sinifikanti biex isir sommarju tiegħu."
+    },
+    "bgErrorNoKey": {
+        "message": "Nieqsa l-API key. Jekk jogħġbok ikklikkja bil-lemin fuq l-ikona tal-estensjoni, agħżel 'Options' (jew 'Manage Extension' -> 'Preferences') u ssettja l-API key tiegħek."
+    },
+    "bgErrorUnsupported": {
+        "message": "Il-fornitur tal-AI magħżul bħalissa mhuwiex appoġġjat."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Żball ta' Awtentikazzjoni: API key invalida. Iċċekkja s-settings tal-estensjoni."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Żball ta' Awtentikazzjoni: Aċċess mhux awtorizzat (401/403). Iċċekkja s-settings tiegħek."
+    },
+    "bgErrorRateLimit": {
+        "message": "Intlaħaq il-limitu tar-rata (429). Jekk jogħġbok erġa' pprova aktar tard."
+    },
+    "bgErrorAIService": {
+        "message": "Żball tas-Servizz tal-AI: "
+    },
+    "bgErrorNoValidText": {
+        "message": "L-AI ma rritornat l-ebda test validu."
+    },
+    "bgErrorNetwork": {
+        "message": "Żball fin-Netwerk: Ma jistax jikkonnettja mas-servizz tal-AI."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Ma jistax juri żball fl-UI."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Ma jistax jaħdem fuq paġni tas-sistema."
+    },
+    "promptTags": {
+        "message": "Tags:"
+    },
+    "promptSummary": {
+        "message": "### Sommarju Qasir"
+    },
+    "promptKeyPoints": {
+        "message": "### Punti Ewlenin"
+    },
+    "promptSources": {
+        "message": "### Sorsi Rilevanti"
+    },
+    "promptNoSources": {
+        "message": "L-ebda sors speċifiku msemmi."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "M'għandekx API key? Tista' tikseb waħda b'xejn minn"
+    },
+    "extensionActionTitle": {
+        "message": "Agħti sommarju bi Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Agħti sommarju tal-paġna kurrenti"
+    },
+    "promptQualityWarning": {
+        "message": "Twissija dwar il-Kwalità:"
+    }
+}

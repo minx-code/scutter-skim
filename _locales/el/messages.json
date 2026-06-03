@@ -1,0 +1,134 @@
+{
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Εξαγωγή κειμένου από σελίδες και σύνοψη με χρήση τεχνητής νοημοσύνης."
+    },
+    "optionsTitle": {
+        "message": "Ρυθμίσεις Scutter Skim"
+    },
+    "optionsApiKeyLabel": {
+        "message": "Κλειδί API παρόχου AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Εισαγάγετε το κλειδί API σας..."
+    },
+    "optionsApiKeyHint": {
+        "message": "Το κλειδί σας αποθηκεύεται με ασφάλεια στον περιηγητή σας και δεν αποστέλλεται πουθενά παρά μόνο απευθείας στον πάροχο AI."
+    },
+    "optionsModelLabel": {
+        "message": "Μοντέλο AI"
+    },
+    "optionsLoadModels": {
+        "message": "Φόρτωση από το API"
+    },
+    "optionsModelHint": {
+        "message": "Επιλέξτε ένα μοντέλο ή φορτώστε την τρέχουσα λίστα μέσω API (απαιτείται αποθηκευμένο έγκυρο κλειδί API)."
+    },
+    "optionsOutputLangLabel": {
+        "message": "Γλώσσα σύνοψης"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Γλώσσα του άρθρου"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Γλώσσα περιηγητή"
+    },
+    "optionsSaveBtn": {
+        "message": "Αποθήκευση ρυθμίσεων"
+    },
+    "optionsSaveSuccess": {
+        "message": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία!"
+    },
+    "optionsSaveFail": {
+        "message": "Σφάλμα κατά την αποθήκευση των ρυθμίσεων: "
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Παρακαλώ εισαγάγετε ένα κλειδί API για να φορτώσετε τα μοντέλα."
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Φόρτωση..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Τα μοντέλα φορτώθηκαν με επιτυχία."
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "Το API δεν επέστρεψε κανένα μοντέλο."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Αποτυχία φόρτωσης μοντέλων: "
+    },
+    "uiCloseTitle": {
+        "message": "Κλείσιμο"
+    },
+    "uiLoadingText": {
+        "message": "Δημιουργία σύνοψης... παρακαλώ περιμένετε."
+    },
+    "uiErrorMarkdown": {
+        "message": "Σφάλμα κατά την επεξεργασία του Markdown."
+    },
+    "uiErrorLibraries": {
+        "message": "Σφάλμα: Αποτυχία φόρτωσης βιβλιοθηκών απόδοσης."
+    },
+    "bgErrorNoText": {
+        "message": "Η σελίδα δεν περιέχει σημαντικό κείμενο για σύνοψη."
+    },
+    "bgErrorNoKey": {
+        "message": "Λείπει το κλειδί API. Κάντε δεξί κλικ στο εικονίδιο της επέκτασης, επιλέξτε 'Επιλογές' (ή 'Διαχείριση επέκτασης' -> 'Προτιμήσεις') και ορίστε το κλειδί API σας."
+    },
+    "bgErrorUnsupported": {
+        "message": "Ο επιλεγμένος πάροχος AI δεν υποστηρίζεται προς το παρόν."
+    },
+    "bgErrorAuthInvalid": {
+        "message": "Σφάλμα ελέγχου ταυτότητας: Μη έγκυρο κλειδί API. Ελέγξτε τις ρυθμίσεις της επέκτασης."
+    },
+    "bgErrorAuthUnauthorized": {
+        "message": "Σφάλμα ελέγχου ταυτότητας: Μη εξουσιοδοτημένη πρόσβαση (401/403). Ελέγξτε τις ρυθμίσεις σας."
+    },
+    "bgErrorRateLimit": {
+        "message": "Υπέρβαση ορίου ρυθμού (429). Παρακαλώ δοκιμάστε ξανά αργότερα."
+    },
+    "bgErrorAIService": {
+        "message": "Σφάλμα υπηρεσίας AI: "
+    },
+    "bgErrorNoValidText": {
+        "message": "Η τεχνητή νοημοσύνη δεν επέστρεψε έγκυρο κείμενο."
+    },
+    "bgErrorNetwork": {
+        "message": "Σφάλμα δικτύου: Αδυναμία σύνδεσης με την υπηρεσία AI."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Αδυναμία εμφάνισης σφάλματος στο περιβάλλον χρήστη."
+    },
+    "bgSystemPageWarning": {
+        "message": "Scutter Skim: Δεν είναι δυνατή η εκτέλεση σε σελίδες συστήματος."
+    },
+    "promptTags": {
+        "message": "Ετικέτες:"
+    },
+    "promptSummary": {
+        "message": "### Σύντομη περίληψη"
+    },
+    "promptKeyPoints": {
+        "message": "### Κύρια σημεία"
+    },
+    "promptSources": {
+        "message": "### Σχετικές πηγές"
+    },
+    "promptNoSources": {
+        "message": "Δεν αναφέρονται συγκεκριμένες πηγές."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Δεν έχετε κλειδί API; Μπορείτε να αποκτήσετε ένα δωρεάν από"
+    },
+    "extensionActionTitle": {
+        "message": "Σύνοψη με το Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Σύνοψη της τρέχουσας σελίδας"
+    },
+    "promptQualityWarning": {
+        "message": "Προειδοποίηση ποιότητας:"
+    }
+}
