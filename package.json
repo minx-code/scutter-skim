@@ -1,6 +1,6 @@
 {
     "name": "scutter-skim",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Firefox extension for AI page summarization",
     "scripts": {
         "test": "node --test tests/*.test.js",

@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Aviso de Qualidade:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Mostrar botão flutuante de resumo"
+    },
+    "optionsShowFabHint": {
+        "message": "Exibe um botão flutuante em páginas da web para resumi-las rapidamente em dispositivos móveis."
     }
 }

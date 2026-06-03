@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Avertisment privind calitatea:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Afișează butonul plutitor de sumarizare"
+    },
+    "optionsShowFabHint": {
+        "message": "Afișează un buton plutitor pe paginile web pentru a le sumariza rapid pe dispozitivele mobile."
     }
 }

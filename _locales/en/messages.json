@@ -4,6 +4,8 @@
         "message": "Instantly summarize the current web page using AI."
     },
     "extensionActionTitle": { "message": "Summarize with Scutter Skim" },
+    "optionsShowFabLabel": { "message": "Show floating summarize button" },
+    "optionsShowFabHint": { "message": "Displays a floating button on web pages to quickly summarize them on mobile devices." },
     "extensionShortcutDescription": { "message": "Summarize the current page" },
     "optionsTitle": { "message": "Scutter Skim Settings" },
     "optionsApiKeyLabel": { "message": "AI Provider API Key" },

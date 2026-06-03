@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Varovanie o kvalite:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Zobraziť plávajúce tlačidlo na zhrnutie"
+    },
+    "optionsShowFabHint": {
+        "message": "Zobrazí na webových stránkach plávajúce tlačidlo na ich rýchle zhrnutie na mobilných zariadeniach."
     }
 }

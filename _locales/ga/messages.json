@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Rabhadh Cáilíochta:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Taispeáin cnaipe ar snámh chun achoimre a dhéanamh"
+    },
+    "optionsShowFabHint": {
+        "message": "Taispeánann sé cnaipe ar snámh ar leathanaigh ghréasáin chun achoimre a dhéanamh orthu go tapa ar ghléasanna soghluaiste."
     }
 }

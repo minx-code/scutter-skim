@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kvalitātes brīdinājums:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Rādīt peldošo kopsavilkuma pogu"
+    },
+    "optionsShowFabHint": {
+        "message": "Tīmekļa lapās parāda peldošu pogu, lai mobilajās ierīcēs ātri izveidotu to kopsavilkumu."
     }
 }

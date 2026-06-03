@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Paralajmërim për cilësinë:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Shfaq butonin lundrues të përmbledhjes"
+    },
+    "optionsShowFabHint": {
+        "message": "Shfaq një buton lundrues në faqet e internetit për t'i përmbledhur ato shpejt në pajisjet celulare."
     }
 }

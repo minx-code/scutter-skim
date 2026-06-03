@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Laatuvaroitus:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Näytä kelluva tiivistyspainike"
+    },
+    "optionsShowFabHint": {
+        "message": "Näyttää verkkosivuilla kelluvan painikkeen, jolla voit tiivistää sivun sisällön nopeasti mobiililaitteilla."
     }
 }

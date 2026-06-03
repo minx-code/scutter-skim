@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kvalitetsadvarsel:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Vis flytende oppsummeringsknapp"
+    },
+    "optionsShowFabHint": {
+        "message": "Viser en flytende knapp på nettsider for rask oppsummering på mobile enheter."
     }
 }

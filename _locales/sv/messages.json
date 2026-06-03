@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kvalitetsvarning:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Visa flytande sammanfattningsknapp"
+    },
+    "optionsShowFabHint": {
+        "message": "Visar en flytande knapp på webbsidor för att snabbt sammanfatta dem på mobila enheter."
     }
 }

@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Gæðaviðvörun:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Sýna fljótandi samantektarhnapp"
+    },
+    "optionsShowFabHint": {
+        "message": "Birtir fljótandi hnapp á vefsíðum til að taka þær fljótt saman í farsímum."
     }
 }

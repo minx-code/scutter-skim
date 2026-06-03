@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title data-i18n="optionsTitle">Scutter Skim Settings</title>
         <link rel="stylesheet" href="options.css" />
     </head>
@@ -35,8 +36,8 @@
 
                 <div class="form-group">
                     <label for="model" data-i18n="optionsModelLabel">AI Model</label>
-                    <div style="display: flex; gap: 10px">
-                        <select id="model" style="flex: 1"></select>
+                    <div class="model-loader">
+                        <select id="model"></select>
                         <button id="loadModels" class="btn-secondary" type="button" data-i18n="optionsLoadModels" data-i18n-title="optionsLoadModels">
                             Load from API
                         </button>
@@ -50,6 +51,14 @@
                         <option value="article" data-i18n="optionsOutputLangArticle">Language of the article</option>
                         <option value="browser" data-i18n="optionsOutputLangBrowser">Browser language</option>
                     </select>
+                </div>
+
+                <div class="form-group" style="margin-top: 25px; margin-bottom: 25px">
+                    <label style="display: flex; align-items: center; gap: 8px; font-weight: 500">
+                        <input type="checkbox" id="showFab" style="width: 18px; height: 18px; cursor: pointer; accent-color: var(--primary)" />
+                        <span data-i18n="optionsShowFabLabel">Show floating summarize button</span>
+                    </label>
+                    <small data-i18n="optionsShowFabHint">Displays a floating button on web pages to quickly summarize them on mobile devices.</small>
                 </div>
 
                 <div class="actions">

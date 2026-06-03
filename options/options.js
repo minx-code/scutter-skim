@@ -19,15 +19,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const apiKeyInput = document.getElementById('apiKey');
     const modelSelect = document.getElementById('model');
     const outputLangSelect = document.getElementById('outputLang');
+    const showFabCheckbox = document.getElementById('showFab');
     const loadModelsBtn = document.getElementById('loadModels');
     const saveButton = document.getElementById('save');
     const statusEl = document.getElementById('status');
 
     // Load saved settings
-    browser.storage.local.get(['aiProvider', 'apiKey', 'aiModel', 'outputLang']).then((res) => {
+    browser.storage.local.get(['aiProvider', 'apiKey', 'aiModel', 'outputLang', 'showFab']).then((res) => {
         if (res.aiProvider) providerSelect.value = res.aiProvider;
         if (res.apiKey) apiKeyInput.value = res.apiKey;
         if (res.outputLang) outputLangSelect.value = res.outputLang;
+        if (res.showFab !== undefined) showFabCheckbox.checked = res.showFab;
 
         if (res.aiModel) {
             // If the saved model isn't in the list, add it
@@ -109,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const apiKey = apiKeyInput.value.trim();
         const aiModel = modelSelect.value;
         const outputLang = outputLangSelect.value;
+        const showFab = showFabCheckbox.checked;
 
         browser.storage.local
             .set({
@@ -116,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 apiKey: apiKey,
                 aiModel: aiModel,
                 outputLang: outputLang,
+                showFab: showFab,
             })
             .then(() => {
                 showStatus(t('optionsSaveSuccess', 'Settings saved successfully.'));

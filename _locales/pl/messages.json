@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Ostrzeżenie o jakości:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Pokaż pływający przycisk podsumowania"
+    },
+    "optionsShowFabHint": {
+        "message": "Wyświetla na stronach internetowych pływający przycisk umożliwiający szybkie podsumowanie treści na urządzeniach mobilnych."
     }
 }

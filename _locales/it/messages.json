@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Avviso di qualità:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Mostra pulsante flottante di riepilogo"
+    },
+    "optionsShowFabHint": {
+        "message": "Visualizza un pulsante flottante sulle pagine web per riepilogarle rapidamente sui dispositivi mobili."
     }
 }

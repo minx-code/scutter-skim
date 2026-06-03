@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kalite Uyarısı:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Kayan özetle düğmesini göster"
+    },
+    "optionsShowFabHint": {
+        "message": "Mobil cihazlarda web sayfalarını hızlıca özetlemek için bir kayan düğme görüntüler."
     }
 }

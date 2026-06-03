@@ -152,3 +152,67 @@ small {
 .status-message.success {
     color: var(--success);
 }
+
+.model-loader {
+    display: flex;
+    gap: 10px;
+}
+
+#model {
+    flex: 1;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .card {
+        padding: 20px 16px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 8px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .model-loader {
+        flex-direction: column;
+    }
+
+    .btn-secondary {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #0f172a;
+        --card-bg: #1e293b;
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --border-color: #334155;
+    }
+
+    select,
+    input[type='password'],
+    input[type='checkbox'] {
+        background-color: #0f172a;
+        color: #f1f5f9;
+    }
+
+    .btn-secondary {
+        background-color: #334155;
+        color: #f1f5f9;
+    }
+
+    .btn-secondary:hover {
+        background-color: #475569;
+    }
+}

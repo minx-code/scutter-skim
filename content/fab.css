@@ -1,0 +1,45 @@
+.scutter-skim-fab {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    width: 48px !important;
+    height: 48px !important;
+    background-color: #3b82f6 !important;
+    border-radius: 50% !important;
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.2),
+        0 2px 4px -1px rgba(0, 0, 0, 0.1) !important;
+    z-index: 2147483647 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition:
+        transform 0.2s,
+        background-color 0.2s !important;
+    border: none !important;
+    padding: 10px !important;
+    margin: 0 !important;
+    outline: none !important;
+}
+
+.scutter-skim-fab:hover {
+    transform: scale(1.05) !important;
+    background-color: #2563eb !important;
+}
+
+.scutter-skim-fab img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    pointer-events: none !important;
+    filter: brightness(0) invert(1) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media print {
+    .scutter-skim-fab {
+        display: none !important;
+    }
+}

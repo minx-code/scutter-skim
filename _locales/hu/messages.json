@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Minőségi figyelmeztetés:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Lebegő összefoglaló gomb megjelenítése"
+    },
+    "optionsShowFabHint": {
+        "message": "Egy lebegő gombot jelenít meg a weboldalakon, amellyel mobileszközökön gyorsan összefoglalhatja azokat."
     }
 }

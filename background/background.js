@@ -37,7 +37,7 @@ If the article violates rules 1, 2, or 3, you MUST output the "> ⚠️ **${warn
     return prompt;
 }
 
-browser.action.onClicked.addListener(async (tab) => {
+async function summarizeTab(tab) {
     if (
         !tab.url ||
         tab.url.startsWith('chrome://') ||
@@ -120,10 +120,24 @@ browser.action.onClicked.addListener(async (tab) => {
             console.error(browser.i18n.getMessage('bgErrorUIShow') || 'Scutter Skim: Cannot display error in UI.', injectError);
         }
     }
+}
+
+browser.action.onClicked.addListener(summarizeTab);
+
+browser.runtime.onMessage.addListener((message, sender) => {
+    if (message.action === 'trigger_summarize' && sender.tab) {
+        summarizeTab(sender.tab);
+    }
 });
 
 // Automatically open the options page on first install if not configured
 browser.runtime.onInstalled.addListener(async (details) => {
+    browser.contextMenus.create({
+        id: 'scutter-skim-summarize',
+        title: browser.i18n.getMessage('contextMenuSummarize') || 'Summarize with Scutter Skim',
+        contexts: ['all'],
+    });
+
     if (details.reason === 'install') {
         const storage = await browser.storage.local.get(['apiKey']);
         if (!storage.apiKey) {

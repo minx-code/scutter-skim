@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Qualitätswarnung:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Schwebende Zusammenfassungs-Schaltfläche anzeigen"
+    },
+    "optionsShowFabHint": {
+        "message": "Zeigt auf Webseiten eine schwebende Schaltfläche an, um diese auf Mobilgeräten schnell zusammenzufassen."
     }
 }

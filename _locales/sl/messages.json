@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Opozorilo o kakovosti:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Prikaži lebdeči gumb za povzetek"
+    },
+    "optionsShowFabHint": {
+        "message": "Na spletnih straneh prikaže lebdeči gumb za hiter povzetek na mobilnih napravah."
     }
 }

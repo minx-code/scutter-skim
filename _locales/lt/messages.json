@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kokybės įspėjimas:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Rodyti slankųjį apibendrinimo mygtuką"
+    },
+    "optionsShowFabHint": {
+        "message": "Tinklalapiuose rodo slankųjį mygtuką, skirtą greitai apibendrinti turinį mobiliuosiuose įrenginiuose."
     }
 }

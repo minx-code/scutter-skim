@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kvaliteedihoiatus:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Kuva ujuv kokkuvõtte nupp"
+    },
+    "optionsShowFabHint": {
+        "message": "Kuvab veebilehtedel ujuva nupu, et neid mobiilseadmetes kiiresti kokku võtta."
     }
 }

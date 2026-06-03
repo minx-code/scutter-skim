@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Twissija dwar il-Kwalità:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Uri l-buttun li jżomm f'wiċċ l-ilma biex tiġbor fil-qosor"
+    },
+    "optionsShowFabHint": {
+        "message": "Juri buttun li jżomm f'wiċċ l-ilma fuq il-paġni tal-web biex tiġborhom fil-qosor malajr fuq apparat mobbli."
     }
 }

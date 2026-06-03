@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Upozorenje o kvalitetu:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Prikaži lebdeće dugme za sažetak"
+    },
+    "optionsShowFabHint": {
+        "message": "Prikazuje lebdeće dugme na veb stranicama za brzo sažimanje na mobilnim uređajima."
     }
 }

@@ -130,5 +130,11 @@
     },
     "promptQualityWarning": {
         "message": "Kwaliteitswaarschuwing:"
+    },
+    "optionsShowFabLabel": {
+        "message": "Zwevende samenvattingsknop weergeven"
+    },
+    "optionsShowFabHint": {
+        "message": "Geeft een zwevende knop weer op webpagina's om deze snel samen te vatten op mobiele apparaten."
     }
 }

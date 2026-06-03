@@ -7,8 +7,9 @@ Currently, the extension uses Google's **Gemini 3.1 Flash Lite** model, but it f
 ## Features
 
 - **One-Click Summarization**: Click the extension icon to instantly generate a summary of the active page.
+- **Mobile Friendly**: Includes a configurable Floating Action Button (FAB) making it easy to summarize content on mobile browsers like Firefox for Android.
 - **Content Quality Warnings**: Automatically detects clickbait, SEO spam, and fluffy content, visually warning you right below the article title.
-- **Global Localization**: Supports 31 languages for the UI and summary output, adapting automatically to your browser or article language.
+- **Global Localization**: Supports 30+ languages for the UI and summary output, adapting automatically to your browser or article language.
 - **Isolated UI**: The results modal is rendered inside a closed Shadow DOM, ensuring the host page's CSS never conflicts with the extension's sleek, modern design.
 - **AI Agnostic Design**: Simple, interchangeable class structure for adding new AI providers.
 - **Privacy Focused**: Requires your personal API Key, stored locally in your browser (`browser.storage.local`). The key is only sent directly to the AI provider.
@@ -28,7 +29,8 @@ Before using the extension, you must provide your AI API key:
 1. Right-click the **Scutter Skim** icon in the Firefox toolbar.
 2. Select **Manage Extension** and go to **Preferences** (or **Options**).
 3. Select your AI Provider (Google Gemini) and paste your API Key.
-4. Click **Save Settings**.
+4. (Optional) Toggle **Show floating summarize button** to easily use the extension on mobile devices.
+5. Click **Save Settings**.
 
 ## Debugging in Firefox
 

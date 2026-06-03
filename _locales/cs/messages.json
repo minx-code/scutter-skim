@@ -8,6 +8,12 @@
     "extensionActionTitle": {
         "message": "Shrnout pomocí Scutter Skim"
     },
+    "optionsShowFabLabel": {
+        "message": "Zobrazovat plovoucí tlačítko"
+    },
+    "optionsShowFabHint": {
+        "message": "Zobrazí na webových stránkách plovoucí tlačítko pro rychlé shrnutí (ideální pro mobily)."
+    },
     "extensionShortcutDescription": {
         "message": "Shrnout aktuální stránku"
     },
