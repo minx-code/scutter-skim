@@ -61,15 +61,26 @@ The visual modal and text extraction run in the context of the page you are view
 - If you modify the UI (`options.html`, `options.css`) or Content Scripts (`ui.js`, `extractor.js`), just **refresh the target webpage** or reopen the options page to see the changes.
 - If you modify the Background Script (`background.js`) or `manifest.json`, you **must click the "Reload" button** next to the extension in `about:debugging`.
 
-## Building for Production
+## Building and Releasing
 
-To create a clean `.zip` archive ready for upload to Mozilla Add-ons (AMO):
+**Local Build Requirements:**
+- **OS**: Linux, macOS, or Windows with WSL/Git Bash.
+- **Dependencies**: `bash` and the `zip` utility.
+- Node.js is optional, used only for running unit tests and formatting code.
+
+To create a clean `.zip` archive for local testing:
 
 ```bash
 ./scripts/build.sh
 ```
 
-This script will bundle only the necessary production files into `dist/extension.zip`.
+### CI/CD and Versioning
+
+The project uses GitHub Actions (`.github/workflows/ci-cd.yml`) to automatically build and release the extension.
+
+- **Development Version**: In the repository, `manifest.json` and `package.json` always use a placeholder version `"0.0.0"`.
+- **Releasing**: To create a new release, simply create and push a new Git tag starting with `v` (e.g., `v1.2.3`). The CI pipeline will automatically extract the version number from the tag and inject it into the `manifest.json` and `package.json` before building the `extension.zip`.
+- **Mozilla AMO**: When uploading a new version to Mozilla Add-ons (AMO), you must provide the original source code. You can download the automatically generated **Source code (zip)** directly from your GitHub Release page. Mozilla reviewers expect the code exactly as it is in the repository (including the `"0.0.0"` placeholder), and they will see from the workflow file how the actual version is injected.
 
 ## Running Unit Tests
 

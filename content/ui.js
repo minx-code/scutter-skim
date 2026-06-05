@@ -84,13 +84,13 @@ if (!window.scutterSkimUI) {
                 try {
                     // Extract and format tags BEFORE markdown parsing to safely remove hashes and commas
                     let md = markdownText.replace(/^(.*?:\s*)(#[^\n]*)$/m, (match, prefix, tagsPart) => {
-                        const tokens = tagsPart.split(/[\s,]+/);
-                        const onlyTags = tokens.every((token) => token === '' || token.startsWith('#'));
+                        // Split by # to handle both comma and space separated tags, including tags with spaces
+                        const rawTags = tagsPart.split(/(?=#)/).map(t => t.trim()).filter(t => t !== '');
+                        const onlyTags = rawTags.every((token) => token.startsWith('#'));
                         if (onlyTags) {
-                            const htmlTags = tagsPart
-                                .split(/[\s,]+/)
+                            const htmlTags = rawTags
                                 .map((t) => {
-                                    const cleanTag = t.replace(/^#/, '');
+                                    const cleanTag = t.replace(/^#/, '').replace(/,+$/, '').trim();
                                     if (cleanTag) return `<span class="scutter-tag">${cleanTag}</span>`;
                                     return '';
                                 })
