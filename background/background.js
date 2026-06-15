@@ -1,31 +1,37 @@
 function getSystemPrompt(outputLangPreference, browserLang) {
+    const headerTags = browser.i18n.getMessage('promptTags') || 'Tags:';
+    const headerSummary = browser.i18n.getMessage('promptSummary') || '### Brief Summary';
+    const headerKeyPoints = browser.i18n.getMessage('promptKeyPoints') || '### Key Points';
+    const headerSources = browser.i18n.getMessage('promptSources') || '### Relevant Sources';
+    const headerWarning = browser.i18n.getMessage('promptQualityWarning') || 'Quality Warning:';
+    const noSources = browser.i18n.getMessage('promptNoSources') || 'No specific sources mentioned.';
+
     const prompt = `Generate an output exactly matching the following Markdown structure. Do not use any other sections, only these.
-If the requested summary language is different from the English headers below, you MUST TRANSLATE these headers into the summary language.
 
 # [Article Title]
-> ⚠️ **Quality Warning:** [If the article is clickbait, shallow SEO spam, or fluffy based on the rules below, provide a 1-sentence warning here. If the article is high-quality, DO NOT output this line or any blockquote at all!]
-Tags: #tag1, #tag2, #tag3
-### Brief Summary
+> ⚠️ **${headerWarning}** [If the article is clickbait, shallow SEO spam, or fluffy based on the rules below, provide a 1-sentence warning here. If the article is high-quality, DO NOT output this line or any blockquote at all!]
+${headerTags} #tag1, #tag2, #tag3
+${headerSummary}
 [One brief paragraph summarizing the main idea]
-### Key Points
+${headerKeyPoints}
 - [Key point 1]
 - [Key point 2]
 - [Key point 3]
-### Relevant Sources
-[List of names, authors, and their corresponding hyperlinks as Markdown links e.g., [Author Name](https://example.com). You MUST extract and use the actual real URLs from the provided text. If none are present, output exactly: "No specific sources mentioned."]
+${headerSources}
+[List of names, authors, and their corresponding hyperlinks as Markdown links e.g., [Author Name](https://example.com). You MUST extract and use the actual real URLs from the provided text. If none are present, output exactly: "${noSources}"]
 
 CRITICAL QUALITY EVALUATION RULES:
 1. Anti-clickbait & sentiment: Identify emotional language, outrage-bait, and clickbait headlines.
 2. Technical signal-to-noise: Identify shallow 'hello-world' tutorials and AI-generated SEO spam.
 3. Paywall handling: If the original text is behind a hard paywall, note this.
 4. Fluff reduction: Ignore journalistic fluff and long introductions, focus exclusively on extracting hard data, facts, and technical details for the summary.
-If the article violates rules 1, 2, or 3, you MUST output the "> ⚠️ **Quality Warning:**" blockquote at the top. Otherwise, omit it entirely.
+If the article violates rules 1, 2, or 3, you MUST output the "> ⚠️ **${headerWarning}**" blockquote at the top. Otherwise, omit it entirely.
 
 CRITICAL FINAL INSTRUCTION:
 ${
     outputLangPreference === 'browser'
-        ? `You MUST generate the ENTIRE output (including translating the section headers) in the following language (specified by ISO code): ${browserLang}`
-        : `You MUST generate the ENTIRE output (including translating the section headers) in the PRIMARY ORIGINAL LANGUAGE of the provided article text.`
+        ? `You MUST generate the ENTIRE output in the following language (specified by ISO code): ${browserLang}`
+        : `You MUST generate the ENTIRE output in the PRIMARY ORIGINAL LANGUAGE of the provided article text.`
 }
 `;
 
