@@ -17,40 +17,138 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const providerSelect = document.getElementById('provider');
     const apiKeyInput = document.getElementById('apiKey');
+    const baseUrlInput = document.getElementById('baseUrl');
+    const baseUrlContainer = document.getElementById('baseUrlContainer');
+    const apiKeyContainer = document.getElementById('apiKeyContainer');
     const modelSelect = document.getElementById('model');
     const outputLangSelect = document.getElementById('outputLang');
     const showFabCheckbox = document.getElementById('showFab');
     const loadModelsBtn = document.getElementById('loadModels');
+    const shortcutInput = document.getElementById('shortcut');
+    const resetShortcutBtn = document.getElementById('resetShortcut');
     const saveButton = document.getElementById('save');
     const statusEl = document.getElementById('status');
+    const apiKeyHelpText = document.getElementById('apiKeyHelpText');
+    const apiKeyLink = document.getElementById('apiKeyLink');
 
-    // Load saved settings
-    browser.storage.local.get(['aiProvider', 'apiKey', 'aiModel', 'outputLang', 'showFab']).then((res) => {
-        if (res.aiProvider) providerSelect.value = res.aiProvider;
-        if (res.apiKey) apiKeyInput.value = res.apiKey;
-        if (res.outputLang) outputLangSelect.value = res.outputLang;
-        if (res.showFab !== undefined) showFabCheckbox.checked = res.showFab;
+    const providerInfo = {
+        anthropic: { link: 'https://console.anthropic.com/settings/keys', name: 'Anthropic', defaultModel: 'claude-3-haiku-20240307', showBaseUrl: false },
+        deepseek: { link: 'https://platform.deepseek.com/api_keys', name: 'DeepSeek', defaultModel: 'deepseek-chat', showBaseUrl: true },
+        gemini: { link: 'https://aistudio.google.com/app/apikey', name: 'Google AI Studio', defaultModel: 'gemini-3.1-flash-lite', showBaseUrl: false },
+        groq: { link: 'https://console.groq.com/keys', name: 'Groq', defaultModel: 'llama3-8b-8192', showBaseUrl: true },
+        ollama: { link: '', name: 'Ollama', defaultModel: 'llama3', showBaseUrl: true, noKey: true },
+        openai: { link: 'https://platform.openai.com/api-keys', name: 'OpenAI', defaultModel: 'gpt-4o-mini', showBaseUrl: true },
+        together: { link: 'https://api.together.ai/settings/api-keys', name: 'Together AI', defaultModel: 'meta-llama/Llama-3-8b-chat-hf', showBaseUrl: true },
+    };
 
-        if (res.aiModel) {
-            // If the saved model isn't in the list, add it
+    function updateProviderUI() {
+        const provider = providerSelect.value;
+        const info = providerInfo[provider];
+
+        if (info.noKey) {
+            apiKeyContainer.style.display = 'none';
+        } else {
+            apiKeyContainer.style.display = 'block';
+            apiKeyLink.href = info.link;
+            apiKeyLink.textContent = info.name;
+        }
+
+        if (info.showBaseUrl) {
+            baseUrlContainer.style.display = 'block';
+        } else {
+            baseUrlContainer.style.display = 'none';
+        }
+    }
+
+    async function loadProviderSettings() {
+        const provider = providerSelect.value;
+        const apiKeyKey = `${provider}ApiKey`;
+        const modelKey = `${provider}Model`;
+        const baseUrlKey = `${provider}BaseUrl`;
+
+        // Also check legacy keys if gemini is selected
+        const keysToGet = [apiKeyKey, modelKey, baseUrlKey];
+        if (provider === 'gemini') keysToGet.push('apiKey', 'aiModel');
+
+        const res = await browser.storage.local.get(keysToGet);
+
+        let apiKey = res[apiKeyKey];
+        let model = res[modelKey];
+        let baseUrl = res[baseUrlKey] || '';
+
+        // Legacy migration for UI
+        if (provider === 'gemini') {
+            if (!apiKey && res.apiKey) apiKey = res.apiKey;
+            if (!model && res.aiModel) model = res.aiModel;
+        }
+
+        apiKeyInput.value = apiKey || '';
+        baseUrlInput.value = baseUrl;
+
+        if (model) {
             let exists = false;
             for (let i = 0; i < modelSelect.options.length; i++) {
-                if (modelSelect.options[i].value === res.aiModel) exists = true;
+                if (modelSelect.options[i].value === model) exists = true;
             }
             if (!exists) {
                 const opt = document.createElement('option');
-                opt.value = res.aiModel;
-                opt.textContent = res.aiModel;
+                opt.value = model;
+                opt.textContent = model;
                 modelSelect.appendChild(opt);
             }
-            modelSelect.value = res.aiModel;
+            modelSelect.value = model;
         }
+    }
+
+    // Initialize UI on load
+    browser.storage.local.get(['aiProvider', 'outputLang', 'showFab']).then((res) => {
+        if (res.aiProvider) providerSelect.value = res.aiProvider;
+        if (res.outputLang) outputLangSelect.value = res.outputLang;
+        if (res.showFab !== undefined) showFabCheckbox.checked = res.showFab;
+
+        updateProviderUI();
+        loadProviderSettings();
     });
 
-    // Load models from API
+    providerSelect.addEventListener('change', () => {
+        updateProviderUI();
+        modelSelect.innerHTML = ''; // Clear models when switching
+        loadProviderSettings();
+    });
+
+    // Save settings
+    saveButton.addEventListener('click', () => {
+        const provider = providerSelect.value;
+        const apiKeyKey = `${provider}ApiKey`;
+        const modelKey = `${provider}Model`;
+        const baseUrlKey = `${provider}BaseUrl`;
+
+        const dataToSave = {
+            aiProvider: provider,
+            outputLang: outputLangSelect.value,
+            showFab: showFabCheckbox.checked,
+            [apiKeyKey]: apiKeyInput.value.trim(),
+            [modelKey]: modelSelect.value,
+            [baseUrlKey]: baseUrlInput.value.trim(),
+        };
+
+        browser.storage.local
+            .set(dataToSave)
+            .then(() => {
+                showStatus(t('optionsSaveSuccess', 'Settings saved successfully.'));
+            })
+            .catch((error) => {
+                showStatus(t('optionsSaveFail', 'Error saving settings: ') + error.message, true);
+            });
+    });
+
+    // Load models from API via background script
     loadModelsBtn.addEventListener('click', async () => {
-        const key = apiKeyInput.value.trim();
-        if (!key) {
+        const provider = providerSelect.value;
+        const apiKey = apiKeyInput.value.trim();
+        const baseUrl = baseUrlInput.value.trim();
+
+        if (!apiKey && !providerInfo[provider].noKey) {
             showStatus(t('optionsLoadModelsErrorNoKey', 'Please enter an API key to load models.'), true);
             return;
         }
@@ -59,34 +157,29 @@ document.addEventListener('DOMContentLoaded', () => {
         loadModelsBtn.textContent = t('optionsLoadModelsLoading', 'Loading...');
 
         try {
-            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${key}`);
-            const data = await response.json();
+            const response = await browser.runtime.sendMessage({
+                action: 'load_models',
+                provider: provider,
+                apiKey: apiKey,
+                baseUrl: baseUrl,
+            });
 
-            if (!response.ok) {
-                throw new Error(data.error?.message || 'API communication error');
+            if (response.error) {
+                throw new Error(response.error);
             }
 
-            if (data.models && data.models.length > 0) {
+            if (response.models && response.models.length > 0) {
                 const currentVal = modelSelect.value;
-                modelSelect.innerHTML = ''; // Clear current options
+                modelSelect.innerHTML = '';
 
-                // Filter for models that support text generation
-                const generateModels = data.models.filter((m) => m.supportedGenerationMethods && m.supportedGenerationMethods.includes('generateContent'));
-
-                generateModels.forEach((m) => {
+                response.models.forEach((m) => {
                     const opt = document.createElement('option');
-                    // API returns names like "models/gemini-3.1-flash-lite", we just want the part after slash
-                    const shortName = m.name.replace('models/', '');
-                    opt.value = shortName;
-                    opt.textContent = `${m.displayName} (${shortName})`;
+                    opt.value = m.id;
+                    opt.textContent = m.name;
                     modelSelect.appendChild(opt);
                 });
 
-                // Try to restore previous selection
-                let exists = false;
-                for (let i = 0; i < modelSelect.options.length; i++) {
-                    if (modelSelect.options[i].value === currentVal) exists = true;
-                }
+                let exists = Array.from(modelSelect.options).some((opt) => opt.value === currentVal);
                 if (exists) {
                     modelSelect.value = currentVal;
                 } else if (modelSelect.options.length > 0) {
@@ -105,41 +198,65 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Save settings
-    saveButton.addEventListener('click', () => {
-        const aiProvider = providerSelect.value;
-        const apiKey = apiKeyInput.value.trim();
-        const aiModel = modelSelect.value;
-        const outputLang = outputLangSelect.value;
-        const showFab = showFabCheckbox.checked;
-
-        browser.storage.local
-            .set({
-                aiProvider: aiProvider,
-                apiKey: apiKey,
-                aiModel: aiModel,
-                outputLang: outputLang,
-                showFab: showFab,
-            })
-            .then(() => {
-                showStatus(t('optionsSaveSuccess', 'Settings saved successfully.'));
-            })
-            .catch((error) => {
-                showStatus(t('optionsSaveFail', 'Error saving settings: ') + error.message, true);
-            });
-    });
-
     function showStatus(message, isError = false) {
         statusEl.textContent = message;
         statusEl.className = 'status-message show' + (!isError ? ' success' : '');
-        if (isError) {
-            statusEl.style.color = '#ef4444';
-        } else {
-            statusEl.style.color = '';
-        }
+        if (isError) statusEl.style.color = '#ef4444';
+        else statusEl.style.color = '';
 
         setTimeout(() => {
             statusEl.className = 'status-message';
         }, 3000);
     }
+
+    // Keyboard Shortcut Management
+    if (browser.commands && browser.commands.getAll) {
+        browser.commands.getAll().then((commands) => {
+            const cmd = commands.find((c) => c.name === '_execute_action');
+            if (cmd && cmd.shortcut) shortcutInput.value = cmd.shortcut;
+        });
+    }
+
+    shortcutInput.addEventListener('keydown', (e) => {
+        e.preventDefault();
+        const keys = [];
+        if (e.ctrlKey) keys.push('Ctrl');
+        if (e.altKey) keys.push('Alt');
+        if (e.metaKey) keys.push('Command');
+        if (e.shiftKey) keys.push('Shift');
+
+        const key = e.key.toUpperCase();
+        if (['CONTROL', 'ALT', 'META', 'SHIFT'].includes(key)) {
+            shortcutInput.value = keys.join('+') + '+...';
+            return;
+        }
+
+        if (keys.length > 0 && /^[A-Z0-9]$/.test(key)) {
+            keys.push(key);
+            const newShortcut = keys.join('+');
+            shortcutInput.value = newShortcut;
+
+            if (browser.commands && browser.commands.update) {
+                browser.commands
+                    .update({ name: '_execute_action', shortcut: newShortcut })
+                    .then(() => showStatus(t('optionsShortcutSuccess', 'Shortcut updated successfully.')))
+                    .catch((err) => showStatus(t('optionsShortcutFail', 'Failed to update shortcut: ') + err.message, true));
+            } else {
+                showStatus(t('optionsShortcutNotSupported', 'Shortcut update not supported in this browser.'), true);
+            }
+        }
+    });
+
+    resetShortcutBtn.addEventListener('click', () => {
+        const defaultShortcut = 'Alt+Shift+U';
+        if (browser.commands && browser.commands.update) {
+            browser.commands
+                .update({ name: '_execute_action', shortcut: defaultShortcut })
+                .then(() => {
+                    shortcutInput.value = defaultShortcut;
+                    showStatus(t('optionsShortcutResetSuccess', 'Shortcut reset to default.'));
+                })
+                .catch((err) => showStatus(t('optionsShortcutResetFail', 'Failed to reset shortcut: ') + err.message, true));
+        }
+    });
 });

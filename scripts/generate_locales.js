@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const apiKey = process.argv[2];
 if (!apiKey) {
@@ -116,11 +117,19 @@ ${JSON.stringify(missingStrings, null, 2)}`;
         finalJson[key] = { message: val };
     }
 
+    // Sort keys alphabetically
+    const sortedJson = {};
+    Object.keys(finalJson)
+        .sort()
+        .forEach((k) => {
+            sortedJson[k] = finalJson[k];
+        });
+
     if (!fs.existsSync(targetDir)) {
         fs.mkdirSync(targetDir, { recursive: true });
     }
 
-    fs.writeFileSync(targetFile, JSON.stringify(finalJson, null, 2));
+    fs.writeFileSync(targetFile, JSON.stringify(sortedJson, null, 2));
     console.log(`Successfully updated translations for ${langName} (${langCode})`);
 }
 
@@ -135,6 +144,12 @@ async function main() {
         } catch (e) {
             console.error(`Failed for ${name}:`, e.message);
         }
+    }
+    console.log('Running Prettier format on translations...');
+    try {
+        execSync('npm run format', { stdio: 'inherit' });
+    } catch (e) {
+        console.error('Formatting failed:', e.message);
     }
     console.log('Translation complete!');
 }

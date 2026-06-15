@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Извлечете текст од страници и сумирајте го со помош на вештачка интелигенција."
-    },
-    "optionsTitle": {
-        "message": "Поставки на Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API клуч на давателот на вештачка интелигенција"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Внесете го вашиот API клуч..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Вашиот клуч е безбедно зачуван во вашиот прелистувач и никогаш не се испраќа никаде освен директно до давателот на вештачка интелигенција."
-    },
-    "optionsModelLabel": {
-        "message": "Модел на вештачка интелигенција"
-    },
-    "optionsLoadModels": {
-        "message": "Вчитај од API"
-    },
-    "optionsModelHint": {
-        "message": "Изберете модел или вчитајте ја тековната листа преку API (потребен е зачуван валиден API клуч)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Јазик на резимето"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Јазик на статијата"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Јазик на прелистувачот"
-    },
-    "optionsSaveBtn": {
-        "message": "Зачувај поставки"
-    },
-    "optionsSaveSuccess": {
-        "message": "Поставките се успешно зачувани!"
-    },
-    "optionsSaveFail": {
-        "message": "Грешка при зачувување на поставките: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Ве молиме внесете API клуч за да ги вчитате моделите."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Се вчитува..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Моделите се успешно вчитани."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API не врати ниту еден модел."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Неуспешно вчитување на моделите: "
-    },
-    "uiCloseTitle": {
-        "message": "Затвори"
-    },
-    "uiLoadingText": {
-        "message": "Се генерира резиме... ве молиме почекајте."
-    },
-    "uiErrorMarkdown": {
-        "message": "Грешка при обработка на Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Грешка: Библиотеките за прикажување не се вчитаа."
-    },
-    "bgErrorNoText": {
-        "message": "Страницата не содржи значаен текст за сумирање."
-    },
-    "bgErrorNoKey": {
-        "message": "Недостасува API клуч. Ве молиме кликнете со десното копче на иконата на екстензијата, изберете 'Опции' (или 'Управување со екстензии' -> 'Преференции') и поставете го вашиот API клуч."
-    },
-    "bgErrorUnsupported": {
-        "message": "Избраниот давател на вештачка интелигенција моментално не е поддржан."
+    "bgErrorAIService": {
+        "message": "Грешка во услугата за вештачка интелигенција: "
     },
     "bgErrorAuthInvalid": {
         "message": "Грешка при автентикација: Неважечки API клуч. Проверете ги поставките на екстензијата."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Грешка при автентикација: Неовластен пристап (401/403). Проверете ги вашите поставки."
     },
-    "bgErrorRateLimit": {
-        "message": "Надминато е ограничувањето на стапката (429). Ве молиме обидете се повторно подоцна."
+    "bgErrorNetwork": {
+        "message": "Мрежна грешка: Не може да се воспостави врска со услугата за вештачка интелигенција."
     },
-    "bgErrorAIService": {
-        "message": "Грешка во услугата за вештачка интелигенција: "
+    "bgErrorNoKey": {
+        "message": "Недостасува API клуч. Ве молиме кликнете со десното копче на иконата на екстензијата, изберете 'Опции' (или 'Управување со екстензии' -> 'Преференции') и поставете го вашиот API клуч."
+    },
+    "bgErrorNoText": {
+        "message": "Страницата не содржи значаен текст за сумирање."
     },
     "bgErrorNoValidText": {
         "message": "Вештачката интелигенција не врати валиден текст."
     },
-    "bgErrorNetwork": {
-        "message": "Мрежна грешка: Не може да се воспостави врска со услугата за вештачка интелигенција."
+    "bgErrorRateLimit": {
+        "message": "Надминато е ограничувањето на стапката (429). Ве молиме обидете се повторно подоцна."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Не може да се прикаже грешката во корисничкиот интерфејс."
     },
+    "bgErrorUnsupported": {
+        "message": "Избраниот давател на вештачка интелигенција моментално не е поддржан."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Не може да се изврши на системски страници."
-    },
-    "promptTags": {
-        "message": "Ознаки:"
-    },
-    "promptSummary": {
-        "message": "### Кратко резиме"
-    },
-    "promptKeyPoints": {
-        "message": "### Клучни точки"
-    },
-    "promptSources": {
-        "message": "### Релевантни извори"
-    },
-    "promptNoSources": {
-        "message": "Не се споменати конкретни извори."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Немате API клуч? Можете да добиете бесплатен од"
     },
     "extensionActionTitle": {
         "message": "Резимирај со Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Извлечете текст од страници и сумирајте го со помош на вештачка интелигенција."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Сумирај ја тековната страница"
     },
-    "promptQualityWarning": {
-        "message": "Предупредување за квалитет:"
+    "optionsAdvancedSettings": {
+        "message": "Детални поставки за вештачка интелигенција"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama работи локално. Не е потребен API клуч. Осигурајте се дека Ollama работи и е достапен."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Немате API клуч? Можете да добиете бесплатен од"
+    },
+    "optionsApiKeyHint": {
+        "message": "Вашиот клуч е безбедно зачуван во вашиот прелистувач и никогаш не се испраќа никаде освен директно до давателот на вештачка интелигенција."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API клуч на давателот на вештачка интелигенција"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Внесете го вашиот API клуч..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Оставете празно за да ја користите стандардната API крајна точка на давателот. Корисно за прилагодени прокси-сервери или локални модели."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Основна URL адреса (опционално)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "на пр. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Конфигурација на вештачка интелигенција"
+    },
+    "optionsGroupGeneral": {
+        "message": "Општи поставки"
+    },
+    "optionsLoadModels": {
+        "message": "Вчитај од API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API не врати ниту еден модел."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Ве молиме внесете API клуч за да ги вчитате моделите."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Неуспешно вчитување на моделите: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Се вчитува..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Моделите се успешно вчитани."
+    },
+    "optionsModelHint": {
+        "message": "Изберете модел или вчитајте ја тековната листа преку API (потребен е зачуван валиден API клуч)."
+    },
+    "optionsModelLabel": {
+        "message": "Модел на вештачка интелигенција"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Јазик на статијата"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Јазик на прелистувачот"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Јазик на резимето"
+    },
+    "optionsResetShortcut": {
+        "message": "Ресетирај"
+    },
+    "optionsSaveBtn": {
+        "message": "Зачувај поставки"
+    },
+    "optionsSaveFail": {
+        "message": "Грешка при зачувување на поставките: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Поставките се успешно зачувани!"
+    },
+    "optionsShortcutFail": {
+        "message": "Неуспешно ажурирање на кратенката: "
+    },
+    "optionsShortcutHint": {
+        "message": "Кликнете на полето и притиснете комбинација на копчиња (на пр. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Кратенка на тастатура"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Ажурирањето на кратенки не е поддржано во овој прелистувач."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Неуспешно ресетирање на кратенката: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Кратенката е вратена на стандардната."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Кратенката е успешно ажурирана."
+    },
+    "optionsShowFabHint": {
+        "message": "Прикажува лебдечко копче на веб-страниците за брзо сумирање на истите на мобилни уреди."
     },
     "optionsShowFabLabel": {
         "message": "Прикажи лебдечко копче за сумирање"
     },
-    "optionsShowFabHint": {
-        "message": "Прикажува лебдечко копче на веб-страниците за брзо сумирање на истите на мобилни уреди."
+    "optionsSubtitle": {
+        "message": "Преференции на екстензијата"
+    },
+    "optionsTitle": {
+        "message": "Поставки на Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Клучни точки"
+    },
+    "promptNoSources": {
+        "message": "Не се споменати конкретни извори."
+    },
+    "promptQualityWarning": {
+        "message": "Предупредување за квалитет:"
+    },
+    "promptSources": {
+        "message": "### Релевантни извори"
+    },
+    "promptSummary": {
+        "message": "### Кратко резиме"
+    },
+    "promptTags": {
+        "message": "Ознаки:"
+    },
+    "uiCloseTitle": {
+        "message": "Затвори"
+    },
+    "uiErrorLibraries": {
+        "message": "Грешка: Библиотеките за прикажување не се вчитаа."
+    },
+    "uiErrorMarkdown": {
+        "message": "Грешка при обработка на Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Се генерира резиме... ве молиме почекајте."
     }
 }

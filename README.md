@@ -4,11 +4,13 @@
 
 Currently, the extension uses Google's **Gemini 3.1 Flash Lite** model, but it features an AI-agnostic architecture allowing easy integration of other providers in the future.
 
-## Features
+### Core Features
 
-- **One-Click Summarization**: Click the extension icon to instantly generate a summary of the active page.
-- **Mobile Friendly**: Includes a configurable Floating Action Button (FAB) making it easy to summarize content on mobile browsers like Firefox for Android.
-- **Content Quality Warnings**: Automatically detects clickbait, SEO spam, and fluffy content, visually warning you right below the article title.
+- **Multi-Provider AI Summarization**: Choose from Google (Gemini), OpenAI (GPT), Anthropic (Claude), Groq, DeepSeek, Together AI, or run local models completely free and private via Ollama/LM Studio.
+- **Strict Anti-Clickbait Filters**: Warns you if the article is clickbait, shallow SEO spam, or hides behind a paywall.
+- **Smart Translation**: Automatically translates the summary to your browser's language or keeps it in the article's original language.
+- **Floating Action Button**: A quick-access floating button, ideal for responsive layouts or mobile reading.
+- **Keyboard Shortcuts**: Quickly summarize any page using `Alt+Shift+U` (customizable).
 - **Global Localization**: Supports 30+ languages for the UI and summary output, adapting automatically to your browser or article language.
 - **Isolated UI**: The results modal is rendered inside a closed Shadow DOM, ensuring the host page's CSS never conflicts with the extension's sleek, modern design.
 - **AI Agnostic Design**: Simple, interchangeable class structure for adding new AI providers.
@@ -64,6 +66,7 @@ The visual modal and text extraction run in the context of the page you are view
 ## Building and Releasing
 
 **Local Build Requirements:**
+
 - **OS**: Linux, macOS, or Windows with WSL/Git Bash.
 - **Dependencies**: `bash` and the `zip` utility.
 - Node.js is optional, used only for running unit tests and formatting code.

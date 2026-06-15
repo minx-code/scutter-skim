@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Estrai testo dalle pagine e riassumilo usando l'IA."
-    },
-    "optionsTitle": {
-        "message": "Impostazioni di Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Chiave API del provider IA"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Inserisci la tua chiave API..."
-    },
-    "optionsApiKeyHint": {
-        "message": "La tua chiave viene archiviata in modo sicuro nel browser e non viene inviata da nessuna parte se non direttamente al provider IA."
-    },
-    "optionsModelLabel": {
-        "message": "Modello IA"
-    },
-    "optionsLoadModels": {
-        "message": "Carica da API"
-    },
-    "optionsModelHint": {
-        "message": "Seleziona un modello o carica l'elenco corrente tramite API (richiede una chiave API valida salvata)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Lingua del riassunto"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Lingua dell'articolo"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Lingua del browser"
-    },
-    "optionsSaveBtn": {
-        "message": "Salva impostazioni"
-    },
-    "optionsSaveSuccess": {
-        "message": "Impostazioni salvate con successo!"
-    },
-    "optionsSaveFail": {
-        "message": "Errore durante il salvataggio delle impostazioni: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Inserisci una chiave API per caricare i modelli."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Caricamento in corso..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modelli caricati con successo."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "L'API non ha restituito alcun modello."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Impossibile caricare i modelli: "
-    },
-    "uiCloseTitle": {
-        "message": "Chiudi"
-    },
-    "uiLoadingText": {
-        "message": "Generazione del riassunto in corso... attendere."
-    },
-    "uiErrorMarkdown": {
-        "message": "Errore durante l'elaborazione del Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Errore: impossibile caricare le librerie di rendering."
-    },
-    "bgErrorNoText": {
-        "message": "La pagina non contiene alcun testo significativo da riassumere."
-    },
-    "bgErrorNoKey": {
-        "message": "Chiave API mancante. Fai clic destro sull'icona dell'estensione, seleziona 'Opzioni' (o 'Gestisci estensione' -> 'Preferenze') e imposta la tua chiave API."
-    },
-    "bgErrorUnsupported": {
-        "message": "Il provider IA selezionato non è attualmente supportato."
+    "bgErrorAIService": {
+        "message": "Errore del servizio IA: "
     },
     "bgErrorAuthInvalid": {
         "message": "Errore di autenticazione: chiave API non valida. Controlla le impostazioni dell'estensione."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Errore di autenticazione: accesso non autorizzato (401/403). Controlla le tue impostazioni."
     },
-    "bgErrorRateLimit": {
-        "message": "Limite di frequenza superato (429). Riprova più tardi."
+    "bgErrorNetwork": {
+        "message": "Errore di rete: impossibile connettersi al servizio IA."
     },
-    "bgErrorAIService": {
-        "message": "Errore del servizio IA: "
+    "bgErrorNoKey": {
+        "message": "Chiave API mancante. Fai clic destro sull'icona dell'estensione, seleziona 'Opzioni' (o 'Gestisci estensione' -> 'Preferenze') e imposta la tua chiave API."
+    },
+    "bgErrorNoText": {
+        "message": "La pagina non contiene alcun testo significativo da riassumere."
     },
     "bgErrorNoValidText": {
         "message": "L'IA non ha restituito alcun testo valido."
     },
-    "bgErrorNetwork": {
-        "message": "Errore di rete: impossibile connettersi al servizio IA."
+    "bgErrorRateLimit": {
+        "message": "Limite di frequenza superato (429). Riprova più tardi."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: impossibile visualizzare l'errore nell'interfaccia utente."
     },
+    "bgErrorUnsupported": {
+        "message": "Il provider IA selezionato non è attualmente supportato."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: impossibile eseguire sulle pagine di sistema."
-    },
-    "promptTags": {
-        "message": "Tag:"
-    },
-    "promptSummary": {
-        "message": "### Breve riassunto"
-    },
-    "promptKeyPoints": {
-        "message": "### Punti chiave"
-    },
-    "promptSources": {
-        "message": "### Fonti rilevanti"
-    },
-    "promptNoSources": {
-        "message": "Nessuna fonte specifica menzionata."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Non hai una chiave API? Puoi ottenerne una gratuita da"
     },
     "extensionActionTitle": {
         "message": "Riassumi con Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Estrai testo dalle pagine e riassumilo usando l'IA."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Riassumi la pagina corrente"
     },
-    "promptQualityWarning": {
-        "message": "Avviso di qualità:"
+    "optionsAdvancedSettings": {
+        "message": "Impostazioni AI avanzate"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama viene eseguito localmente. Non è richiesta alcuna chiave API. Assicurati che Ollama sia in esecuzione e accessibile."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Non hai una chiave API? Puoi ottenerne una gratuita da"
+    },
+    "optionsApiKeyHint": {
+        "message": "La tua chiave viene archiviata in modo sicuro nel browser e non viene inviata da nessuna parte se non direttamente al provider IA."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Chiave API del provider IA"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Inserisci la tua chiave API..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Lascia vuoto per utilizzare l'endpoint API predefinito del provider. Utile per proxy personalizzati o modelli locali."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Base URL (Opzionale)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "es. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Configurazione AI"
+    },
+    "optionsGroupGeneral": {
+        "message": "Impostazioni generali"
+    },
+    "optionsLoadModels": {
+        "message": "Carica da API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "L'API non ha restituito alcun modello."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Inserisci una chiave API per caricare i modelli."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Impossibile caricare i modelli: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Caricamento in corso..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modelli caricati con successo."
+    },
+    "optionsModelHint": {
+        "message": "Seleziona un modello o carica l'elenco corrente tramite API (richiede una chiave API valida salvata)."
+    },
+    "optionsModelLabel": {
+        "message": "Modello IA"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Lingua dell'articolo"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Lingua del browser"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Lingua del riassunto"
+    },
+    "optionsResetShortcut": {
+        "message": "Ripristina"
+    },
+    "optionsSaveBtn": {
+        "message": "Salva impostazioni"
+    },
+    "optionsSaveFail": {
+        "message": "Errore durante il salvataggio delle impostazioni: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Impostazioni salvate con successo!"
+    },
+    "optionsShortcutFail": {
+        "message": "Aggiornamento scorciatoia non riuscito: "
+    },
+    "optionsShortcutHint": {
+        "message": "Fai clic sul campo e premi una combinazione di tasti (es. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Scorciatoia da tastiera"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Aggiornamento scorciatoia non supportato in questo browser."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Ripristino scorciatoia non riuscito: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Scorciatoia ripristinata ai valori predefiniti."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Scorciatoia aggiornata correttamente."
+    },
+    "optionsShowFabHint": {
+        "message": "Visualizza un pulsante flottante sulle pagine web per riepilogarle rapidamente sui dispositivi mobili."
     },
     "optionsShowFabLabel": {
         "message": "Mostra pulsante flottante di riepilogo"
     },
-    "optionsShowFabHint": {
-        "message": "Visualizza un pulsante flottante sulle pagine web per riepilogarle rapidamente sui dispositivi mobili."
+    "optionsSubtitle": {
+        "message": "Preferenze dell'estensione"
+    },
+    "optionsTitle": {
+        "message": "Impostazioni di Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Punti chiave"
+    },
+    "promptNoSources": {
+        "message": "Nessuna fonte specifica menzionata."
+    },
+    "promptQualityWarning": {
+        "message": "Avviso di qualità:"
+    },
+    "promptSources": {
+        "message": "### Fonti rilevanti"
+    },
+    "promptSummary": {
+        "message": "### Breve riassunto"
+    },
+    "promptTags": {
+        "message": "Tag:"
+    },
+    "uiCloseTitle": {
+        "message": "Chiudi"
+    },
+    "uiErrorLibraries": {
+        "message": "Errore: impossibile caricare le librerie di rendering."
+    },
+    "uiErrorMarkdown": {
+        "message": "Errore durante l'elaborazione del Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Generazione del riassunto in corso... attendere."
     }
 }

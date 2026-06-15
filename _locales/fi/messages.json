@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Poimi tekstiä sivuilta ja tiivistä se tekoälyn avulla."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim -asetukset"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Tekoälypalvelun API-avain"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Syötä API-avaimesi..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Avaimesi tallennetaan turvallisesti selaimeesi, eikä sitä lähetetä muualle kuin suoraan tekoälypalvelun tarjoajalle."
-    },
-    "optionsModelLabel": {
-        "message": "Tekoälymalli"
-    },
-    "optionsLoadModels": {
-        "message": "Lataa API:sta"
-    },
-    "optionsModelHint": {
-        "message": "Valitse malli tai lataa nykyinen luettelo API:n kautta (vaatii tallennetun ja voimassa olevan API-avaimen)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Tiivistelmän kieli"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Artikkelin kieli"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Selaimen kieli"
-    },
-    "optionsSaveBtn": {
-        "message": "Tallenna asetukset"
-    },
-    "optionsSaveSuccess": {
-        "message": "Asetukset tallennettu onnistuneesti!"
-    },
-    "optionsSaveFail": {
-        "message": "Virhe tallennettaessa asetuksia: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Syötä API-avain ladataksesi mallit."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Ladataan..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Mallit ladattu onnistuneesti."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API ei palauttanut yhtään mallia."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Mallien lataaminen epäonnistui: "
-    },
-    "uiCloseTitle": {
-        "message": "Sulje"
-    },
-    "uiLoadingText": {
-        "message": "Luodaan tiivistelmää... odota hetki."
-    },
-    "uiErrorMarkdown": {
-        "message": "Virhe Markdown-käsittelyssä."
-    },
-    "uiErrorLibraries": {
-        "message": "Virhe: Renderöintikirjastojen lataaminen epäonnistui."
-    },
-    "bgErrorNoText": {
-        "message": "Sivu ei sisällä tiivistettävää tekstiä."
-    },
-    "bgErrorNoKey": {
-        "message": "API-avain puuttuu. Napsauta laajennuksen kuvaketta hiiren kakkospainikkeella, valitse 'Asetukset' (tai 'Hallitse laajennusta' -> 'Asetukset') ja määritä API-avaimesi."
-    },
-    "bgErrorUnsupported": {
-        "message": "Valittua tekoälypalvelua ei tällä hetkellä tueta."
+    "bgErrorAIService": {
+        "message": "Tekoälypalvelun virhe: "
     },
     "bgErrorAuthInvalid": {
         "message": "Todennusvirhe: Virheellinen API-avain. Tarkista laajennuksen asetukset."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Todennusvirhe: Luvaton pääsy (401/403). Tarkista asetuksesi."
     },
-    "bgErrorRateLimit": {
-        "message": "Nopeusrajoitus ylittynyt (429). Yritä myöhemmin uudelleen."
+    "bgErrorNetwork": {
+        "message": "Verkkovirhe: Ei yhteyttä tekoälypalveluun."
     },
-    "bgErrorAIService": {
-        "message": "Tekoälypalvelun virhe: "
+    "bgErrorNoKey": {
+        "message": "API-avain puuttuu. Napsauta laajennuksen kuvaketta hiiren kakkospainikkeella, valitse 'Asetukset' (tai 'Hallitse laajennusta' -> 'Asetukset') ja määritä API-avaimesi."
+    },
+    "bgErrorNoText": {
+        "message": "Sivu ei sisällä tiivistettävää tekstiä."
     },
     "bgErrorNoValidText": {
         "message": "Tekoäly ei palauttanut kelvollista tekstiä."
     },
-    "bgErrorNetwork": {
-        "message": "Verkkovirhe: Ei yhteyttä tekoälypalveluun."
+    "bgErrorRateLimit": {
+        "message": "Nopeusrajoitus ylittynyt (429). Yritä myöhemmin uudelleen."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Virhettä ei voitu näyttää käyttöliittymässä."
     },
+    "bgErrorUnsupported": {
+        "message": "Valittua tekoälypalvelua ei tällä hetkellä tueta."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Ei voi suorittaa järjestelmäsivuilla."
-    },
-    "promptTags": {
-        "message": "Tunnisteet:"
-    },
-    "promptSummary": {
-        "message": "### Lyhyt tiivistelmä"
-    },
-    "promptKeyPoints": {
-        "message": "### Keskeiset kohdat"
-    },
-    "promptSources": {
-        "message": "### Asiaankuuluvat lähteet"
-    },
-    "promptNoSources": {
-        "message": "Ei mainittuja erityisiä lähteitä."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Eikö sinulla ole API-avainta? Voit hankkia ilmaisen avaimen osoitteesta"
     },
     "extensionActionTitle": {
         "message": "Tiivistä Scutter Skimillä"
     },
+    "extensionDescription": {
+        "message": "Poimi tekstiä sivuilta ja tiivistä se tekoälyn avulla."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Tiivistä nykyinen sivu"
     },
-    "promptQualityWarning": {
-        "message": "Laatuvaroitus:"
+    "optionsAdvancedSettings": {
+        "message": "Tarkennetut tekoälyasetukset"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama toimii paikallisesti. API-avainta ei tarvita. Varmista, että Ollama on käynnissä ja käytettävissä."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Eikö sinulla ole API-avainta? Voit hankkia ilmaisen avaimen osoitteesta"
+    },
+    "optionsApiKeyHint": {
+        "message": "Avaimesi tallennetaan turvallisesti selaimeesi, eikä sitä lähetetä muualle kuin suoraan tekoälypalvelun tarjoajalle."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Tekoälypalvelun API-avain"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Syötä API-avaimesi..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Jätä tyhjäksi käyttääksesi palveluntarjoajan oletusarvoista API-päätepistettä. Hyödyllinen mukautetuille välityspalvelimille tai paikallisille malleille."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Perus-URL (valinnainen)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "esim. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Tekoälyn asetukset"
+    },
+    "optionsGroupGeneral": {
+        "message": "Yleiset asetukset"
+    },
+    "optionsLoadModels": {
+        "message": "Lataa API:sta"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API ei palauttanut yhtään mallia."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Syötä API-avain ladataksesi mallit."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Mallien lataaminen epäonnistui: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Ladataan..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Mallit ladattu onnistuneesti."
+    },
+    "optionsModelHint": {
+        "message": "Valitse malli tai lataa nykyinen luettelo API:n kautta (vaatii tallennetun ja voimassa olevan API-avaimen)."
+    },
+    "optionsModelLabel": {
+        "message": "Tekoälymalli"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikkelin kieli"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Selaimen kieli"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Tiivistelmän kieli"
+    },
+    "optionsResetShortcut": {
+        "message": "Nollaa"
+    },
+    "optionsSaveBtn": {
+        "message": "Tallenna asetukset"
+    },
+    "optionsSaveFail": {
+        "message": "Virhe tallennettaessa asetuksia: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Asetukset tallennettu onnistuneesti!"
+    },
+    "optionsShortcutFail": {
+        "message": "Pikanäppäimen päivitys epäonnistui: "
+    },
+    "optionsShortcutHint": {
+        "message": "Napsauta kenttää ja paina näppäinyhdistelmää (esim. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Pikanäppäin"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Pikanäppäinten päivitystä ei tueta tässä selaimessa."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Pikanäppäimen nollaus epäonnistui: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Pikanäppäin palautettu oletusarvoon."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Pikanäppäin päivitetty onnistuneesti."
+    },
+    "optionsShowFabHint": {
+        "message": "Näyttää verkkosivuilla kelluvan painikkeen, jolla voit tiivistää sivun sisällön nopeasti mobiililaitteilla."
     },
     "optionsShowFabLabel": {
         "message": "Näytä kelluva tiivistyspainike"
     },
-    "optionsShowFabHint": {
-        "message": "Näyttää verkkosivuilla kelluvan painikkeen, jolla voit tiivistää sivun sisällön nopeasti mobiililaitteilla."
+    "optionsSubtitle": {
+        "message": "Laajennuksen asetukset"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim -asetukset"
+    },
+    "promptKeyPoints": {
+        "message": "### Keskeiset kohdat"
+    },
+    "promptNoSources": {
+        "message": "Ei mainittuja erityisiä lähteitä."
+    },
+    "promptQualityWarning": {
+        "message": "Laatuvaroitus:"
+    },
+    "promptSources": {
+        "message": "### Asiaankuuluvat lähteet"
+    },
+    "promptSummary": {
+        "message": "### Lyhyt tiivistelmä"
+    },
+    "promptTags": {
+        "message": "Tunnisteet:"
+    },
+    "uiCloseTitle": {
+        "message": "Sulje"
+    },
+    "uiErrorLibraries": {
+        "message": "Virhe: Renderöintikirjastojen lataaminen epäonnistui."
+    },
+    "uiErrorMarkdown": {
+        "message": "Virhe Markdown-käsittelyssä."
+    },
+    "uiLoadingText": {
+        "message": "Luodaan tiivistelmää... odota hetki."
     }
 }

@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Szöveg kinyerése weboldalakról és összefoglalása mesterséges intelligencia segítségével."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim beállítások"
-    },
-    "optionsApiKeyLabel": {
-        "message": "AI szolgáltató API-kulcsa"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Írja be az API-kulcsát..."
-    },
-    "optionsApiKeyHint": {
-        "message": "A kulcs biztonságosan tárolódik a böngészőjében, és soha nem kerül máshová, csak közvetlenül az AI-szolgáltatóhoz."
-    },
-    "optionsModelLabel": {
-        "message": "AI-modell"
-    },
-    "optionsLoadModels": {
-        "message": "Betöltés API-ból"
-    },
-    "optionsModelHint": {
-        "message": "Válasszon ki egy modellt, vagy töltse be az aktuális listát API-n keresztül (érvényes, elmentett API-kulcs szükséges)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Összefoglaló nyelve"
-    },
-    "optionsOutputLangArticle": {
-        "message": "A cikk nyelve"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Böngésző nyelve"
-    },
-    "optionsSaveBtn": {
-        "message": "Beállítások mentése"
-    },
-    "optionsSaveSuccess": {
-        "message": "A beállítások sikeresen mentve!"
-    },
-    "optionsSaveFail": {
-        "message": "Hiba a beállítások mentésekor: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Kérjük, adja meg az API-kulcsot a modellek betöltéséhez."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Betöltés..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "A modellek sikeresen betöltve."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "Az API nem adott vissza modelleket."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Nem sikerült betölteni a modelleket: "
-    },
-    "uiCloseTitle": {
-        "message": "Bezárás"
-    },
-    "uiLoadingText": {
-        "message": "Összefoglaló generálása... kérjük, várjon."
-    },
-    "uiErrorMarkdown": {
-        "message": "Hiba a Markdown feldolgozása közben."
-    },
-    "uiErrorLibraries": {
-        "message": "Hiba: A megjelenítő könyvtárak betöltése sikertelen."
-    },
-    "bgErrorNoText": {
-        "message": "Az oldal nem tartalmaz összefoglalható érdemi szöveget."
-    },
-    "bgErrorNoKey": {
-        "message": "Hiányzó API-kulcs. Kérjük, kattintson jobb gombbal a bővítmény ikonjára, válassza az 'Opciók' (vagy 'Bővítmény kezelése' -> 'Beállítások') lehetőséget, és adja meg az API-kulcsát."
-    },
-    "bgErrorUnsupported": {
-        "message": "A kiválasztott AI-szolgáltató jelenleg nem támogatott."
+    "bgErrorAIService": {
+        "message": "AI-szolgáltatási hiba: "
     },
     "bgErrorAuthInvalid": {
         "message": "Hitelesítési hiba: Érvénytelen API-kulcs. Ellenőrizze a bővítmény beállításait."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Hitelesítési hiba: Jogosulatlan hozzáférés (401/403). Ellenőrizze a beállításait."
     },
-    "bgErrorRateLimit": {
-        "message": "Túllépte a sebességkorlátot (429). Kérjük, próbálja újra később."
+    "bgErrorNetwork": {
+        "message": "Hálózati hiba: Nem sikerült csatlakozni az AI-szolgáltatáshoz."
     },
-    "bgErrorAIService": {
-        "message": "AI-szolgáltatási hiba: "
+    "bgErrorNoKey": {
+        "message": "Hiányzó API-kulcs. Kérjük, kattintson jobb gombbal a bővítmény ikonjára, válassza az 'Opciók' (vagy 'Bővítmény kezelése' -> 'Beállítások') lehetőséget, és adja meg az API-kulcsát."
+    },
+    "bgErrorNoText": {
+        "message": "Az oldal nem tartalmaz összefoglalható érdemi szöveget."
     },
     "bgErrorNoValidText": {
         "message": "Az AI nem adott vissza érvényes szöveget."
     },
-    "bgErrorNetwork": {
-        "message": "Hálózati hiba: Nem sikerült csatlakozni az AI-szolgáltatáshoz."
+    "bgErrorRateLimit": {
+        "message": "Túllépte a sebességkorlátot (429). Kérjük, próbálja újra később."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: A hiba nem jeleníthető meg a felhasználói felületen."
     },
+    "bgErrorUnsupported": {
+        "message": "A kiválasztott AI-szolgáltató jelenleg nem támogatott."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Rendszeroldalakon nem futtatható."
-    },
-    "promptTags": {
-        "message": "Címkék:"
-    },
-    "promptSummary": {
-        "message": "### Rövid összefoglaló"
-    },
-    "promptKeyPoints": {
-        "message": "### Főbb pontok"
-    },
-    "promptSources": {
-        "message": "### Releváns források"
-    },
-    "promptNoSources": {
-        "message": "Nincsenek konkrét források említve."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Nincs API-kulcsa? Igényelhet egy ingyeneset innen:"
     },
     "extensionActionTitle": {
         "message": "Összegzés a Scutter Skim segítségével"
     },
+    "extensionDescription": {
+        "message": "Szöveg kinyerése weboldalakról és összefoglalása mesterséges intelligencia segítségével."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Az aktuális oldal összefoglalása"
     },
-    "promptQualityWarning": {
-        "message": "Minőségi figyelmeztetés:"
+    "optionsAdvancedSettings": {
+        "message": "Részletes MI-beállítások"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Az Ollama helyileg fut. Nincs szükség API-kulcsra. Győződjön meg róla, hogy az Ollama fut és elérhető."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nincs API-kulcsa? Igényelhet egy ingyeneset innen:"
+    },
+    "optionsApiKeyHint": {
+        "message": "A kulcs biztonságosan tárolódik a böngészőjében, és soha nem kerül máshová, csak közvetlenül az AI-szolgáltatóhoz."
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI szolgáltató API-kulcsa"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Írja be az API-kulcsát..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Hagyja üresen a szolgáltató alapértelmezett API-végpontjának használatához. Hasznos egyéni proxyk vagy helyi modellek esetén."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Alap URL (opcionális)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "pl. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "MI-konfiguráció"
+    },
+    "optionsGroupGeneral": {
+        "message": "Általános beállítások"
+    },
+    "optionsLoadModels": {
+        "message": "Betöltés API-ból"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "Az API nem adott vissza modelleket."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Kérjük, adja meg az API-kulcsot a modellek betöltéséhez."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nem sikerült betölteni a modelleket: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Betöltés..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "A modellek sikeresen betöltve."
+    },
+    "optionsModelHint": {
+        "message": "Válasszon ki egy modellt, vagy töltse be az aktuális listát API-n keresztül (érvényes, elmentett API-kulcs szükséges)."
+    },
+    "optionsModelLabel": {
+        "message": "AI-modell"
+    },
+    "optionsOutputLangArticle": {
+        "message": "A cikk nyelve"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Böngésző nyelve"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Összefoglaló nyelve"
+    },
+    "optionsResetShortcut": {
+        "message": "Visszaállítás"
+    },
+    "optionsSaveBtn": {
+        "message": "Beállítások mentése"
+    },
+    "optionsSaveFail": {
+        "message": "Hiba a beállítások mentésekor: "
+    },
+    "optionsSaveSuccess": {
+        "message": "A beállítások sikeresen mentve!"
+    },
+    "optionsShortcutFail": {
+        "message": "Nem sikerült frissíteni a gyorsbillentyűt: "
+    },
+    "optionsShortcutHint": {
+        "message": "Kattintson a mezőre, és nyomjon meg egy billentyűkombinációt (pl. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Gyorsbillentyű"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "A gyorsbillentyűk frissítése nem támogatott ebben a böngészőben."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Nem sikerült visszaállítani a gyorsbillentyűt: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Gyorsbillentyű visszaállítva az alapértelmezettre."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Gyorsbillentyű sikeresen frissítve."
+    },
+    "optionsShowFabHint": {
+        "message": "Egy lebegő gombot jelenít meg a weboldalakon, amellyel mobileszközökön gyorsan összefoglalhatja azokat."
     },
     "optionsShowFabLabel": {
         "message": "Lebegő összefoglaló gomb megjelenítése"
     },
-    "optionsShowFabHint": {
-        "message": "Egy lebegő gombot jelenít meg a weboldalakon, amellyel mobileszközökön gyorsan összefoglalhatja azokat."
+    "optionsSubtitle": {
+        "message": "Bővítmény beállításai"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim beállítások"
+    },
+    "promptKeyPoints": {
+        "message": "### Főbb pontok"
+    },
+    "promptNoSources": {
+        "message": "Nincsenek konkrét források említve."
+    },
+    "promptQualityWarning": {
+        "message": "Minőségi figyelmeztetés:"
+    },
+    "promptSources": {
+        "message": "### Releváns források"
+    },
+    "promptSummary": {
+        "message": "### Rövid összefoglaló"
+    },
+    "promptTags": {
+        "message": "Címkék:"
+    },
+    "uiCloseTitle": {
+        "message": "Bezárás"
+    },
+    "uiErrorLibraries": {
+        "message": "Hiba: A megjelenítő könyvtárak betöltése sikertelen."
+    },
+    "uiErrorMarkdown": {
+        "message": "Hiba a Markdown feldolgozása közben."
+    },
+    "uiLoadingText": {
+        "message": "Összefoglaló generálása... kérjük, várjon."
     }
 }

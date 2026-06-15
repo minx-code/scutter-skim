@@ -1,53 +1,6 @@
 {
-    "extensionName": { "message": "Scutter Skim" },
-    "extensionDescription": {
-        "message": "Instantly summarize the current web page using AI."
-    },
-    "extensionActionTitle": { "message": "Summarize with Scutter Skim" },
-    "optionsShowFabLabel": { "message": "Show floating summarize button" },
-    "optionsShowFabHint": { "message": "Displays a floating button on web pages to quickly summarize them on mobile devices." },
-    "extensionShortcutDescription": { "message": "Summarize the current page" },
-    "optionsTitle": { "message": "Scutter Skim Settings" },
-    "optionsApiKeyLabel": { "message": "AI Provider API Key" },
-    "optionsApiKeyPlaceholder": { "message": "Enter your API key..." },
-    "optionsApiKeyHint": {
-        "message": "Your key is stored securely in your browser and never sent anywhere except directly to the AI provider."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Don't have an API key? You can get a free one from"
-    },
-    "optionsModelLabel": { "message": "AI Model" },
-    "optionsLoadModels": { "message": "Load from API" },
-    "optionsModelHint": {
-        "message": "Select a model or load the current list via API (requires a saved valid API key)."
-    },
-    "optionsOutputLangLabel": { "message": "Summary Language" },
-    "optionsOutputLangArticle": { "message": "Language of the article" },
-    "optionsOutputLangBrowser": { "message": "Browser language" },
-    "optionsSaveBtn": { "message": "Save Settings" },
-    "optionsSaveSuccess": { "message": "Settings saved successfully!" },
-    "optionsSaveFail": { "message": "Error saving settings: " },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Please enter an API key to load models."
-    },
-    "optionsLoadModelsLoading": { "message": "Loading..." },
-    "optionsLoadModelsSuccess": { "message": "Models loaded successfully." },
-    "optionsLoadModelsEmpty": { "message": "API returned no models." },
-    "optionsLoadModelsFail": { "message": "Failed to load models: " },
-    "uiCloseTitle": { "message": "Close" },
-    "uiLoadingText": { "message": "Generating summary... please wait." },
-    "uiErrorMarkdown": { "message": "Error processing Markdown." },
-    "uiErrorLibraries": {
-        "message": "Error: Rendering libraries failed to load."
-    },
-    "bgErrorNoText": {
-        "message": "The page does not contain any meaningful text to summarize."
-    },
-    "bgErrorNoKey": {
-        "message": "Missing API key. Please right-click the extension icon, select 'Options' (or 'Manage Extension' -> 'Preferences') and set your API key."
-    },
-    "bgErrorUnsupported": {
-        "message": "The selected AI provider is not currently supported."
+    "bgErrorAIService": {
+        "message": "AI Service Error: "
     },
     "bgErrorAuthInvalid": {
         "message": "Authentication Error: Invalid API key. Check the extension settings."
@@ -55,26 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Authentication Error: Unauthorized access (401/403). Check your settings."
     },
-    "bgErrorRateLimit": {
-        "message": "Rate limit exceeded (429). Please try again later."
-    },
-    "bgErrorAIService": { "message": "AI Service Error: " },
-    "bgErrorNoValidText": { "message": "AI did not return any valid text." },
     "bgErrorNetwork": {
         "message": "Network Error: Cannot connect to AI service."
     },
-    "bgErrorUIShow": { "message": "Scutter Skim: Cannot display error in UI." },
+    "bgErrorNoKey": {
+        "message": "Missing API key. Please right-click the extension icon, select 'Options' (or 'Manage Extension' -> 'Preferences') and set your API key."
+    },
+    "bgErrorNoText": {
+        "message": "The page does not contain any meaningful text to summarize."
+    },
+    "bgErrorNoValidText": {
+        "message": "AI did not return any valid text."
+    },
+    "bgErrorRateLimit": {
+        "message": "Rate limit exceeded (429). Please try again later."
+    },
+    "bgErrorUIShow": {
+        "message": "Scutter Skim: Cannot display error in UI."
+    },
+    "bgErrorUnsupported": {
+        "message": "The selected AI provider is not currently supported."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Cannot run on system pages."
     },
-    "promptTags": { "message": "Tags:" },
-    "promptSummary": { "message": "### Brief Summary" },
-    "promptKeyPoints": { "message": "### Key Points" },
-    "promptSources": { "message": "### Relevant Sources" },
+    "extensionActionTitle": {
+        "message": "Summarize with Scutter Skim"
+    },
+    "extensionDescription": {
+        "message": "Instantly summarize the current web page using AI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
+    "extensionShortcutDescription": {
+        "message": "Summarize the current page"
+    },
+    "optionsAdvancedSettings": {
+        "message": "Detailed AI Settings"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama runs locally. No API key is required. Make sure Ollama is running and accessible."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Don't have an API key? You can get a free one from"
+    },
+    "optionsApiKeyHint": {
+        "message": "Your key is stored securely in your browser and never sent anywhere except directly to the AI provider."
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI Provider API Key"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Enter your API key..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Leave empty to use the provider's default API endpoint. Useful for custom proxies or local models."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Base URL (Optional)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "e.g. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "AI Configuration"
+    },
+    "optionsGroupGeneral": {
+        "message": "General Settings"
+    },
+    "optionsLoadModels": {
+        "message": "Load from API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API returned no models."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Please enter an API key to load models."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Failed to load models: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Loading..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Models loaded successfully."
+    },
+    "optionsModelHint": {
+        "message": "Select a model or load the current list via API (requires a saved valid API key)."
+    },
+    "optionsModelLabel": {
+        "message": "AI Model"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Language of the article"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Browser language"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Summary Language"
+    },
+    "optionsResetShortcut": {
+        "message": "Reset"
+    },
+    "optionsSaveBtn": {
+        "message": "Save Settings"
+    },
+    "optionsSaveFail": {
+        "message": "Error saving settings: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Settings saved successfully!"
+    },
+    "optionsShortcutFail": {
+        "message": "Failed to update shortcut: "
+    },
+    "optionsShortcutHint": {
+        "message": "Click the field and press a key combination (e.g., Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Keyboard Shortcut"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Shortcut update not supported in this browser."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Failed to reset shortcut: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Shortcut reset to default."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Shortcut updated successfully."
+    },
+    "optionsShowFabHint": {
+        "message": "Displays a floating button on web pages to quickly summarize them on mobile devices."
+    },
+    "optionsShowFabLabel": {
+        "message": "Show floating summarize button"
+    },
+    "optionsSubtitle": {
+        "message": "Extension Preferences"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim Settings"
+    },
+    "promptKeyPoints": {
+        "message": "### Key Points"
+    },
     "promptNoSources": {
         "message": "No specific sources mentioned."
     },
     "promptQualityWarning": {
         "message": "Quality Warning:"
+    },
+    "promptSources": {
+        "message": "### Relevant Sources"
+    },
+    "promptSummary": {
+        "message": "### Brief Summary"
+    },
+    "promptTags": {
+        "message": "Tags:"
+    },
+    "uiCloseTitle": {
+        "message": "Close"
+    },
+    "uiErrorLibraries": {
+        "message": "Error: Rendering libraries failed to load."
+    },
+    "uiErrorMarkdown": {
+        "message": "Error processing Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Generating summary... please wait."
     }
 }

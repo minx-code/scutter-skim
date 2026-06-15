@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Извличане на текст от страници и обобщаването му чрез изкуствен интелект."
-    },
-    "optionsTitle": {
-        "message": "Настройки на Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API ключ на доставчика на AI"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Въведете вашия API ключ..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Вашият ключ се съхранява сигурно в браузъра и никога не се изпраща никъде другаде, освен директно към доставчика на AI."
-    },
-    "optionsModelLabel": {
-        "message": "AI модел"
-    },
-    "optionsLoadModels": {
-        "message": "Зареждане от API"
-    },
-    "optionsModelHint": {
-        "message": "Изберете модел или заредете текущия списък чрез API (изисква запазен валиден API ключ)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Език на резюмето"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Език на статията"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Език на браузъра"
-    },
-    "optionsSaveBtn": {
-        "message": "Запазване на настройките"
-    },
-    "optionsSaveSuccess": {
-        "message": "Настройките са запазени успешно!"
-    },
-    "optionsSaveFail": {
-        "message": "Грешка при запазване на настройките: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Моля, въведете API ключ, за да заредите моделите."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Зареждане..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Моделите са заредени успешно."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API не върна никакви модели."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Неуспешно зареждане на моделите: "
-    },
-    "uiCloseTitle": {
-        "message": "Затваряне"
-    },
-    "uiLoadingText": {
-        "message": "Генериране на резюме... моля, изчакайте."
-    },
-    "uiErrorMarkdown": {
-        "message": "Грешка при обработката на Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Грешка: Библиотеките за визуализация не успяха да се заредят."
-    },
-    "bgErrorNoText": {
-        "message": "Страницата не съдържа смислен текст за обобщаване."
-    },
-    "bgErrorNoKey": {
-        "message": "Липсва API ключ. Моля, щракнете с десния бутон върху иконата на разширението, изберете „Опции“ (или „Управление на разширения“ -> „Предпочитания“) и задайте своя API ключ."
-    },
-    "bgErrorUnsupported": {
-        "message": "Избраният AI доставчик в момента не се поддържа."
+    "bgErrorAIService": {
+        "message": "Грешка в AI услугата: "
     },
     "bgErrorAuthInvalid": {
         "message": "Грешка при удостоверяване: Невалиден API ключ. Проверете настройките на разширението."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Грешка при удостоверяване: Неоторизиран достъп (401/403). Проверете настройките си."
     },
-    "bgErrorRateLimit": {
-        "message": "Надвишен лимит на заявките (429). Моля, опитайте отново по-късно."
+    "bgErrorNetwork": {
+        "message": "Мрежова грешка: Не може да се осъществи връзка с AI услугата."
     },
-    "bgErrorAIService": {
-        "message": "Грешка в AI услугата: "
+    "bgErrorNoKey": {
+        "message": "Липсва API ключ. Моля, щракнете с десния бутон върху иконата на разширението, изберете „Опции“ (или „Управление на разширения“ -> „Предпочитания“) и задайте своя API ключ."
+    },
+    "bgErrorNoText": {
+        "message": "Страницата не съдържа смислен текст за обобщаване."
     },
     "bgErrorNoValidText": {
         "message": "AI не върна валиден текст."
     },
-    "bgErrorNetwork": {
-        "message": "Мрежова грешка: Не може да се осъществи връзка с AI услугата."
+    "bgErrorRateLimit": {
+        "message": "Надвишен лимит на заявките (429). Моля, опитайте отново по-късно."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Грешката не може да бъде показана в потребителския интерфейс."
     },
+    "bgErrorUnsupported": {
+        "message": "Избраният AI доставчик в момента не се поддържа."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Не може да работи върху системни страници."
-    },
-    "promptTags": {
-        "message": "Етикети:"
-    },
-    "promptSummary": {
-        "message": "### Кратко резюме"
-    },
-    "promptKeyPoints": {
-        "message": "### Основни точки"
-    },
-    "promptSources": {
-        "message": "### Релевантни източници"
-    },
-    "promptNoSources": {
-        "message": "Не са споменати конкретни източници."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Нямате API ключ? Можете да получите безплатен такъв от"
     },
     "extensionActionTitle": {
         "message": "Обобщаване със Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Извличане на текст от страници и обобщаването му чрез изкуствен интелект."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Обобщаване на текущата страница"
     },
-    "promptQualityWarning": {
-        "message": "Предупреждение за качество:"
+    "optionsAdvancedSettings": {
+        "message": "Разширени настройки на ИИ"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama работи локално. Не е необходим API ключ. Уверете се, че Ollama работи и е достъпна."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Нямате API ключ? Можете да получите безплатен такъв от"
+    },
+    "optionsApiKeyHint": {
+        "message": "Вашият ключ се съхранява сигурно в браузъра и никога не се изпраща никъде другаде, освен директно към доставчика на AI."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API ключ на доставчика на AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Въведете вашия API ключ..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Оставете празно, за да използвате стандартния API адрес на доставчика. Полезно за персонализирани прокси сървъри или локални модели."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Базов URL адрес (по избор)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "напр. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Конфигурация на ИИ"
+    },
+    "optionsGroupGeneral": {
+        "message": "Общи настройки"
+    },
+    "optionsLoadModels": {
+        "message": "Зареждане от API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API не върна никакви модели."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Моля, въведете API ключ, за да заредите моделите."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Неуспешно зареждане на моделите: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Зареждане..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Моделите са заредени успешно."
+    },
+    "optionsModelHint": {
+        "message": "Изберете модел или заредете текущия списък чрез API (изисква запазен валиден API ключ)."
+    },
+    "optionsModelLabel": {
+        "message": "AI модел"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Език на статията"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Език на браузъра"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Език на резюмето"
+    },
+    "optionsResetShortcut": {
+        "message": "Нулиране"
+    },
+    "optionsSaveBtn": {
+        "message": "Запазване на настройките"
+    },
+    "optionsSaveFail": {
+        "message": "Грешка при запазване на настройките: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Настройките са запазени успешно!"
+    },
+    "optionsShortcutFail": {
+        "message": "Неуспешно актуализиране на клавишната комбинация: "
+    },
+    "optionsShortcutHint": {
+        "message": "Кликнете върху полето и натиснете клавишна комбинация (напр. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Клавишна комбинация"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Актуализирането на клавишни комбинации не се поддържа в този браузър."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Неуспешно нулиране на клавишната комбинация: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Клавишната комбинация е нулирана до подразбиране."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Клавишната комбинация е актуализирана успешно."
+    },
+    "optionsShowFabHint": {
+        "message": "Показва плаващ бутон на уеб страниците за бързото им обобщаване на мобилни устройства."
     },
     "optionsShowFabLabel": {
         "message": "Показване на плаващ бутон за резюме"
     },
-    "optionsShowFabHint": {
-        "message": "Показва плаващ бутон на уеб страниците за бързото им обобщаване на мобилни устройства."
+    "optionsSubtitle": {
+        "message": "Предпочитания на разширението"
+    },
+    "optionsTitle": {
+        "message": "Настройки на Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Основни точки"
+    },
+    "promptNoSources": {
+        "message": "Не са споменати конкретни източници."
+    },
+    "promptQualityWarning": {
+        "message": "Предупреждение за качество:"
+    },
+    "promptSources": {
+        "message": "### Релевантни източници"
+    },
+    "promptSummary": {
+        "message": "### Кратко резюме"
+    },
+    "promptTags": {
+        "message": "Етикети:"
+    },
+    "uiCloseTitle": {
+        "message": "Затваряне"
+    },
+    "uiErrorLibraries": {
+        "message": "Грешка: Библиотеките за визуализация не успяха да се заредят."
+    },
+    "uiErrorMarkdown": {
+        "message": "Грешка при обработката на Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Генериране на резюме... моля, изчакайте."
     }
 }

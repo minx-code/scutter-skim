@@ -1,7 +1,29 @@
 (function () {
     // We use an IIFE to keep the scope clean when injected multiple times
     function extractPageText() {
-        const text = document.body.innerText || document.body.textContent;
+        let text = '';
+
+        if (typeof Readability !== 'undefined') {
+            try {
+                // Readability mutates the document, so we clone it first
+                const documentClone = document.cloneNode(true);
+                const reader = new Readability(documentClone);
+                const article = reader.parse();
+                if (article && article.textContent) {
+                    text = article.textContent;
+                }
+            } catch (e) {
+                console.error('Readability error:', e);
+            }
+        }
+
+        // Fallback to basic text extraction if Readability fails or is unavailable
+        if (!text || text.trim().length === 0) {
+            text = document.body.innerText || document.body.textContent;
+        }
+
+        // Clean up excessive newlines
+        text = text.replace(/\n\s*\n/g, '\n\n').trim();
 
         // Extract unique valid links from the page
         const links = document.body.querySelectorAll('a[href]');
@@ -24,9 +46,8 @@
             count++;
         }
 
-        // Limit base text and append links
-        const combined = text.substring(0, 45000) + urlList;
-        return combined.substring(0, 60000);
+        // Return full text without truncation
+        return text + urlList;
     }
 
     // Return the result directly so executeScript can capture it

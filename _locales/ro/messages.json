@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Extrage textul din pagini și rezumă-l folosind AI."
-    },
-    "optionsTitle": {
-        "message": "Setări Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Cheie API furnizor AI"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Introdu cheia API..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Cheia ta este stocată în siguranță în browser și nu este trimisă nicăieri în afară de furnizorul AI."
-    },
-    "optionsModelLabel": {
-        "message": "Model AI"
-    },
-    "optionsLoadModels": {
-        "message": "Încarcă din API"
-    },
-    "optionsModelHint": {
-        "message": "Selectează un model sau încarcă lista curentă prin API (necesită o cheie API validă salvată)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Limba rezumatului"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Limba articolului"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Limba browserului"
-    },
-    "optionsSaveBtn": {
-        "message": "Salvează setările"
-    },
-    "optionsSaveSuccess": {
-        "message": "Setările au fost salvate cu succes!"
-    },
-    "optionsSaveFail": {
-        "message": "Eroare la salvarea setărilor: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Te rugăm să introduci o cheie API pentru a încărca modelele."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Se încarcă..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modelele au fost încărcate cu succes."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API-ul nu a returnat niciun model."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Eroare la încărcarea modelelor: "
-    },
-    "uiCloseTitle": {
-        "message": "Închide"
-    },
-    "uiLoadingText": {
-        "message": "Se generează rezumatul... te rugăm să aștepți."
-    },
-    "uiErrorMarkdown": {
-        "message": "Eroare la procesarea Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Eroare: Bibliotecile de randare nu s-au încărcat."
-    },
-    "bgErrorNoText": {
-        "message": "Pagina nu conține text relevant pentru a fi rezumat."
-    },
-    "bgErrorNoKey": {
-        "message": "Cheie API lipsă. Te rugăm să dai click dreapta pe pictograma extensiei, să selectezi „Opțiuni” (sau „Gestionare extensie” -> „Preferințe”) și să setezi cheia API."
-    },
-    "bgErrorUnsupported": {
-        "message": "Furnizorul AI selectat nu este acceptat momentan."
+    "bgErrorAIService": {
+        "message": "Eroare serviciu AI: "
     },
     "bgErrorAuthInvalid": {
         "message": "Eroare de autentificare: Cheie API invalidă. Verifică setările extensiei."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Eroare de autentificare: Acces neautorizat (401/403). Verifică setările."
     },
-    "bgErrorRateLimit": {
-        "message": "Limită de rată depășită (429). Te rugăm să încerci din nou mai târziu."
+    "bgErrorNetwork": {
+        "message": "Eroare de rețea: Nu se poate conecta la serviciul AI."
     },
-    "bgErrorAIService": {
-        "message": "Eroare serviciu AI: "
+    "bgErrorNoKey": {
+        "message": "Cheie API lipsă. Te rugăm să dai click dreapta pe pictograma extensiei, să selectezi „Opțiuni” (sau „Gestionare extensie” -> „Preferințe”) și să setezi cheia API."
+    },
+    "bgErrorNoText": {
+        "message": "Pagina nu conține text relevant pentru a fi rezumat."
     },
     "bgErrorNoValidText": {
         "message": "AI-ul nu a returnat niciun text valid."
     },
-    "bgErrorNetwork": {
-        "message": "Eroare de rețea: Nu se poate conecta la serviciul AI."
+    "bgErrorRateLimit": {
+        "message": "Limită de rată depășită (429). Te rugăm să încerci din nou mai târziu."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Nu se poate afișa eroarea în interfață."
     },
+    "bgErrorUnsupported": {
+        "message": "Furnizorul AI selectat nu este acceptat momentan."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Nu poate rula pe paginile de sistem."
-    },
-    "promptTags": {
-        "message": "Etichete:"
-    },
-    "promptSummary": {
-        "message": "### Rezumat pe scurt"
-    },
-    "promptKeyPoints": {
-        "message": "### Puncte cheie"
-    },
-    "promptSources": {
-        "message": "### Surse relevante"
-    },
-    "promptNoSources": {
-        "message": "Nu au fost menționate surse specifice."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Nu ai o cheie API? Poți obține una gratuit de la"
     },
     "extensionActionTitle": {
         "message": "Rezumat cu Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Extrage textul din pagini și rezumă-l folosind AI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Rezumatul paginii curente"
     },
-    "promptQualityWarning": {
-        "message": "Avertisment privind calitatea:"
+    "optionsAdvancedSettings": {
+        "message": "Setări AI detaliate"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama rulează local. Nu este necesară nicio cheie API. Asigurați-vă că Ollama rulează și este accesibil."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nu ai o cheie API? Poți obține una gratuit de la"
+    },
+    "optionsApiKeyHint": {
+        "message": "Cheia ta este stocată în siguranță în browser și nu este trimisă nicăieri în afară de furnizorul AI."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Cheie API furnizor AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Introdu cheia API..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Lăsați gol pentru a utiliza punctul final API implicit al furnizorului. Util pentru proxy-uri personalizate sau modele locale."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "URL de bază (Opțional)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "ex. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Configurare AI"
+    },
+    "optionsGroupGeneral": {
+        "message": "Setări generale"
+    },
+    "optionsLoadModels": {
+        "message": "Încarcă din API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API-ul nu a returnat niciun model."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Te rugăm să introduci o cheie API pentru a încărca modelele."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Eroare la încărcarea modelelor: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Se încarcă..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modelele au fost încărcate cu succes."
+    },
+    "optionsModelHint": {
+        "message": "Selectează un model sau încarcă lista curentă prin API (necesită o cheie API validă salvată)."
+    },
+    "optionsModelLabel": {
+        "message": "Model AI"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Limba articolului"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Limba browserului"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Limba rezumatului"
+    },
+    "optionsResetShortcut": {
+        "message": "Resetează"
+    },
+    "optionsSaveBtn": {
+        "message": "Salvează setările"
+    },
+    "optionsSaveFail": {
+        "message": "Eroare la salvarea setărilor: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Setările au fost salvate cu succes!"
+    },
+    "optionsShortcutFail": {
+        "message": "Actualizarea comenzii rapide a eșuat: "
+    },
+    "optionsShortcutHint": {
+        "message": "Faceți clic pe câmp și apăsați o combinație de taste (ex. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Comandă rapidă de la tastatură"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Actualizarea comenzilor rapide nu este acceptată în acest browser."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Resetarea comenzii rapide a eșuat: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Comanda rapidă a fost resetată la setările implicite."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Comanda rapidă a fost actualizată cu succes."
+    },
+    "optionsShowFabHint": {
+        "message": "Afișează un buton plutitor pe paginile web pentru a le sumariza rapid pe dispozitivele mobile."
     },
     "optionsShowFabLabel": {
         "message": "Afișează butonul plutitor de sumarizare"
     },
-    "optionsShowFabHint": {
-        "message": "Afișează un buton plutitor pe paginile web pentru a le sumariza rapid pe dispozitivele mobile."
+    "optionsSubtitle": {
+        "message": "Preferințe extensie"
+    },
+    "optionsTitle": {
+        "message": "Setări Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Puncte cheie"
+    },
+    "promptNoSources": {
+        "message": "Nu au fost menționate surse specifice."
+    },
+    "promptQualityWarning": {
+        "message": "Avertisment privind calitatea:"
+    },
+    "promptSources": {
+        "message": "### Surse relevante"
+    },
+    "promptSummary": {
+        "message": "### Rezumat pe scurt"
+    },
+    "promptTags": {
+        "message": "Etichete:"
+    },
+    "uiCloseTitle": {
+        "message": "Închide"
+    },
+    "uiErrorLibraries": {
+        "message": "Eroare: Bibliotecile de randare nu s-au încărcat."
+    },
+    "uiErrorMarkdown": {
+        "message": "Eroare la procesarea Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Se generează rezumatul... te rugăm să aștepți."
     }
 }

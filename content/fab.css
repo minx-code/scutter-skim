@@ -4,7 +4,7 @@
     right: 20px !important;
     width: 48px !important;
     height: 48px !important;
-    background-color: #3b82f6 !important;
+    background-color: #ea580c !important;
     border-radius: 50% !important;
     box-shadow:
         0 4px 6px -1px rgba(0, 0, 0, 0.2),
@@ -25,7 +25,7 @@
 
 .scutter-skim-fab:hover {
     transform: scale(1.05) !important;
-    background-color: #2563eb !important;
+    background-color: #c2410c !important;
 }
 
 .scutter-skim-fab img {

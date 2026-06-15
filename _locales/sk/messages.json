@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Extrahujte text zo stránok a nechajte si ho zhrnúť pomocou AI."
-    },
-    "optionsTitle": {
-        "message": "Nastavenia Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API kľúč poskytovateľa AI"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Zadajte svoj API kľúč..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Váš kľúč je bezpečne uložený vo vašom prehliadači a nikdy sa neposiela nikam inam, iba priamo poskytovateľovi AI."
-    },
-    "optionsModelLabel": {
-        "message": "AI model"
-    },
-    "optionsLoadModels": {
-        "message": "Načítať z API"
-    },
-    "optionsModelHint": {
-        "message": "Vyberte model alebo načítajte aktuálny zoznam cez API (vyžaduje uložený platný API kľúč)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Jazyk zhrnutia"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Jazyk článku"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Jazyk prehliadača"
-    },
-    "optionsSaveBtn": {
-        "message": "Uložiť nastavenia"
-    },
-    "optionsSaveSuccess": {
-        "message": "Nastavenia boli úspešne uložené!"
-    },
-    "optionsSaveFail": {
-        "message": "Chyba pri ukladaní nastavení: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Pre načítanie modelov zadajte API kľúč."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Načítava sa..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modely boli úspešne načítané."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API nevrátilo žiadne modely."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Nepodarilo sa načítať modely: "
-    },
-    "uiCloseTitle": {
-        "message": "Zavrieť"
-    },
-    "uiLoadingText": {
-        "message": "Generuje sa zhrnutie... čakajte prosím."
-    },
-    "uiErrorMarkdown": {
-        "message": "Chyba pri spracovaní Markdownu."
-    },
-    "uiErrorLibraries": {
-        "message": "Chyba: Vykresľovacie knižnice sa nepodarilo načítať."
-    },
-    "bgErrorNoText": {
-        "message": "Stránka neobsahuje žiadny zmysluplný text na zhrnutie."
-    },
-    "bgErrorNoKey": {
-        "message": "Chýba API kľúč. Kliknite pravým tlačidlom na ikonu rozšírenia, vyberte 'Možnosti' (alebo 'Spravovať rozšírenie' -> 'Nastavenia') a zadajte svoj API kľúč."
-    },
-    "bgErrorUnsupported": {
-        "message": "Vybraný poskytovateľ AI momentálne nie je podporovaný."
+    "bgErrorAIService": {
+        "message": "Chyba služby AI: "
     },
     "bgErrorAuthInvalid": {
         "message": "Chyba autentifikácie: Neplatný API kľúč. Skontrolujte nastavenia rozšírenia."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Chyba autentifikácie: Neoprávnený prístup (401/403). Skontrolujte svoje nastavenia."
     },
-    "bgErrorRateLimit": {
-        "message": "Prekročený limit požiadaviek (429). Skúste to prosím neskôr."
+    "bgErrorNetwork": {
+        "message": "Chyba siete: Nie je možné sa pripojiť k službe AI."
     },
-    "bgErrorAIService": {
-        "message": "Chyba služby AI: "
+    "bgErrorNoKey": {
+        "message": "Chýba API kľúč. Kliknite pravým tlačidlom na ikonu rozšírenia, vyberte 'Možnosti' (alebo 'Spravovať rozšírenie' -> 'Nastavenia') a zadajte svoj API kľúč."
+    },
+    "bgErrorNoText": {
+        "message": "Stránka neobsahuje žiadny zmysluplný text na zhrnutie."
     },
     "bgErrorNoValidText": {
         "message": "AI nevrátila žiadny platný text."
     },
-    "bgErrorNetwork": {
-        "message": "Chyba siete: Nie je možné sa pripojiť k službe AI."
+    "bgErrorRateLimit": {
+        "message": "Prekročený limit požiadaviek (429). Skúste to prosím neskôr."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Chybu nie je možné zobraziť v používateľskom rozhraní."
     },
+    "bgErrorUnsupported": {
+        "message": "Vybraný poskytovateľ AI momentálne nie je podporovaný."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Nemožno spustiť na systémových stránkach."
-    },
-    "promptTags": {
-        "message": "Tagy:"
-    },
-    "promptSummary": {
-        "message": "### Stručné zhrnutie"
-    },
-    "promptKeyPoints": {
-        "message": "### Hlavné body"
-    },
-    "promptSources": {
-        "message": "### Relevantné zdroje"
-    },
-    "promptNoSources": {
-        "message": "Nie sú uvedené žiadne konkrétne zdroje."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Nemáte kľúč API? Bezplatný si môžete získať na"
     },
     "extensionActionTitle": {
         "message": "Zhrnúť pomocou Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Extrahujte text zo stránok a nechajte si ho zhrnúť pomocou AI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Zhrnúť aktuálnu stránku"
     },
-    "promptQualityWarning": {
-        "message": "Varovanie o kvalite:"
+    "optionsAdvancedSettings": {
+        "message": "Podrobné nastavenia AI"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama beží lokálne. Nevyžaduje sa žiadny kľúč API. Uistite sa, že Ollama beží a je dostupná."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nemáte kľúč API? Bezplatný si môžete získať na"
+    },
+    "optionsApiKeyHint": {
+        "message": "Váš kľúč je bezpečne uložený vo vašom prehliadači a nikdy sa neposiela nikam inam, iba priamo poskytovateľovi AI."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API kľúč poskytovateľa AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Zadajte svoj API kľúč..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Ponechajte prázdne, ak chcete použiť predvolený koncový bod API poskytovateľa. Užitočné pre vlastné proxy servery alebo lokálne modely."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Základná adresa URL (voliteľné)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "napr. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Konfigurácia AI"
+    },
+    "optionsGroupGeneral": {
+        "message": "Všeobecné nastavenia"
+    },
+    "optionsLoadModels": {
+        "message": "Načítať z API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API nevrátilo žiadne modely."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Pre načítanie modelov zadajte API kľúč."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nepodarilo sa načítať modely: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Načítava sa..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modely boli úspešne načítané."
+    },
+    "optionsModelHint": {
+        "message": "Vyberte model alebo načítajte aktuálny zoznam cez API (vyžaduje uložený platný API kľúč)."
+    },
+    "optionsModelLabel": {
+        "message": "AI model"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Jazyk článku"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Jazyk prehliadača"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Jazyk zhrnutia"
+    },
+    "optionsResetShortcut": {
+        "message": "Obnoviť"
+    },
+    "optionsSaveBtn": {
+        "message": "Uložiť nastavenia"
+    },
+    "optionsSaveFail": {
+        "message": "Chyba pri ukladaní nastavení: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Nastavenia boli úspešne uložené!"
+    },
+    "optionsShortcutFail": {
+        "message": "Aktualizácia klávesovej skratky zlyhala: "
+    },
+    "optionsShortcutHint": {
+        "message": "Kliknite do poľa a stlačte kombináciu klávesov (napr. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Klávesová skratka"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Aktualizácia skratiek nie je v tomto prehliadači podporovaná."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Obnovenie skratky zlyhalo: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Skratka bola obnovená na predvolenú hodnotu."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Skratka bola úspešne aktualizovaná."
+    },
+    "optionsShowFabHint": {
+        "message": "Zobrazí na webových stránkach plávajúce tlačidlo na ich rýchle zhrnutie na mobilných zariadeniach."
     },
     "optionsShowFabLabel": {
         "message": "Zobraziť plávajúce tlačidlo na zhrnutie"
     },
-    "optionsShowFabHint": {
-        "message": "Zobrazí na webových stránkach plávajúce tlačidlo na ich rýchle zhrnutie na mobilných zariadeniach."
+    "optionsSubtitle": {
+        "message": "Predvoľby rozšírenia"
+    },
+    "optionsTitle": {
+        "message": "Nastavenia Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Hlavné body"
+    },
+    "promptNoSources": {
+        "message": "Nie sú uvedené žiadne konkrétne zdroje."
+    },
+    "promptQualityWarning": {
+        "message": "Varovanie o kvalite:"
+    },
+    "promptSources": {
+        "message": "### Relevantné zdroje"
+    },
+    "promptSummary": {
+        "message": "### Stručné zhrnutie"
+    },
+    "promptTags": {
+        "message": "Tagy:"
+    },
+    "uiCloseTitle": {
+        "message": "Zavrieť"
+    },
+    "uiErrorLibraries": {
+        "message": "Chyba: Vykresľovacie knižnice sa nepodarilo načítať."
+    },
+    "uiErrorMarkdown": {
+        "message": "Chyba pri spracovaní Markdownu."
+    },
+    "uiLoadingText": {
+        "message": "Generuje sa zhrnutie... čakajte prosím."
     }
 }

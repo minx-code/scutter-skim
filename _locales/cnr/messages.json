@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Izdvojite tekst sa stranica i sažmite ga pomoću AI-a."
-    },
-    "optionsTitle": {
-        "message": "Postavke za Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API ključ AI provajdera"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Unesite svoj API ključ..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Vaš ključ je sigurno pohranjen u vašem pretraživaču i nikada se ne šalje nigdje osim direktno AI provajderu."
-    },
-    "optionsModelLabel": {
-        "message": "AI model"
-    },
-    "optionsLoadModels": {
-        "message": "Učitaj sa API-ja"
-    },
-    "optionsModelHint": {
-        "message": "Odaberite model ili učitajte trenutnu listu putem API-ja (zahtijeva sačuvan važeći API ključ)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Jezik sažetka"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Jezik članka"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Jezik pretraživača"
-    },
-    "optionsSaveBtn": {
-        "message": "Sačuvaj postavke"
-    },
-    "optionsSaveSuccess": {
-        "message": "Postavke su uspješno sačuvane!"
-    },
-    "optionsSaveFail": {
-        "message": "Greška pri čuvanju postavki: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Molimo unesite API ključ da biste učitali modele."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Učitavanje..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modeli su uspješno učitani."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API nije vratio nijedan model."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Neuspješno učitavanje modela: "
-    },
-    "uiCloseTitle": {
-        "message": "Zatvori"
-    },
-    "uiLoadingText": {
-        "message": "Generisanje sažetka... molimo sačekajte."
-    },
-    "uiErrorMarkdown": {
-        "message": "Greška pri obradi Markdown-a."
-    },
-    "uiErrorLibraries": {
-        "message": "Greška: Biblioteke za prikaz nisu učitane."
-    },
-    "bgErrorNoText": {
-        "message": "Stranica ne sadrži nikakav smislen tekst za sažimanje."
-    },
-    "bgErrorNoKey": {
-        "message": "Nedostaje API ključ. Molimo kliknite desnim tasterom miša na ikonicu ekstenzije, odaberite 'Opcije' (ili 'Upravljanje ekstenzijom' -> 'Postavke') i unesite svoj API ključ."
-    },
-    "bgErrorUnsupported": {
-        "message": "Odabrani AI provajder trenutno nije podržan."
+    "bgErrorAIService": {
+        "message": "Greška AI servisa: "
     },
     "bgErrorAuthInvalid": {
         "message": "Greška pri autentifikaciji: Nevažeći API ključ. Provjerite postavke ekstenzije."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Greška pri autentifikaciji: Neovlašten pristup (401/403). Provjerite svoje postavke."
     },
-    "bgErrorRateLimit": {
-        "message": "Prekoračeno ograničenje zahtjeva (429). Molimo pokušajte ponovo kasnije."
+    "bgErrorNetwork": {
+        "message": "Mrežna greška: Nije moguće povezivanje sa AI servisom."
     },
-    "bgErrorAIService": {
-        "message": "Greška AI servisa: "
+    "bgErrorNoKey": {
+        "message": "Nedostaje API ključ. Molimo kliknite desnim tasterom miša na ikonicu ekstenzije, odaberite 'Opcije' (ili 'Upravljanje ekstenzijom' -> 'Postavke') i unesite svoj API ključ."
+    },
+    "bgErrorNoText": {
+        "message": "Stranica ne sadrži nikakav smislen tekst za sažimanje."
     },
     "bgErrorNoValidText": {
         "message": "AI nije vratio nikakav validan tekst."
     },
-    "bgErrorNetwork": {
-        "message": "Mrežna greška: Nije moguće povezivanje sa AI servisom."
+    "bgErrorRateLimit": {
+        "message": "Prekoračeno ograničenje zahtjeva (429). Molimo pokušajte ponovo kasnije."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Nije moguće prikazati grešku u korisničkom interfejsu."
     },
+    "bgErrorUnsupported": {
+        "message": "Odabrani AI provajder trenutno nije podržan."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Ne može se pokrenuti na sistemskim stranicama."
-    },
-    "promptTags": {
-        "message": "Oznake:"
-    },
-    "promptSummary": {
-        "message": "### Kratak sažetak"
-    },
-    "promptKeyPoints": {
-        "message": "### Ključne tačke"
-    },
-    "promptSources": {
-        "message": "### Relevantni izvori"
-    },
-    "promptNoSources": {
-        "message": "Nisu navedeni posebni izvori."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Nemate API ključ? Možete ga besplatno dobiti na"
     },
     "extensionActionTitle": {
         "message": "Sumiraj uz Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Izdvojite tekst sa stranica i sažmite ga pomoću AI-a."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Sažmi trenutnu stranicu"
     },
-    "promptQualityWarning": {
-        "message": "Upozorenje o kvalitetu:"
+    "optionsAdvancedSettings": {
+        "message": "Napredna podešavanja AI-a"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama radi lokalno. API ključ nije potreban. Uverite se da je Ollama pokrenut i dostupan."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nemate API ključ? Možete ga besplatno dobiti na"
+    },
+    "optionsApiKeyHint": {
+        "message": "Vaš ključ je sigurno pohranjen u vašem pretraživaču i nikada se ne šalje nigdje osim direktno AI provajderu."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API ključ AI provajdera"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Unesite svoj API ključ..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Ostavite prazno da biste koristili podrazumevanu API putanju provajdera. Korisno za prilagođene proksije ili lokalne modele."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Osnovni URL (opciono)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "npr. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "AI konfiguracija"
+    },
+    "optionsGroupGeneral": {
+        "message": "Opšta podešavanja"
+    },
+    "optionsLoadModels": {
+        "message": "Učitaj sa API-ja"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API nije vratio nijedan model."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Molimo unesite API ključ da biste učitali modele."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Neuspješno učitavanje modela: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Učitavanje..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeli su uspješno učitani."
+    },
+    "optionsModelHint": {
+        "message": "Odaberite model ili učitajte trenutnu listu putem API-ja (zahtijeva sačuvan važeći API ključ)."
+    },
+    "optionsModelLabel": {
+        "message": "AI model"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Jezik članka"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Jezik pretraživača"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Jezik sažetka"
+    },
+    "optionsResetShortcut": {
+        "message": "Resetuj"
+    },
+    "optionsSaveBtn": {
+        "message": "Sačuvaj postavke"
+    },
+    "optionsSaveFail": {
+        "message": "Greška pri čuvanju postavki: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Postavke su uspješno sačuvane!"
+    },
+    "optionsShortcutFail": {
+        "message": "Neuspelo ažuriranje prečice: "
+    },
+    "optionsShortcutHint": {
+        "message": "Kliknite na polje i pritisnite kombinaciju tastera (npr. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Prečica na tastaturi"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Ažuriranje prečica nije podržano u ovom pregledaču."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Neuspelo resetovanje prečice: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Prečica je vraćena na podrazumevanu."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Prečica je uspešno ažurirana."
+    },
+    "optionsShowFabHint": {
+        "message": "Prikazuje lebdeće dugme na veb stranicama za brzo sažimanje na mobilnim uređajima."
     },
     "optionsShowFabLabel": {
         "message": "Prikaži lebdeće dugme za sažetak"
     },
-    "optionsShowFabHint": {
-        "message": "Prikazuje lebdeće dugme na veb stranicama za brzo sažimanje na mobilnim uređajima."
+    "optionsSubtitle": {
+        "message": "Podešavanja ekstenzije"
+    },
+    "optionsTitle": {
+        "message": "Postavke za Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Ključne tačke"
+    },
+    "promptNoSources": {
+        "message": "Nisu navedeni posebni izvori."
+    },
+    "promptQualityWarning": {
+        "message": "Upozorenje o kvalitetu:"
+    },
+    "promptSources": {
+        "message": "### Relevantni izvori"
+    },
+    "promptSummary": {
+        "message": "### Kratak sažetak"
+    },
+    "promptTags": {
+        "message": "Oznake:"
+    },
+    "uiCloseTitle": {
+        "message": "Zatvori"
+    },
+    "uiErrorLibraries": {
+        "message": "Greška: Biblioteke za prikaz nisu učitane."
+    },
+    "uiErrorMarkdown": {
+        "message": "Greška pri obradi Markdown-a."
+    },
+    "uiLoadingText": {
+        "message": "Generisanje sažetka... molimo sačekajte."
     }
 }

@@ -97,10 +97,16 @@
 }
 
 .scutter-content {
-    padding: 44px 24px 24px 24px;
+    padding: 24px;
     overflow-y: auto;
     font-size: 14px;
     line-height: 1.6;
+}
+
+/* Prevent first elements from overlapping the absolute close button */
+.scutter-content h1:first-child,
+.scutter-content h2:first-child {
+    padding-right: 32px;
 }
 
 /* Markdown typography styles */
@@ -199,9 +205,13 @@
 .scutter-error {
     color: #ef4444;
     background: #fef2f2;
-    padding: 12px;
-    border-radius: 6px;
-    border: 1px solid #fca5a5;
-    margin-bottom: 0;
+    padding: 24px 48px 24px 24px;
+    border-bottom: 1px solid #fca5a5;
+    margin: -24px -24px 24px -24px;
     font-weight: 500;
+}
+
+.scutter-error:only-child {
+    margin-bottom: -24px;
+    border-bottom: none;
 }

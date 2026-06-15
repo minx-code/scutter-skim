@@ -11,39 +11,57 @@
             <header>
                 <img src="../icons/icon.svg" alt="Scutter Skim Logo" class="logo" />
                 <h1>Scutter Skim</h1>
-                <p class="subtitle">AI Provider Configuration</p>
+                <p class="subtitle" data-i18n="optionsSubtitle">Extension Preferences</p>
             </header>
 
             <div class="card">
                 <div class="form-group">
                     <label for="provider">AI Provider</label>
                     <select id="provider">
-                        <option value="gemini">Google Gemini</option>
+                        <option value="anthropic">Anthropic (Claude)</option>
+                        <option value="deepseek">DeepSeek</option>
+                        <option value="gemini" selected>Google (Gemini)</option>
+                        <option value="groq">Groq</option>
+                        <option value="ollama">Ollama (Local)</option>
+                        <option value="openai">OpenAI (GPT)</option>
+                        <option value="together">Together AI</option>
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label for="apiKey" data-i18n="optionsApiKeyLabel">API Key</label>
-                    <input type="password" id="apiKey" data-i18n-placeholder="optionsApiKeyPlaceholder" placeholder="Enter your API key" />
-                    <small data-i18n="optionsApiKeyHint"
-                        >Your key is stored securely in your browser and never sent anywhere except directly to the AI provider.</small
-                    >
-                    <small class="api-help" style="display: block; margin-top: 8px">
-                        <span data-i18n="optionsApiKeyHelpText">Don't have an API key? You can get a free one from</span>
-                        <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">Google AI Studio</a>.
-                    </small>
-                </div>
+                <details class="advanced-settings">
+                    <summary data-i18n="optionsAdvancedSettings">Detailed AI Settings</summary>
 
-                <div class="form-group">
-                    <label for="model" data-i18n="optionsModelLabel">AI Model</label>
-                    <div class="model-loader">
-                        <select id="model"></select>
-                        <button id="loadModels" class="btn-secondary" type="button" data-i18n="optionsLoadModels" data-i18n-title="optionsLoadModels">
-                            Load from API
-                        </button>
+                    <div class="form-group" style="margin-top: 15px" id="baseUrlContainer">
+                        <label for="baseUrl" data-i18n="optionsBaseUrlLabel">Base URL (Optional)</label>
+                        <input type="text" id="baseUrl" data-i18n-placeholder="optionsBaseUrlPlaceholder" placeholder="e.g. http://localhost:11434/v1" />
+                        <small data-i18n="optionsBaseUrlHint"
+                            >Leave empty to use the provider's default API endpoint. Useful for custom proxies or local models.</small
+                        >
                     </div>
-                    <small data-i18n="optionsModelHint">Select a model or load the current list via API (requires a saved valid API key).</small>
-                </div>
+
+                    <div class="form-group" style="margin-top: 15px" id="apiKeyContainer">
+                        <label for="apiKey" data-i18n="optionsApiKeyLabel">API Key</label>
+                        <input type="password" id="apiKey" data-i18n-placeholder="optionsApiKeyPlaceholder" placeholder="Enter your API key" />
+                        <small data-i18n="optionsApiKeyHint"
+                            >Your key is stored securely in your browser and never sent anywhere except directly to the AI provider.</small
+                        >
+                        <small class="api-help" style="display: block; margin-top: 8px">
+                            <span data-i18n="optionsApiKeyHelpText" id="apiKeyHelpText">Don't have an API key? You can get a free one from</span>
+                            <a href="https://aistudio.google.com/app/apikey" id="apiKeyLink" target="_blank" rel="noopener noreferrer">Google AI Studio</a>.
+                        </small>
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: 0">
+                        <label for="model" data-i18n="optionsModelLabel">AI Model</label>
+                        <div class="model-loader">
+                            <select id="model"></select>
+                            <button id="loadModels" class="btn-secondary" type="button" data-i18n="optionsLoadModels" data-i18n-title="optionsLoadModels">
+                                Load from API
+                            </button>
+                        </div>
+                        <small data-i18n="optionsModelHint">Select a model or load the current list via API (requires a saved valid API key).</small>
+                    </div>
+                </details>
 
                 <div class="form-group">
                     <label for="outputLang" data-i18n="optionsOutputLangLabel">Summary Language</label>
@@ -53,19 +71,28 @@
                     </select>
                 </div>
 
-                <div class="form-group" style="margin-top: 25px; margin-bottom: 25px">
+                <div class="form-group">
+                    <label for="shortcut" data-i18n="optionsShortcutLabel">Keyboard Shortcut</label>
+                    <div style="display: flex; gap: 8px">
+                        <input type="text" id="shortcut" readonly placeholder="Click and press keys..." style="cursor: pointer; flex: 1" />
+                        <button id="resetShortcut" class="btn-secondary" type="button" data-i18n="optionsResetShortcut">Reset</button>
+                    </div>
+                    <small data-i18n="optionsShortcutHint">Click the field and press a key combination (e.g., Alt+Shift+U).</small>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 0">
                     <label style="display: flex; align-items: center; gap: 8px; font-weight: 500">
                         <input type="checkbox" id="showFab" style="width: 18px; height: 18px; cursor: pointer; accent-color: var(--primary)" />
                         <span data-i18n="optionsShowFabLabel">Show floating summarize button</span>
                     </label>
                     <small data-i18n="optionsShowFabHint">Displays a floating button on web pages to quickly summarize them on mobile devices.</small>
                 </div>
-
-                <div class="actions">
-                    <button id="save" class="btn-primary" data-i18n="optionsSaveBtn">Save Settings</button>
-                </div>
-                <div id="status" class="status-message"></div>
             </div>
+
+            <div class="actions" style="margin-top: 20px">
+                <button id="save" class="btn-primary" data-i18n="optionsSaveBtn">Save Settings</button>
+            </div>
+            <div id="status" class="status-message"></div>
         </div>
         <script src="options.js"></script>
     </body>

@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Útdráttur texta af vefsíðum og samantekt með gervigreind."
-    },
-    "optionsTitle": {
-        "message": "Stillingar Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API-lykill fyrir gervigreindarþjónustu"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Sláðu inn API-lykilinn þinn..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Lykillinn þinn er geymdur á öruggan hátt í vafranum og er aldrei sendur neitt annað en beint til gervigreindarþjónustunnar."
-    },
-    "optionsModelLabel": {
-        "message": "Gervigreindarlíkan"
-    },
-    "optionsLoadModels": {
-        "message": "Hlaða frá API"
-    },
-    "optionsModelHint": {
-        "message": "Veldu líkan eða hlaðið núverandi lista í gegnum API (krefst vistaðs gilda API-lykils)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Tungumál samantektar"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Tungumál greinarinnar"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Tungumál vafra"
-    },
-    "optionsSaveBtn": {
-        "message": "Vista stillingar"
-    },
-    "optionsSaveSuccess": {
-        "message": "Stillingar vistaðar!"
-    },
-    "optionsSaveFail": {
-        "message": "Villa við vistun stillinga: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Vinsamlegast sláðu inn API-lykil til að hlaða líkönum."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Hleður..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Líkön hlaðin."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API skilaði engum líkönum."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Mistókst að hlaða líkönum: "
-    },
-    "uiCloseTitle": {
-        "message": "Loka"
-    },
-    "uiLoadingText": {
-        "message": "Býr til samantekt... vinsamlegast bíðið."
-    },
-    "uiErrorMarkdown": {
-        "message": "Villa við úrvinnslu á Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Villa: Mistókst að hlaða birtingarsöfnum."
-    },
-    "bgErrorNoText": {
-        "message": "Síðan inniheldur engan marktækan texta til að draga saman."
-    },
-    "bgErrorNoKey": {
-        "message": "API-lykill vantar. Vinsamlegast hægrismelltu á táknmynd viðbótarinnar, veldu 'Options' (eða 'Manage Extension' -> 'Preferences') og stilltu API-lykilinn þinn."
-    },
-    "bgErrorUnsupported": {
-        "message": "Valin gervigreindarþjónusta er ekki studd í augnablikinu."
+    "bgErrorAIService": {
+        "message": "Villa í gervigreindarþjónustu: "
     },
     "bgErrorAuthInvalid": {
         "message": "Auðkenningarvilla: Ógildur API-lykill. Athugaðu stillingar viðbótarinnar."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Auðkenningarvilla: Óheimill aðgangur (401/403). Athugaðu stillingarnar þínar."
     },
-    "bgErrorRateLimit": {
-        "message": "Fjöldatakmörkun náð (429). Vinsamlegast reyndu aftur síðar."
+    "bgErrorNetwork": {
+        "message": "Netvilla: Get ekki tengst gervigreindarþjónustu."
     },
-    "bgErrorAIService": {
-        "message": "Villa í gervigreindarþjónustu: "
+    "bgErrorNoKey": {
+        "message": "API-lykill vantar. Vinsamlegast hægrismelltu á táknmynd viðbótarinnar, veldu 'Options' (eða 'Manage Extension' -> 'Preferences') og stilltu API-lykilinn þinn."
+    },
+    "bgErrorNoText": {
+        "message": "Síðan inniheldur engan marktækan texta til að draga saman."
     },
     "bgErrorNoValidText": {
         "message": "Gervigreindin skilaði engum gildum texta."
     },
-    "bgErrorNetwork": {
-        "message": "Netvilla: Get ekki tengst gervigreindarþjónustu."
+    "bgErrorRateLimit": {
+        "message": "Fjöldatakmörkun náð (429). Vinsamlegast reyndu aftur síðar."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Get ekki birt villu í notendaviðmóti."
     },
+    "bgErrorUnsupported": {
+        "message": "Valin gervigreindarþjónusta er ekki studd í augnablikinu."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Get ekki keyrt á kerfissíðum."
-    },
-    "promptTags": {
-        "message": "Merki:"
-    },
-    "promptSummary": {
-        "message": "### Stutt samantekt"
-    },
-    "promptKeyPoints": {
-        "message": "### Helstu atriði"
-    },
-    "promptSources": {
-        "message": "### Viðeigandi heimildir"
-    },
-    "promptNoSources": {
-        "message": "Engar sérstakar heimildir nefndar."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Ertu ekki með API-lykil? Þú getur fengið ókeypis lykil hjá"
     },
     "extensionActionTitle": {
         "message": "Taka saman með Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Útdráttur texta af vefsíðum og samantekt með gervigreind."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Taka saman núverandi síðu"
     },
-    "promptQualityWarning": {
-        "message": "Gæðaviðvörun:"
+    "optionsAdvancedSettings": {
+        "message": "Ítarlegar AI-stillingar"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama keyrir staðbundið. Enginn API-lykill er nauðsynlegur. Gakktu úr skugga um að Ollama sé í gangi og aðgengilegt."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Ertu ekki með API-lykil? Þú getur fengið ókeypis lykil hjá"
+    },
+    "optionsApiKeyHint": {
+        "message": "Lykillinn þinn er geymdur á öruggan hátt í vafranum og er aldrei sendur neitt annað en beint til gervigreindarþjónustunnar."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-lykill fyrir gervigreindarþjónustu"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Sláðu inn API-lykilinn þinn..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Skildu eftir tómt til að nota sjálfgefinn API-endapunkt veitunnar. Gagnlegt fyrir sérsniðna proxy-þjóna eða staðbundin líkön."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Grunn-URL (valfrjálst)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "t.d. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "AI-stillingar"
+    },
+    "optionsGroupGeneral": {
+        "message": "Almennar stillingar"
+    },
+    "optionsLoadModels": {
+        "message": "Hlaða frá API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API skilaði engum líkönum."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Vinsamlegast sláðu inn API-lykil til að hlaða líkönum."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Mistókst að hlaða líkönum: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Hleður..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Líkön hlaðin."
+    },
+    "optionsModelHint": {
+        "message": "Veldu líkan eða hlaðið núverandi lista í gegnum API (krefst vistaðs gilda API-lykils)."
+    },
+    "optionsModelLabel": {
+        "message": "Gervigreindarlíkan"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Tungumál greinarinnar"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Tungumál vafra"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Tungumál samantektar"
+    },
+    "optionsResetShortcut": {
+        "message": "Endurstilla"
+    },
+    "optionsSaveBtn": {
+        "message": "Vista stillingar"
+    },
+    "optionsSaveFail": {
+        "message": "Villa við vistun stillinga: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Stillingar vistaðar!"
+    },
+    "optionsShortcutFail": {
+        "message": "Tókst ekki að uppfæra flýtilykil: "
+    },
+    "optionsShortcutHint": {
+        "message": "Smelltu á reitinn og ýttu á takkasamsetningu (t.d. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Flýtilykill"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Uppfærsla á flýtilykli er ekki studd í þessum vafra."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Tókst ekki að endurstilla flýtilykil: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Flýtilykill endurstilltur á sjálfgefið gildi."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Flýtilykill uppfærður."
+    },
+    "optionsShowFabHint": {
+        "message": "Birtir fljótandi hnapp á vefsíðum til að taka þær fljótt saman í farsímum."
     },
     "optionsShowFabLabel": {
         "message": "Sýna fljótandi samantektarhnapp"
     },
-    "optionsShowFabHint": {
-        "message": "Birtir fljótandi hnapp á vefsíðum til að taka þær fljótt saman í farsímum."
+    "optionsSubtitle": {
+        "message": "Stillingar viðbótar"
+    },
+    "optionsTitle": {
+        "message": "Stillingar Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Helstu atriði"
+    },
+    "promptNoSources": {
+        "message": "Engar sérstakar heimildir nefndar."
+    },
+    "promptQualityWarning": {
+        "message": "Gæðaviðvörun:"
+    },
+    "promptSources": {
+        "message": "### Viðeigandi heimildir"
+    },
+    "promptSummary": {
+        "message": "### Stutt samantekt"
+    },
+    "promptTags": {
+        "message": "Merki:"
+    },
+    "uiCloseTitle": {
+        "message": "Loka"
+    },
+    "uiErrorLibraries": {
+        "message": "Villa: Mistókst að hlaða birtingarsöfnum."
+    },
+    "uiErrorMarkdown": {
+        "message": "Villa við úrvinnslu á Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Býr til samantekt... vinsamlegast bíðið."
     }
 }

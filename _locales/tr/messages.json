@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Sayfalardaki metinleri ayıklar ve yapay zeka kullanarak özetler."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim Ayarları"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Yapay Zeka Sağlayıcı API Anahtarı"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "API anahtarınızı girin..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Anahtarınız tarayıcınızda güvenli bir şekilde saklanır ve doğrudan yapay zeka sağlayıcısı dışında hiçbir yere gönderilmez."
-    },
-    "optionsModelLabel": {
-        "message": "Yapay Zeka Modeli"
-    },
-    "optionsLoadModels": {
-        "message": "API'den Yükle"
-    },
-    "optionsModelHint": {
-        "message": "Bir model seçin veya API aracılığıyla güncel listeyi yükleyin (kayıtlı ve geçerli bir API anahtarı gerektirir)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Özet Dili"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Makalenin dili"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Tarayıcı dili"
-    },
-    "optionsSaveBtn": {
-        "message": "Ayarları Kaydet"
-    },
-    "optionsSaveSuccess": {
-        "message": "Ayarlar başarıyla kaydedildi!"
-    },
-    "optionsSaveFail": {
-        "message": "Ayarlar kaydedilirken hata oluştu: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Modelleri yüklemek için lütfen bir API anahtarı girin."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Yükleniyor..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modeller başarıyla yüklendi."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API herhangi bir model döndürmedi."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Modeller yüklenemedi: "
-    },
-    "uiCloseTitle": {
-        "message": "Kapat"
-    },
-    "uiLoadingText": {
-        "message": "Özet oluşturuluyor... lütfen bekleyin."
-    },
-    "uiErrorMarkdown": {
-        "message": "Markdown işlenirken hata oluştu."
-    },
-    "uiErrorLibraries": {
-        "message": "Hata: Oluşturma kütüphaneleri yüklenemedi."
-    },
-    "bgErrorNoText": {
-        "message": "Sayfa, özetlenebilecek anlamlı bir metin içermiyor."
-    },
-    "bgErrorNoKey": {
-        "message": "API anahtarı eksik. Lütfen uzantı simgesine sağ tıklayın, 'Seçenekler'i (veya 'Uzantıyı Yönet' -> 'Tercihler') seçin ve API anahtarınızı ayarlayın."
-    },
-    "bgErrorUnsupported": {
-        "message": "Seçilen yapay zeka sağlayıcısı şu anda desteklenmiyor."
+    "bgErrorAIService": {
+        "message": "Yapay Zeka Hizmet Hatası: "
     },
     "bgErrorAuthInvalid": {
         "message": "Kimlik Doğrulama Hatası: Geçersiz API anahtarı. Uzantı ayarlarını kontrol edin."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Kimlik Doğrulama Hatası: Yetkisiz erişim (401/403). Ayarlarınızı kontrol edin."
     },
-    "bgErrorRateLimit": {
-        "message": "Hız sınırı aşıldı (429). Lütfen daha sonra tekrar deneyin."
+    "bgErrorNetwork": {
+        "message": "Ağ Hatası: Yapay zeka hizmetine bağlanılamıyor."
     },
-    "bgErrorAIService": {
-        "message": "Yapay Zeka Hizmet Hatası: "
+    "bgErrorNoKey": {
+        "message": "API anahtarı eksik. Lütfen uzantı simgesine sağ tıklayın, 'Seçenekler'i (veya 'Uzantıyı Yönet' -> 'Tercihler') seçin ve API anahtarınızı ayarlayın."
+    },
+    "bgErrorNoText": {
+        "message": "Sayfa, özetlenebilecek anlamlı bir metin içermiyor."
     },
     "bgErrorNoValidText": {
         "message": "Yapay zeka geçerli bir metin döndürmedi."
     },
-    "bgErrorNetwork": {
-        "message": "Ağ Hatası: Yapay zeka hizmetine bağlanılamıyor."
+    "bgErrorRateLimit": {
+        "message": "Hız sınırı aşıldı (429). Lütfen daha sonra tekrar deneyin."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Hata arayüzde görüntülenemiyor."
     },
+    "bgErrorUnsupported": {
+        "message": "Seçilen yapay zeka sağlayıcısı şu anda desteklenmiyor."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Sistem sayfalarında çalıştırılamaz."
-    },
-    "promptTags": {
-        "message": "Etiketler:"
-    },
-    "promptSummary": {
-        "message": "### Kısa Özet"
-    },
-    "promptKeyPoints": {
-        "message": "### Önemli Noktalar"
-    },
-    "promptSources": {
-        "message": "### İlgili Kaynaklar"
-    },
-    "promptNoSources": {
-        "message": "Belirtilen özel bir kaynak yok."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "API anahtarınız yok mu? Buradan ücretsiz bir tane alabilirsiniz"
     },
     "extensionActionTitle": {
         "message": "Scutter Skim ile Özetle"
     },
+    "extensionDescription": {
+        "message": "Sayfalardaki metinleri ayıklar ve yapay zeka kullanarak özetler."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Geçerli sayfayı özetle"
     },
-    "promptQualityWarning": {
-        "message": "Kalite Uyarısı:"
+    "optionsAdvancedSettings": {
+        "message": "Gelişmiş Yapay Zeka Ayarları"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama yerel olarak çalışır. API anahtarı gerekmez. Ollama'nın çalıştığından ve erişilebilir olduğundan emin olun."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "API anahtarınız yok mu? Buradan ücretsiz bir tane alabilirsiniz"
+    },
+    "optionsApiKeyHint": {
+        "message": "Anahtarınız tarayıcınızda güvenli bir şekilde saklanır ve doğrudan yapay zeka sağlayıcısı dışında hiçbir yere gönderilmez."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Yapay Zeka Sağlayıcı API Anahtarı"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "API anahtarınızı girin..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Sağlayıcının varsayılan API uç noktasını kullanmak için boş bırakın. Özel vekiller veya yerel modeller için kullanışlıdır."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Temel URL (İsteğe bağlı)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "ör. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Yapay Zeka Yapılandırması"
+    },
+    "optionsGroupGeneral": {
+        "message": "Genel Ayarlar"
+    },
+    "optionsLoadModels": {
+        "message": "API'den Yükle"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API herhangi bir model döndürmedi."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Modelleri yüklemek için lütfen bir API anahtarı girin."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Modeller yüklenemedi: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Yükleniyor..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeller başarıyla yüklendi."
+    },
+    "optionsModelHint": {
+        "message": "Bir model seçin veya API aracılığıyla güncel listeyi yükleyin (kayıtlı ve geçerli bir API anahtarı gerektirir)."
+    },
+    "optionsModelLabel": {
+        "message": "Yapay Zeka Modeli"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Makalenin dili"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Tarayıcı dili"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Özet Dili"
+    },
+    "optionsResetShortcut": {
+        "message": "Sıfırla"
+    },
+    "optionsSaveBtn": {
+        "message": "Ayarları Kaydet"
+    },
+    "optionsSaveFail": {
+        "message": "Ayarlar kaydedilirken hata oluştu: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Ayarlar başarıyla kaydedildi!"
+    },
+    "optionsShortcutFail": {
+        "message": "Kısayol güncellenemedi: "
+    },
+    "optionsShortcutHint": {
+        "message": "Alana tıklayın ve bir tuş kombinasyonuna basın (ör. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Klavye Kısayolu"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Kısayol güncelleme bu tarayıcıda desteklenmiyor."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Kısayol sıfırlanamadı: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Kısayol varsayılana döndürüldü."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Kısayol başarıyla güncellendi."
+    },
+    "optionsShowFabHint": {
+        "message": "Mobil cihazlarda web sayfalarını hızlıca özetlemek için bir kayan düğme görüntüler."
     },
     "optionsShowFabLabel": {
         "message": "Kayan özetle düğmesini göster"
     },
-    "optionsShowFabHint": {
-        "message": "Mobil cihazlarda web sayfalarını hızlıca özetlemek için bir kayan düğme görüntüler."
+    "optionsSubtitle": {
+        "message": "Uzantı Tercihleri"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim Ayarları"
+    },
+    "promptKeyPoints": {
+        "message": "### Önemli Noktalar"
+    },
+    "promptNoSources": {
+        "message": "Belirtilen özel bir kaynak yok."
+    },
+    "promptQualityWarning": {
+        "message": "Kalite Uyarısı:"
+    },
+    "promptSources": {
+        "message": "### İlgili Kaynaklar"
+    },
+    "promptSummary": {
+        "message": "### Kısa Özet"
+    },
+    "promptTags": {
+        "message": "Etiketler:"
+    },
+    "uiCloseTitle": {
+        "message": "Kapat"
+    },
+    "uiErrorLibraries": {
+        "message": "Hata: Oluşturma kütüphaneleri yüklenemedi."
+    },
+    "uiErrorMarkdown": {
+        "message": "Markdown işlenirken hata oluştu."
+    },
+    "uiLoadingText": {
+        "message": "Özet oluşturuluyor... lütfen bekleyin."
     }
 }

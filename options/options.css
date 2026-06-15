@@ -60,6 +60,15 @@ h1 {
     margin-bottom: 20px;
 }
 
+.card-title {
+    margin-top: 0;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    color: var(--text-main);
+}
+
 label {
     display: block;
     font-weight: 600;
@@ -68,7 +77,8 @@ label {
 }
 
 select,
-input[type='password'] {
+input[type='password'],
+input[type='text'] {
     width: 100%;
     padding: 10px 12px;
     border: 1px solid var(--border-color);
@@ -80,7 +90,8 @@ input[type='password'] {
 }
 
 select:focus,
-input[type='password']:focus {
+input[type='password']:focus,
+input[type='text']:focus {
     border-color: var(--primary);
 }
 
@@ -162,6 +173,25 @@ small {
     flex: 1;
 }
 
+details.advanced-settings {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+details.advanced-settings summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text-muted);
+    outline: none;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+details.advanced-settings summary:hover {
+    color: var(--text-main);
+}
+
 @media (max-width: 480px) {
     body {
         padding: 20px 12px;
@@ -202,6 +232,7 @@ small {
 
     select,
     input[type='password'],
+    input[type='text'],
     input[type='checkbox'] {
         background-color: #0f172a;
         color: #f1f5f9;

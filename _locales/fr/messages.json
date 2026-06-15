@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Extrayez du texte de pages web et résumez-le grâce à l'IA."
-    },
-    "optionsTitle": {
-        "message": "Paramètres de Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Clé API du fournisseur d'IA"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Entrez votre clé API..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Votre clé est stockée en toute sécurité dans votre navigateur et n'est jamais envoyée ailleurs qu'au fournisseur d'IA."
-    },
-    "optionsModelLabel": {
-        "message": "Modèle d'IA"
-    },
-    "optionsLoadModels": {
-        "message": "Charger depuis l'API"
-    },
-    "optionsModelHint": {
-        "message": "Sélectionnez un modèle ou chargez la liste actuelle via l'API (nécessite une clé API valide enregistrée)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Langue du résumé"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Langue de l'article"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Langue du navigateur"
-    },
-    "optionsSaveBtn": {
-        "message": "Enregistrer les paramètres"
-    },
-    "optionsSaveSuccess": {
-        "message": "Paramètres enregistrés avec succès !"
-    },
-    "optionsSaveFail": {
-        "message": "Erreur lors de l'enregistrement des paramètres : "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Veuillez entrer une clé API pour charger les modèles."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Chargement..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modèles chargés avec succès."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "L'API n'a renvoyé aucun modèle."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Échec du chargement des modèles : "
-    },
-    "uiCloseTitle": {
-        "message": "Fermer"
-    },
-    "uiLoadingText": {
-        "message": "Génération du résumé... veuillez patienter."
-    },
-    "uiErrorMarkdown": {
-        "message": "Erreur lors du traitement du Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Erreur : les bibliothèques de rendu n'ont pas pu être chargées."
-    },
-    "bgErrorNoText": {
-        "message": "La page ne contient aucun texte significatif à résumer."
-    },
-    "bgErrorNoKey": {
-        "message": "Clé API manquante. Veuillez faire un clic droit sur l'icône de l'extension, sélectionner « Options » (ou « Gérer l'extension » -> « Préférences ») et définir votre clé API."
-    },
-    "bgErrorUnsupported": {
-        "message": "Le fournisseur d'IA sélectionné n'est pas pris en charge actuellement."
+    "bgErrorAIService": {
+        "message": "Erreur du service d'IA : "
     },
     "bgErrorAuthInvalid": {
         "message": "Erreur d'authentification : clé API invalide. Vérifiez les paramètres de l'extension."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Erreur d'authentification : accès non autorisé (401/403). Vérifiez vos paramètres."
     },
-    "bgErrorRateLimit": {
-        "message": "Limite de débit dépassée (429). Veuillez réessayer plus tard."
+    "bgErrorNetwork": {
+        "message": "Erreur réseau : impossible de se connecter au service d'IA."
     },
-    "bgErrorAIService": {
-        "message": "Erreur du service d'IA : "
+    "bgErrorNoKey": {
+        "message": "Clé API manquante. Veuillez faire un clic droit sur l'icône de l'extension, sélectionner « Options » (ou « Gérer l'extension » -> « Préférences ») et définir votre clé API."
+    },
+    "bgErrorNoText": {
+        "message": "La page ne contient aucun texte significatif à résumer."
     },
     "bgErrorNoValidText": {
         "message": "L'IA n'a renvoyé aucun texte valide."
     },
-    "bgErrorNetwork": {
-        "message": "Erreur réseau : impossible de se connecter au service d'IA."
+    "bgErrorRateLimit": {
+        "message": "Limite de débit dépassée (429). Veuillez réessayer plus tard."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim : impossible d'afficher l'erreur dans l'interface."
     },
+    "bgErrorUnsupported": {
+        "message": "Le fournisseur d'IA sélectionné n'est pas pris en charge actuellement."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim : impossible de s'exécuter sur les pages système."
-    },
-    "promptTags": {
-        "message": "Tags :"
-    },
-    "promptSummary": {
-        "message": "### Résumé succinct"
-    },
-    "promptKeyPoints": {
-        "message": "### Points clés"
-    },
-    "promptSources": {
-        "message": "### Sources pertinentes"
-    },
-    "promptNoSources": {
-        "message": "Aucune source spécifique mentionnée."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Vous n'avez pas de clé API ? Vous pouvez en obtenir une gratuitement sur"
     },
     "extensionActionTitle": {
         "message": "Résumer avec Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Extrayez du texte de pages web et résumez-le grâce à l'IA."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Résumer la page actuelle"
     },
-    "promptQualityWarning": {
-        "message": "Avertissement de qualité :"
+    "optionsAdvancedSettings": {
+        "message": "Paramètres IA détaillés"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama s'exécute localement. Aucune clé API n'est requise. Assurez-vous qu'Ollama est en cours d'exécution et accessible."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Vous n'avez pas de clé API ? Vous pouvez en obtenir une gratuitement sur"
+    },
+    "optionsApiKeyHint": {
+        "message": "Votre clé est stockée en toute sécurité dans votre navigateur et n'est jamais envoyée ailleurs qu'au fournisseur d'IA."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Clé API du fournisseur d'IA"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Entrez votre clé API..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Laissez vide pour utiliser le point de terminaison API par défaut du fournisseur. Utile pour les proxys personnalisés ou les modèles locaux."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "URL de base (Optionnel)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "ex. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Configuration de l'IA"
+    },
+    "optionsGroupGeneral": {
+        "message": "Paramètres généraux"
+    },
+    "optionsLoadModels": {
+        "message": "Charger depuis l'API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "L'API n'a renvoyé aucun modèle."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Veuillez entrer une clé API pour charger les modèles."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Échec du chargement des modèles : "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Chargement..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modèles chargés avec succès."
+    },
+    "optionsModelHint": {
+        "message": "Sélectionnez un modèle ou chargez la liste actuelle via l'API (nécessite une clé API valide enregistrée)."
+    },
+    "optionsModelLabel": {
+        "message": "Modèle d'IA"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Langue de l'article"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Langue du navigateur"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Langue du résumé"
+    },
+    "optionsResetShortcut": {
+        "message": "Réinitialiser"
+    },
+    "optionsSaveBtn": {
+        "message": "Enregistrer les paramètres"
+    },
+    "optionsSaveFail": {
+        "message": "Erreur lors de l'enregistrement des paramètres : "
+    },
+    "optionsSaveSuccess": {
+        "message": "Paramètres enregistrés avec succès !"
+    },
+    "optionsShortcutFail": {
+        "message": "Échec de la mise à jour du raccourci : "
+    },
+    "optionsShortcutHint": {
+        "message": "Cliquez sur le champ et appuyez sur une combinaison de touches (ex. Alt+Maj+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Raccourci clavier"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "La mise à jour des raccourcis n'est pas prise en charge dans ce navigateur."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Échec de la réinitialisation du raccourci : "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Raccourci réinitialisé par défaut."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Raccourci mis à jour avec succès."
+    },
+    "optionsShowFabHint": {
+        "message": "Affiche un bouton flottant sur les pages web pour les résumer rapidement sur les appareils mobiles."
     },
     "optionsShowFabLabel": {
         "message": "Afficher le bouton flottant de résumé"
     },
-    "optionsShowFabHint": {
-        "message": "Affiche un bouton flottant sur les pages web pour les résumer rapidement sur les appareils mobiles."
+    "optionsSubtitle": {
+        "message": "Préférences de l'extension"
+    },
+    "optionsTitle": {
+        "message": "Paramètres de Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Points clés"
+    },
+    "promptNoSources": {
+        "message": "Aucune source spécifique mentionnée."
+    },
+    "promptQualityWarning": {
+        "message": "Avertissement de qualité :"
+    },
+    "promptSources": {
+        "message": "### Sources pertinentes"
+    },
+    "promptSummary": {
+        "message": "### Résumé succinct"
+    },
+    "promptTags": {
+        "message": "Tags :"
+    },
+    "uiCloseTitle": {
+        "message": "Fermer"
+    },
+    "uiErrorLibraries": {
+        "message": "Erreur : les bibliothèques de rendu n'ont pas pu être chargées."
+    },
+    "uiErrorMarkdown": {
+        "message": "Erreur lors du traitement du Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Génération du résumé... veuillez patienter."
     }
 }

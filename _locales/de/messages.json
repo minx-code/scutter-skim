@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Extrahiere Text von Webseiten und fasse ihn mithilfe von KI zusammen."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim Einstellungen"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API-Schlüssel des KI-Anbieters"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Gib deinen API-Schlüssel ein..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Dein Schlüssel wird sicher in deinem Browser gespeichert und niemals an Dritte gesendet, außer direkt an den KI-Anbieter."
-    },
-    "optionsModelLabel": {
-        "message": "KI-Modell"
-    },
-    "optionsLoadModels": {
-        "message": "Von API laden"
-    },
-    "optionsModelHint": {
-        "message": "Wähle ein Modell aus oder lade die aktuelle Liste über die API (erfordert einen gespeicherten, gültigen API-Schlüssel)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Sprache der Zusammenfassung"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Sprache des Artikels"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Browsersprache"
-    },
-    "optionsSaveBtn": {
-        "message": "Einstellungen speichern"
-    },
-    "optionsSaveSuccess": {
-        "message": "Einstellungen erfolgreich gespeichert!"
-    },
-    "optionsSaveFail": {
-        "message": "Fehler beim Speichern der Einstellungen: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Bitte gib einen API-Schlüssel ein, um Modelle zu laden."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Wird geladen..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modelle erfolgreich geladen."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "Die API hat keine Modelle zurückgegeben."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Fehler beim Laden der Modelle: "
-    },
-    "uiCloseTitle": {
-        "message": "Schließen"
-    },
-    "uiLoadingText": {
-        "message": "Zusammenfassung wird erstellt... bitte warten."
-    },
-    "uiErrorMarkdown": {
-        "message": "Fehler bei der Verarbeitung von Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Fehler: Rendering-Bibliotheken konnten nicht geladen werden."
-    },
-    "bgErrorNoText": {
-        "message": "Die Seite enthält keinen aussagekräftigen Text, der zusammengefasst werden könnte."
-    },
-    "bgErrorNoKey": {
-        "message": "API-Schlüssel fehlt. Bitte klicke mit der rechten Maustaste auf das Erweiterungssymbol, wähle 'Optionen' (oder 'Erweiterung verwalten' -> 'Einstellungen') und gib deinen API-Schlüssel ein."
-    },
-    "bgErrorUnsupported": {
-        "message": "Der ausgewählte KI-Anbieter wird derzeit nicht unterstützt."
+    "bgErrorAIService": {
+        "message": "KI-Dienstfehler: "
     },
     "bgErrorAuthInvalid": {
         "message": "Authentifizierungsfehler: Ungültiger API-Schlüssel. Überprüfe die Erweiterungseinstellungen."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Authentifizierungsfehler: Unbefugter Zugriff (401/403). Überprüfe deine Einstellungen."
     },
-    "bgErrorRateLimit": {
-        "message": "Ratenlimit überschritten (429). Bitte versuche es später erneut."
+    "bgErrorNetwork": {
+        "message": "Netzwerkfehler: Verbindung zum KI-Dienst nicht möglich."
     },
-    "bgErrorAIService": {
-        "message": "KI-Dienstfehler: "
+    "bgErrorNoKey": {
+        "message": "API-Schlüssel fehlt. Bitte klicke mit der rechten Maustaste auf das Erweiterungssymbol, wähle 'Optionen' (oder 'Erweiterung verwalten' -> 'Einstellungen') und gib deinen API-Schlüssel ein."
+    },
+    "bgErrorNoText": {
+        "message": "Die Seite enthält keinen aussagekräftigen Text, der zusammengefasst werden könnte."
     },
     "bgErrorNoValidText": {
         "message": "Die KI hat keinen gültigen Text zurückgegeben."
     },
-    "bgErrorNetwork": {
-        "message": "Netzwerkfehler: Verbindung zum KI-Dienst nicht möglich."
+    "bgErrorRateLimit": {
+        "message": "Ratenlimit überschritten (429). Bitte versuche es später erneut."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Fehler kann nicht in der Benutzeroberfläche angezeigt werden."
     },
+    "bgErrorUnsupported": {
+        "message": "Der ausgewählte KI-Anbieter wird derzeit nicht unterstützt."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Kann nicht auf Systemseiten ausgeführt werden."
-    },
-    "promptTags": {
-        "message": "Tags:"
-    },
-    "promptSummary": {
-        "message": "### Kurze Zusammenfassung"
-    },
-    "promptKeyPoints": {
-        "message": "### Kernpunkte"
-    },
-    "promptSources": {
-        "message": "### Relevante Quellen"
-    },
-    "promptNoSources": {
-        "message": "Keine spezifischen Quellen genannt."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Sie haben noch keinen API-Schlüssel? Sie können einen kostenlosen Schlüssel erhalten unter"
     },
     "extensionActionTitle": {
         "message": "Mit Scutter Skim zusammenfassen"
     },
+    "extensionDescription": {
+        "message": "Extrahiere Text von Webseiten und fasse ihn mithilfe von KI zusammen."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Aktuelle Seite zusammenfassen"
     },
-    "promptQualityWarning": {
-        "message": "Qualitätswarnung:"
+    "optionsAdvancedSettings": {
+        "message": "Detaillierte KI-Einstellungen"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama läuft lokal. Es ist kein API-Schlüssel erforderlich. Stellen Sie sicher, dass Ollama läuft und erreichbar ist."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Sie haben noch keinen API-Schlüssel? Sie können einen kostenlosen Schlüssel erhalten unter"
+    },
+    "optionsApiKeyHint": {
+        "message": "Dein Schlüssel wird sicher in deinem Browser gespeichert und niemals an Dritte gesendet, außer direkt an den KI-Anbieter."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-Schlüssel des KI-Anbieters"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Gib deinen API-Schlüssel ein..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Leer lassen, um den Standard-API-Endpunkt des Anbieters zu verwenden. Nützlich für benutzerdefinierte Proxys oder lokale Modelle."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Basis-URL (Optional)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "z. B. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "KI-Konfiguration"
+    },
+    "optionsGroupGeneral": {
+        "message": "Allgemeine Einstellungen"
+    },
+    "optionsLoadModels": {
+        "message": "Von API laden"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "Die API hat keine Modelle zurückgegeben."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Bitte gib einen API-Schlüssel ein, um Modelle zu laden."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Fehler beim Laden der Modelle: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Wird geladen..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modelle erfolgreich geladen."
+    },
+    "optionsModelHint": {
+        "message": "Wähle ein Modell aus oder lade die aktuelle Liste über die API (erfordert einen gespeicherten, gültigen API-Schlüssel)."
+    },
+    "optionsModelLabel": {
+        "message": "KI-Modell"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Sprache des Artikels"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Browsersprache"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Sprache der Zusammenfassung"
+    },
+    "optionsResetShortcut": {
+        "message": "Zurücksetzen"
+    },
+    "optionsSaveBtn": {
+        "message": "Einstellungen speichern"
+    },
+    "optionsSaveFail": {
+        "message": "Fehler beim Speichern der Einstellungen: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Einstellungen erfolgreich gespeichert!"
+    },
+    "optionsShortcutFail": {
+        "message": "Fehler beim Aktualisieren der Tastenkombination: "
+    },
+    "optionsShortcutHint": {
+        "message": "Klicken Sie in das Feld und drücken Sie eine Tastenkombination (z. B. Alt+Umschalt+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Tastenkombination"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Das Aktualisieren von Tastenkombinationen wird in diesem Browser nicht unterstützt."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Fehler beim Zurücksetzen der Tastenkombination: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Tastenkombination auf Standard zurückgesetzt."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Tastenkombination erfolgreich aktualisiert."
+    },
+    "optionsShowFabHint": {
+        "message": "Zeigt auf Webseiten eine schwebende Schaltfläche an, um diese auf Mobilgeräten schnell zusammenzufassen."
     },
     "optionsShowFabLabel": {
         "message": "Schwebende Zusammenfassungs-Schaltfläche anzeigen"
     },
-    "optionsShowFabHint": {
-        "message": "Zeigt auf Webseiten eine schwebende Schaltfläche an, um diese auf Mobilgeräten schnell zusammenzufassen."
+    "optionsSubtitle": {
+        "message": "Erweiterungseinstellungen"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim Einstellungen"
+    },
+    "promptKeyPoints": {
+        "message": "### Kernpunkte"
+    },
+    "promptNoSources": {
+        "message": "Keine spezifischen Quellen genannt."
+    },
+    "promptQualityWarning": {
+        "message": "Qualitätswarnung:"
+    },
+    "promptSources": {
+        "message": "### Relevante Quellen"
+    },
+    "promptSummary": {
+        "message": "### Kurze Zusammenfassung"
+    },
+    "promptTags": {
+        "message": "Tags:"
+    },
+    "uiCloseTitle": {
+        "message": "Schließen"
+    },
+    "uiErrorLibraries": {
+        "message": "Fehler: Rendering-Bibliotheken konnten nicht geladen werden."
+    },
+    "uiErrorMarkdown": {
+        "message": "Fehler bei der Verarbeitung von Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Zusammenfassung wird erstellt... bitte warten."
     }
 }

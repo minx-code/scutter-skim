@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Trekk ut tekst fra nettsider og oppsummer den ved hjelp av AI."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim-innstillinger"
-    },
-    "optionsApiKeyLabel": {
-        "message": "API-nøkkel for AI-leverandør"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Skriv inn API-nøkkelen din..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Nøkkelen din lagres sikkert i nettleseren og sendes aldri noe annet sted enn direkte til AI-leverandøren."
-    },
-    "optionsModelLabel": {
-        "message": "AI-modell"
-    },
-    "optionsLoadModels": {
-        "message": "Last inn fra API"
-    },
-    "optionsModelHint": {
-        "message": "Velg en modell eller last inn gjeldende liste via API (krever en lagret gyldig API-nøkkel)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Språk for oppsummering"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Artikkelens språk"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Nettleserens språk"
-    },
-    "optionsSaveBtn": {
-        "message": "Lagre innstillinger"
-    },
-    "optionsSaveSuccess": {
-        "message": "Innstillinger lagret!"
-    },
-    "optionsSaveFail": {
-        "message": "Feil ved lagring av innstillinger: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Vennligst skriv inn en API-nøkkel for å laste inn modeller."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Laster inn..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modeller lastet inn."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API-et returnerte ingen modeller."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Kunne ikke laste inn modeller: "
-    },
-    "uiCloseTitle": {
-        "message": "Lukk"
-    },
-    "uiLoadingText": {
-        "message": "Genererer oppsummering... vennligst vent."
-    },
-    "uiErrorMarkdown": {
-        "message": "Feil ved behandling av Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Feil: Biblioteker for gjengivelse kunne ikke lastes inn."
-    },
-    "bgErrorNoText": {
-        "message": "Siden inneholder ingen meningsfull tekst som kan oppsummeres."
-    },
-    "bgErrorNoKey": {
-        "message": "Mangler API-nøkkel. Høyreklikk på utvidelsesikonet, velg 'Alternativer' (eller 'Administrer utvidelse' -> 'Innstillinger') og angi API-nøkkelen din."
-    },
-    "bgErrorUnsupported": {
-        "message": "Den valgte AI-leverandøren støttes ikke for øyeblikket."
+    "bgErrorAIService": {
+        "message": "AI-tjenestefeil: "
     },
     "bgErrorAuthInvalid": {
         "message": "Autentiseringsfeil: Ugyldig API-nøkkel. Sjekk utvidelsesinnstillingene."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Autentiseringsfeil: Uautorisert tilgang (401/403). Sjekk innstillingene dine."
     },
-    "bgErrorRateLimit": {
-        "message": "Hastighetsgrense overskredet (429). Vennligst prøv igjen senere."
+    "bgErrorNetwork": {
+        "message": "Nettverksfeil: Kan ikke koble til AI-tjenesten."
     },
-    "bgErrorAIService": {
-        "message": "AI-tjenestefeil: "
+    "bgErrorNoKey": {
+        "message": "Mangler API-nøkkel. Høyreklikk på utvidelsesikonet, velg 'Alternativer' (eller 'Administrer utvidelse' -> 'Innstillinger') og angi API-nøkkelen din."
+    },
+    "bgErrorNoText": {
+        "message": "Siden inneholder ingen meningsfull tekst som kan oppsummeres."
     },
     "bgErrorNoValidText": {
         "message": "AI-en returnerte ingen gyldig tekst."
     },
-    "bgErrorNetwork": {
-        "message": "Nettverksfeil: Kan ikke koble til AI-tjenesten."
+    "bgErrorRateLimit": {
+        "message": "Hastighetsgrense overskredet (429). Vennligst prøv igjen senere."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Kan ikke vise feil i brukergrensesnittet."
     },
+    "bgErrorUnsupported": {
+        "message": "Den valgte AI-leverandøren støttes ikke for øyeblikket."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Kan ikke kjøre på systemsider."
-    },
-    "promptTags": {
-        "message": "Merker:"
-    },
-    "promptSummary": {
-        "message": "### Kort oppsummering"
-    },
-    "promptKeyPoints": {
-        "message": "### Hovedpunkter"
-    },
-    "promptSources": {
-        "message": "### Relevante kilder"
-    },
-    "promptNoSources": {
-        "message": "Ingen spesifikke kilder nevnt."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Har du ikke en API-nøkkel? Du kan få en gratis en fra"
     },
     "extensionActionTitle": {
         "message": "Oppsummer med Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Trekk ut tekst fra nettsider og oppsummer den ved hjelp av AI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Oppsummer gjeldende side"
     },
-    "promptQualityWarning": {
-        "message": "Kvalitetsadvarsel:"
+    "optionsAdvancedSettings": {
+        "message": "Avanserte AI-innstillinger"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama kjører lokalt. Ingen API-nøkkel er nødvendig. Sørg for at Ollama kjører og er tilgjengelig."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Har du ikke en API-nøkkel? Du kan få en gratis en fra"
+    },
+    "optionsApiKeyHint": {
+        "message": "Nøkkelen din lagres sikkert i nettleseren og sendes aldri noe annet sted enn direkte til AI-leverandøren."
+    },
+    "optionsApiKeyLabel": {
+        "message": "API-nøkkel for AI-leverandør"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Skriv inn API-nøkkelen din..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "La stå tom for å bruke leverandørens standard API-endepunkt. Nyttig for egendefinerte proxyer eller lokale modeller."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Base-URL (valgfritt)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "f.eks. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "AI-konfigurasjon"
+    },
+    "optionsGroupGeneral": {
+        "message": "Generelle innstillinger"
+    },
+    "optionsLoadModels": {
+        "message": "Last inn fra API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API-et returnerte ingen modeller."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Vennligst skriv inn en API-nøkkel for å laste inn modeller."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Kunne ikke laste inn modeller: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Laster inn..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeller lastet inn."
+    },
+    "optionsModelHint": {
+        "message": "Velg en modell eller last inn gjeldende liste via API (krever en lagret gyldig API-nøkkel)."
+    },
+    "optionsModelLabel": {
+        "message": "AI-modell"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikkelens språk"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Nettleserens språk"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Språk for oppsummering"
+    },
+    "optionsResetShortcut": {
+        "message": "Tilbakestill"
+    },
+    "optionsSaveBtn": {
+        "message": "Lagre innstillinger"
+    },
+    "optionsSaveFail": {
+        "message": "Feil ved lagring av innstillinger: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Innstillinger lagret!"
+    },
+    "optionsShortcutFail": {
+        "message": "Kunne ikke oppdatere snarvei: "
+    },
+    "optionsShortcutHint": {
+        "message": "Klikk i feltet og trykk på en tastekombinasjon (f.eks. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Tastatursnarvei"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Oppdatering av snarveier støttes ikke i denne nettleseren."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Kunne ikke tilbakestille snarvei: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Snarvei tilbakestilt til standard."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Snarvei oppdatert."
+    },
+    "optionsShowFabHint": {
+        "message": "Viser en flytende knapp på nettsider for rask oppsummering på mobile enheter."
     },
     "optionsShowFabLabel": {
         "message": "Vis flytende oppsummeringsknapp"
     },
-    "optionsShowFabHint": {
-        "message": "Viser en flytende knapp på nettsider for rask oppsummering på mobile enheter."
+    "optionsSubtitle": {
+        "message": "Utvidelsesinnstillinger"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim-innstillinger"
+    },
+    "promptKeyPoints": {
+        "message": "### Hovedpunkter"
+    },
+    "promptNoSources": {
+        "message": "Ingen spesifikke kilder nevnt."
+    },
+    "promptQualityWarning": {
+        "message": "Kvalitetsadvarsel:"
+    },
+    "promptSources": {
+        "message": "### Relevante kilder"
+    },
+    "promptSummary": {
+        "message": "### Kort oppsummering"
+    },
+    "promptTags": {
+        "message": "Merker:"
+    },
+    "uiCloseTitle": {
+        "message": "Lukk"
+    },
+    "uiErrorLibraries": {
+        "message": "Feil: Biblioteker for gjengivelse kunne ikke lastes inn."
+    },
+    "uiErrorMarkdown": {
+        "message": "Feil ved behandling av Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Genererer oppsummering... vennligst vent."
     }
 }

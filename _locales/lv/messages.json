@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Izvelciet tekstu no lapām un apkopojiet to, izmantojot AI."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim iestatījumi"
-    },
-    "optionsApiKeyLabel": {
-        "message": "AI pakalpojumu sniedzēja API atslēga"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Ievadiet savu API atslēgu..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Jūsu atslēga tiek droši glabāta pārlūkprogrammā un nekad netiek sūtīta nekur citur, kā tikai tieši AI pakalpojumu sniedzējam."
-    },
-    "optionsModelLabel": {
-        "message": "AI modelis"
-    },
-    "optionsLoadModels": {
-        "message": "Ielādēt no API"
-    },
-    "optionsModelHint": {
-        "message": "Atlasiet modeli vai ielādējiet pašreizējo sarakstu, izmantojot API (nepieciešama saglabāta derīga API atslēga)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Kopsavilkuma valoda"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Raksta valoda"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Pārlūkprogrammas valoda"
-    },
-    "optionsSaveBtn": {
-        "message": "Saglabāt iestatījumus"
-    },
-    "optionsSaveSuccess": {
-        "message": "Iestatījumi veiksmīgi saglabāti!"
-    },
-    "optionsSaveFail": {
-        "message": "Kļūda saglabājot iestatījumus: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Lūdzu, ievadiet API atslēgu, lai ielādētu modeļus."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Notiek ielāde..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modeļi veiksmīgi ielādēti."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API neatgrieza nevienu modeli."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Neizdevās ielādēt modeļus: "
-    },
-    "uiCloseTitle": {
-        "message": "Aizvērt"
-    },
-    "uiLoadingText": {
-        "message": "Tiek ģenerēts kopsavilkums... lūdzu, uzgaidiet."
-    },
-    "uiErrorMarkdown": {
-        "message": "Kļūda apstrādājot Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Kļūda: Neizdevās ielādēt renderēšanas bibliotēkas."
-    },
-    "bgErrorNoText": {
-        "message": "Lapa nesatur nekādu nozīmīgu tekstu, ko apkopot."
-    },
-    "bgErrorNoKey": {
-        "message": "Trūkst API atslēgas. Lūdzu, ar peles labo pogu noklikšķiniet uz paplašinājuma ikonas, atlasiet 'Iestatījumi' (vai 'Pārvaldīt paplašinājumu' -> 'Preferences') un iestatiet savu API atslēgu."
-    },
-    "bgErrorUnsupported": {
-        "message": "Atlasītais AI pakalpojumu sniedzējs pašlaik netiek atbalstīts."
+    "bgErrorAIService": {
+        "message": "AI pakalpojuma kļūda: "
     },
     "bgErrorAuthInvalid": {
         "message": "Autentifikācijas kļūda: Nederīga API atslēga. Pārbaudiet paplašinājuma iestatījumus."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Autentifikācijas kļūda: Neautorizēta piekļuve (401/403). Pārbaudiet savus iestatījumus."
     },
-    "bgErrorRateLimit": {
-        "message": "Pārsniegts pieprasījumu limits (429). Lūdzu, mēģiniet vēlreiz vēlāk."
+    "bgErrorNetwork": {
+        "message": "Tīkla kļūda: Nevar izveidot savienojumu ar AI pakalpojumu."
     },
-    "bgErrorAIService": {
-        "message": "AI pakalpojuma kļūda: "
+    "bgErrorNoKey": {
+        "message": "Trūkst API atslēgas. Lūdzu, ar peles labo pogu noklikšķiniet uz paplašinājuma ikonas, atlasiet 'Iestatījumi' (vai 'Pārvaldīt paplašinājumu' -> 'Preferences') un iestatiet savu API atslēgu."
+    },
+    "bgErrorNoText": {
+        "message": "Lapa nesatur nekādu nozīmīgu tekstu, ko apkopot."
     },
     "bgErrorNoValidText": {
         "message": "AI neatgrieza nekādu derīgu tekstu."
     },
-    "bgErrorNetwork": {
-        "message": "Tīkla kļūda: Nevar izveidot savienojumu ar AI pakalpojumu."
+    "bgErrorRateLimit": {
+        "message": "Pārsniegts pieprasījumu limits (429). Lūdzu, mēģiniet vēlreiz vēlāk."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Nevar parādīt kļūdu lietotāja saskarnē."
     },
+    "bgErrorUnsupported": {
+        "message": "Atlasītais AI pakalpojumu sniedzējs pašlaik netiek atbalstīts."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Nevar darboties sistēmas lapās."
-    },
-    "promptTags": {
-        "message": "Birkas:"
-    },
-    "promptSummary": {
-        "message": "### Īss kopsavilkums"
-    },
-    "promptKeyPoints": {
-        "message": "### Galvenie punkti"
-    },
-    "promptSources": {
-        "message": "### Attiecīgie avoti"
-    },
-    "promptNoSources": {
-        "message": "Nav minēti konkrēti avoti."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Nav API atslēgas? Jūs varat saņemt bezmaksas atslēgu šeit:"
     },
     "extensionActionTitle": {
         "message": "Apkopot ar Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Izvelciet tekstu no lapām un apkopojiet to, izmantojot AI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Apkopot pašreizējo lapu"
     },
-    "promptQualityWarning": {
-        "message": "Kvalitātes brīdinājums:"
+    "optionsAdvancedSettings": {
+        "message": "Detalizēti AI iestatījumi"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama darbojas lokāli. API atslēga nav nepieciešama. Pārliecinieties, ka Ollama darbojas un ir pieejama."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nav API atslēgas? Jūs varat saņemt bezmaksas atslēgu šeit:"
+    },
+    "optionsApiKeyHint": {
+        "message": "Jūsu atslēga tiek droši glabāta pārlūkprogrammā un nekad netiek sūtīta nekur citur, kā tikai tieši AI pakalpojumu sniedzējam."
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI pakalpojumu sniedzēja API atslēga"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Ievadiet savu API atslēgu..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Atstājiet tukšu, lai izmantotu pakalpojumu sniedzēja noklusējuma API galapunktu. Noderīgi pielāgotiem starpniekserveriem vai lokāliem modeļiem."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Bāzes URL (neobligāts)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "piem. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "AI konfigurācija"
+    },
+    "optionsGroupGeneral": {
+        "message": "Vispārīgie iestatījumi"
+    },
+    "optionsLoadModels": {
+        "message": "Ielādēt no API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API neatgrieza nevienu modeli."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Lūdzu, ievadiet API atslēgu, lai ielādētu modeļus."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Neizdevās ielādēt modeļus: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Notiek ielāde..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeļi veiksmīgi ielādēti."
+    },
+    "optionsModelHint": {
+        "message": "Atlasiet modeli vai ielādējiet pašreizējo sarakstu, izmantojot API (nepieciešama saglabāta derīga API atslēga)."
+    },
+    "optionsModelLabel": {
+        "message": "AI modelis"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Raksta valoda"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Pārlūkprogrammas valoda"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Kopsavilkuma valoda"
+    },
+    "optionsResetShortcut": {
+        "message": "Atiestatīt"
+    },
+    "optionsSaveBtn": {
+        "message": "Saglabāt iestatījumus"
+    },
+    "optionsSaveFail": {
+        "message": "Kļūda saglabājot iestatījumus: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Iestatījumi veiksmīgi saglabāti!"
+    },
+    "optionsShortcutFail": {
+        "message": "Neizdevās atjaunināt īsinājumtaustiņu: "
+    },
+    "optionsShortcutHint": {
+        "message": "Noklikšķiniet uz lauka un nospiediet taustiņu kombināciju (piem., Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Tastatūras īsinājumtaustiņš"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Šajā pārlūkprogrammā īsinājumtaustiņu atjaunināšana netiek atbalstīta."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Neizdevās atiestatīt īsinājumtaustiņu: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Īsinājumtaustiņš atiestatīts uz noklusējuma vērtību."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Īsinājumtaustiņš veiksmīgi atjaunināts."
+    },
+    "optionsShowFabHint": {
+        "message": "Tīmekļa lapās parāda peldošu pogu, lai mobilajās ierīcēs ātri izveidotu to kopsavilkumu."
     },
     "optionsShowFabLabel": {
         "message": "Rādīt peldošo kopsavilkuma pogu"
     },
-    "optionsShowFabHint": {
-        "message": "Tīmekļa lapās parāda peldošu pogu, lai mobilajās ierīcēs ātri izveidotu to kopsavilkumu."
+    "optionsSubtitle": {
+        "message": "Paplašinājuma preferences"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim iestatījumi"
+    },
+    "promptKeyPoints": {
+        "message": "### Galvenie punkti"
+    },
+    "promptNoSources": {
+        "message": "Nav minēti konkrēti avoti."
+    },
+    "promptQualityWarning": {
+        "message": "Kvalitātes brīdinājums:"
+    },
+    "promptSources": {
+        "message": "### Attiecīgie avoti"
+    },
+    "promptSummary": {
+        "message": "### Īss kopsavilkums"
+    },
+    "promptTags": {
+        "message": "Birkas:"
+    },
+    "uiCloseTitle": {
+        "message": "Aizvērt"
+    },
+    "uiErrorLibraries": {
+        "message": "Kļūda: Neizdevās ielādēt renderēšanas bibliotēkas."
+    },
+    "uiErrorMarkdown": {
+        "message": "Kļūda apstrādājot Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Tiek ģenerēts kopsavilkums... lūdzu, uzgaidiet."
     }
 }

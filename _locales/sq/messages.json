@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Ekstraktoni tekstin nga faqet dhe përmblidheni atë duke përdorur AI."
-    },
-    "optionsTitle": {
-        "message": "Cilësimet e Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Çelësi API i ofruesit të AI"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Vendosni çelësin tuaj API..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Çelësi juaj ruhet në mënyrë të sigurt në shfletuesin tuaj dhe nuk dërgohet kurrë askund përveçse direkt te ofruesi i AI."
-    },
-    "optionsModelLabel": {
-        "message": "Modeli i AI"
-    },
-    "optionsLoadModels": {
-        "message": "Ngarko nga API"
-    },
-    "optionsModelHint": {
-        "message": "Zgjidhni një model ose ngarkoni listën aktuale përmes API-së (kërkon një çelës API të vlefshëm të ruajtur)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Gjuha e përmbledhjes"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Gjuha e artikullit"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Gjuha e shfletuesit"
-    },
-    "optionsSaveBtn": {
-        "message": "Ruaj cilësimet"
-    },
-    "optionsSaveSuccess": {
-        "message": "Cilësimet u ruajtën me sukses!"
-    },
-    "optionsSaveFail": {
-        "message": "Gabim gjatë ruajtjes së cilësimeve: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Ju lutemi vendosni një çelës API për të ngarkuar modelet."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Duke ngarkuar..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modelet u ngarkuan me sukses."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API nuk ktheu asnjë model."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Dështoi ngarkimi i modeleve: "
-    },
-    "uiCloseTitle": {
-        "message": "Mbyll"
-    },
-    "uiLoadingText": {
-        "message": "Duke gjeneruar përmbledhjen... ju lutemi prisni."
-    },
-    "uiErrorMarkdown": {
-        "message": "Gabim gjatë përpunimit të Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Gabim: Bibliotekat e renderimit dështuan të ngarkohen."
-    },
-    "bgErrorNoText": {
-        "message": "Faqja nuk përmban asnjë tekst domethënës për t'u përmbledhur."
-    },
-    "bgErrorNoKey": {
-        "message": "Çelësi API mungon. Ju lutemi klikoni me të djathtën mbi ikonën e shtojcës, zgjidhni 'Opsionet' (ose 'Menaxho shtojcën' -> 'Preferencat') dhe vendosni çelësin tuaj API."
-    },
-    "bgErrorUnsupported": {
-        "message": "Ofruesi i zgjedhur i AI nuk mbështetet aktualisht."
+    "bgErrorAIService": {
+        "message": "Gabim i shërbimit AI: "
     },
     "bgErrorAuthInvalid": {
         "message": "Gabim autentifikimi: Çelës API i pavlefshëm. Kontrolloni cilësimet e shtojcës."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Gabim autentifikimi: Qasje e paautorizuar (401/403). Kontrolloni cilësimet tuaja."
     },
-    "bgErrorRateLimit": {
-        "message": "Kufiri i shkallës u tejkalua (429). Ju lutemi provoni përsëri më vonë."
+    "bgErrorNetwork": {
+        "message": "Gabim rrjeti: Nuk mund të lidhet me shërbimin AI."
     },
-    "bgErrorAIService": {
-        "message": "Gabim i shërbimit AI: "
+    "bgErrorNoKey": {
+        "message": "Çelësi API mungon. Ju lutemi klikoni me të djathtën mbi ikonën e shtojcës, zgjidhni 'Opsionet' (ose 'Menaxho shtojcën' -> 'Preferencat') dhe vendosni çelësin tuaj API."
+    },
+    "bgErrorNoText": {
+        "message": "Faqja nuk përmban asnjë tekst domethënës për t'u përmbledhur."
     },
     "bgErrorNoValidText": {
         "message": "AI nuk ktheu asnjë tekst të vlefshëm."
     },
-    "bgErrorNetwork": {
-        "message": "Gabim rrjeti: Nuk mund të lidhet me shërbimin AI."
+    "bgErrorRateLimit": {
+        "message": "Kufiri i shkallës u tejkalua (429). Ju lutemi provoni përsëri më vonë."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Nuk mund të shfaqet gabimi në ndërfaqe."
     },
+    "bgErrorUnsupported": {
+        "message": "Ofruesi i zgjedhur i AI nuk mbështetet aktualisht."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Nuk mund të funksionojë në faqet e sistemit."
-    },
-    "promptTags": {
-        "message": "Etiketat:"
-    },
-    "promptSummary": {
-        "message": "### Përmbledhje e shkurtër"
-    },
-    "promptKeyPoints": {
-        "message": "### Pikat kryesore"
-    },
-    "promptSources": {
-        "message": "### Burimet përkatëse"
-    },
-    "promptNoSources": {
-        "message": "Nuk u përmendën burime specifike."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Nuk keni një çelës API? Mund të merrni një falas nga"
     },
     "extensionActionTitle": {
         "message": "Përmblidh me Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Ekstraktoni tekstin nga faqet dhe përmblidheni atë duke përdorur AI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Përmblidh faqen aktuale"
     },
-    "promptQualityWarning": {
-        "message": "Paralajmërim për cilësinë:"
+    "optionsAdvancedSettings": {
+        "message": "Cilësimet e avancuara të AI"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama ekzekutohet lokalisht. Nuk kërkohet çelës API. Sigurohuni që Ollama të jetë duke punuar dhe të jetë i aksesueshëm."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Nuk keni një çelës API? Mund të merrni një falas nga"
+    },
+    "optionsApiKeyHint": {
+        "message": "Çelësi juaj ruhet në mënyrë të sigurt në shfletuesin tuaj dhe nuk dërgohet kurrë askund përveçse direkt te ofruesi i AI."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Çelësi API i ofruesit të AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Vendosni çelësin tuaj API..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Lëreni bosh për të përdorur pikën fundore të paracaktuar të API-së së ofruesit. E dobishme për përfaqësues (proxy) të personalizuar ose modele lokale."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "URL bazë (Opsionale)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "p.sh. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Konfigurimi i AI"
+    },
+    "optionsGroupGeneral": {
+        "message": "Cilësimet e përgjithshme"
+    },
+    "optionsLoadModels": {
+        "message": "Ngarko nga API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API nuk ktheu asnjë model."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Ju lutemi vendosni një çelës API për të ngarkuar modelet."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Dështoi ngarkimi i modeleve: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Duke ngarkuar..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modelet u ngarkuan me sukses."
+    },
+    "optionsModelHint": {
+        "message": "Zgjidhni një model ose ngarkoni listën aktuale përmes API-së (kërkon një çelës API të vlefshëm të ruajtur)."
+    },
+    "optionsModelLabel": {
+        "message": "Modeli i AI"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Gjuha e artikullit"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Gjuha e shfletuesit"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Gjuha e përmbledhjes"
+    },
+    "optionsResetShortcut": {
+        "message": "Rivendos"
+    },
+    "optionsSaveBtn": {
+        "message": "Ruaj cilësimet"
+    },
+    "optionsSaveFail": {
+        "message": "Gabim gjatë ruajtjes së cilësimeve: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Cilësimet u ruajtën me sukses!"
+    },
+    "optionsShortcutFail": {
+        "message": "Dështoi përditësimi i shkurtores: "
+    },
+    "optionsShortcutHint": {
+        "message": "Klikoni në fushë dhe shtypni një kombinim tastesh (p.sh., Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Shkurtorja e tastierës"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Përditësimi i shkurtoreve nuk mbështetet në këtë shfletues."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Dështoi rivendosja e shkurtores: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Shkurtorja u rivendos në vlerën e paracaktuar."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Shkurtorja u përditësua me sukses."
+    },
+    "optionsShowFabHint": {
+        "message": "Shfaq një buton lundrues në faqet e internetit për t'i përmbledhur ato shpejt në pajisjet celulare."
     },
     "optionsShowFabLabel": {
         "message": "Shfaq butonin lundrues të përmbledhjes"
     },
-    "optionsShowFabHint": {
-        "message": "Shfaq një buton lundrues në faqet e internetit për t'i përmbledhur ato shpejt në pajisjet celulare."
+    "optionsSubtitle": {
+        "message": "Preferencat e shtojcës"
+    },
+    "optionsTitle": {
+        "message": "Cilësimet e Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Pikat kryesore"
+    },
+    "promptNoSources": {
+        "message": "Nuk u përmendën burime specifike."
+    },
+    "promptQualityWarning": {
+        "message": "Paralajmërim për cilësinë:"
+    },
+    "promptSources": {
+        "message": "### Burimet përkatëse"
+    },
+    "promptSummary": {
+        "message": "### Përmbledhje e shkurtër"
+    },
+    "promptTags": {
+        "message": "Etiketat:"
+    },
+    "uiCloseTitle": {
+        "message": "Mbyll"
+    },
+    "uiErrorLibraries": {
+        "message": "Gabim: Bibliotekat e renderimit dështuan të ngarkohen."
+    },
+    "uiErrorMarkdown": {
+        "message": "Gabim gjatë përpunimit të Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Duke gjeneruar përmbledhjen... ju lutemi prisni."
     }
 }

@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Ištraukite tekstą iš puslapių ir apibendrinkite jį naudodami DI."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim nustatymai"
-    },
-    "optionsApiKeyLabel": {
-        "message": "DI teikėjo API raktas"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Įveskite savo API raktą..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Jūsų raktas saugiai laikomas naršyklėje ir niekada niekur nesiunčiamas, išskyrus tiesiogiai DI teikėjui."
-    },
-    "optionsModelLabel": {
-        "message": "DI modelis"
-    },
-    "optionsLoadModels": {
-        "message": "Įkelti iš API"
-    },
-    "optionsModelHint": {
-        "message": "Pasirinkite modelį arba įkelkite dabartinį sąrašą per API (reikalingas išsaugotas galiojantis API raktas)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Apibendrinimo kalba"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Straipsnio kalba"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Naršyklės kalba"
-    },
-    "optionsSaveBtn": {
-        "message": "Išsaugoti nustatymus"
-    },
-    "optionsSaveSuccess": {
-        "message": "Nustatymai sėkmingai išsaugoti!"
-    },
-    "optionsSaveFail": {
-        "message": "Klaida išsaugant nustatymus: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Norėdami įkelti modelius, įveskite API raktą."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Įkeliama..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Modeliai sėkmingai įkelti."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API negrąžino jokių modelių."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Nepavyko įkelti modelių: "
-    },
-    "uiCloseTitle": {
-        "message": "Uždaryti"
-    },
-    "uiLoadingText": {
-        "message": "Generuojamas apibendrinimas... palaukite."
-    },
-    "uiErrorMarkdown": {
-        "message": "Klaida apdorojant „Markdown“."
-    },
-    "uiErrorLibraries": {
-        "message": "Klaida: nepavyko įkelti atvaizdavimo bibliotekų."
-    },
-    "bgErrorNoText": {
-        "message": "Puslapyje nėra jokio prasmingo teksto, kurį būtų galima apibendrinti."
-    },
-    "bgErrorNoKey": {
-        "message": "Nėra API rakto. Dešiniuoju pelės mygtuku spustelėkite plėtinio piktogramą, pasirinkite „Nustatymai“ (arba „Tvarkyti plėtinį“ -> „Nuostatos“) ir įveskite savo API raktą."
-    },
-    "bgErrorUnsupported": {
-        "message": "Pasirinktas DI teikėjas šiuo metu nepalaikomas."
+    "bgErrorAIService": {
+        "message": "DI paslaugos klaida: "
     },
     "bgErrorAuthInvalid": {
         "message": "Autentifikavimo klaida: netinkamas API raktas. Patikrinkite plėtinio nustatymus."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Autentifikavimo klaida: neteisėta prieiga (401/403). Patikrinkite savo nustatymus."
     },
-    "bgErrorRateLimit": {
-        "message": "Viršytas užklausų limitas (429). Bandykite dar kartą vėliau."
+    "bgErrorNetwork": {
+        "message": "Tinklo klaida: nepavyksta prisijungti prie DI paslaugos."
     },
-    "bgErrorAIService": {
-        "message": "DI paslaugos klaida: "
+    "bgErrorNoKey": {
+        "message": "Nėra API rakto. Dešiniuoju pelės mygtuku spustelėkite plėtinio piktogramą, pasirinkite „Nustatymai“ (arba „Tvarkyti plėtinį“ -> „Nuostatos“) ir įveskite savo API raktą."
+    },
+    "bgErrorNoText": {
+        "message": "Puslapyje nėra jokio prasmingo teksto, kurį būtų galima apibendrinti."
     },
     "bgErrorNoValidText": {
         "message": "DI negrąžino jokio tinkamo teksto."
     },
-    "bgErrorNetwork": {
-        "message": "Tinklo klaida: nepavyksta prisijungti prie DI paslaugos."
+    "bgErrorRateLimit": {
+        "message": "Viršytas užklausų limitas (429). Bandykite dar kartą vėliau."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: nepavyksta parodyti klaidos vartotojo sąsajoje."
     },
+    "bgErrorUnsupported": {
+        "message": "Pasirinktas DI teikėjas šiuo metu nepalaikomas."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: negalima vykdyti sistemos puslapiuose."
-    },
-    "promptTags": {
-        "message": "Žymos:"
-    },
-    "promptSummary": {
-        "message": "### Trumpas apibendrinimas"
-    },
-    "promptKeyPoints": {
-        "message": "### Pagrindiniai punktai"
-    },
-    "promptSources": {
-        "message": "### Atitinkami šaltiniai"
-    },
-    "promptNoSources": {
-        "message": "Konkrečių šaltinių nepaminėta."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Neturite API rakto? Nemokamą galite gauti iš"
     },
     "extensionActionTitle": {
         "message": "Apibendrinti su „Scutter Skim“"
     },
+    "extensionDescription": {
+        "message": "Ištraukite tekstą iš puslapių ir apibendrinkite jį naudodami DI."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Apibendrinti esamą puslapį"
     },
-    "promptQualityWarning": {
-        "message": "Kokybės įspėjimas:"
+    "optionsAdvancedSettings": {
+        "message": "Išplėstiniai DI nustatymai"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "„Ollama“ veikia vietoje. API rakto nereikia. Įsitikinkite, kad „Ollama“ veikia ir yra pasiekiama."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Neturite API rakto? Nemokamą galite gauti iš"
+    },
+    "optionsApiKeyHint": {
+        "message": "Jūsų raktas saugiai laikomas naršyklėje ir niekada niekur nesiunčiamas, išskyrus tiesiogiai DI teikėjui."
+    },
+    "optionsApiKeyLabel": {
+        "message": "DI teikėjo API raktas"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Įveskite savo API raktą..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Palikite tuščią, jei norite naudoti numatytąjį paslaugų teikėjo API galutinį tašką. Naudinga naudojant pasirinktinius tarpinius serverius arba vietinius modelius."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Pagrindinis URL (pasirenkamas)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "pvz., http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "DI konfigūracija"
+    },
+    "optionsGroupGeneral": {
+        "message": "Bendrieji nustatymai"
+    },
+    "optionsLoadModels": {
+        "message": "Įkelti iš API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API negrąžino jokių modelių."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Norėdami įkelti modelius, įveskite API raktą."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Nepavyko įkelti modelių: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Įkeliama..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Modeliai sėkmingai įkelti."
+    },
+    "optionsModelHint": {
+        "message": "Pasirinkite modelį arba įkelkite dabartinį sąrašą per API (reikalingas išsaugotas galiojantis API raktas)."
+    },
+    "optionsModelLabel": {
+        "message": "DI modelis"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Straipsnio kalba"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Naršyklės kalba"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Apibendrinimo kalba"
+    },
+    "optionsResetShortcut": {
+        "message": "Atkurti"
+    },
+    "optionsSaveBtn": {
+        "message": "Išsaugoti nustatymus"
+    },
+    "optionsSaveFail": {
+        "message": "Klaida išsaugant nustatymus: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Nustatymai sėkmingai išsaugoti!"
+    },
+    "optionsShortcutFail": {
+        "message": "Nepavyko atnaujinti sparčiojo klavišo: "
+    },
+    "optionsShortcutHint": {
+        "message": "Spustelėkite laukelį ir paspauskite klavišų kombinaciją (pvz., Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Spartusis klavišas"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Ši naršyklė nepalaiko sparčiųjų klavišų atnaujinimo."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Nepavyko atkurti sparčiojo klavišo: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Spartusis klavišas atstatytas į numatytąjį."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Spartusis klavišas sėkmingai atnaujintas."
+    },
+    "optionsShowFabHint": {
+        "message": "Tinklalapiuose rodo slankųjį mygtuką, skirtą greitai apibendrinti turinį mobiliuosiuose įrenginiuose."
     },
     "optionsShowFabLabel": {
         "message": "Rodyti slankųjį apibendrinimo mygtuką"
     },
-    "optionsShowFabHint": {
-        "message": "Tinklalapiuose rodo slankųjį mygtuką, skirtą greitai apibendrinti turinį mobiliuosiuose įrenginiuose."
+    "optionsSubtitle": {
+        "message": "Plėtinio nuostatos"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim nustatymai"
+    },
+    "promptKeyPoints": {
+        "message": "### Pagrindiniai punktai"
+    },
+    "promptNoSources": {
+        "message": "Konkrečių šaltinių nepaminėta."
+    },
+    "promptQualityWarning": {
+        "message": "Kokybės įspėjimas:"
+    },
+    "promptSources": {
+        "message": "### Atitinkami šaltiniai"
+    },
+    "promptSummary": {
+        "message": "### Trumpas apibendrinimas"
+    },
+    "promptTags": {
+        "message": "Žymos:"
+    },
+    "uiCloseTitle": {
+        "message": "Uždaryti"
+    },
+    "uiErrorLibraries": {
+        "message": "Klaida: nepavyko įkelti atvaizdavimo bibliotekų."
+    },
+    "uiErrorMarkdown": {
+        "message": "Klaida apdorojant „Markdown“."
+    },
+    "uiLoadingText": {
+        "message": "Generuojamas apibendrinimas... palaukite."
     }
 }

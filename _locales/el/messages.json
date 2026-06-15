@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Εξαγωγή κειμένου από σελίδες και σύνοψη με χρήση τεχνητής νοημοσύνης."
-    },
-    "optionsTitle": {
-        "message": "Ρυθμίσεις Scutter Skim"
-    },
-    "optionsApiKeyLabel": {
-        "message": "Κλειδί API παρόχου AI"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Εισαγάγετε το κλειδί API σας..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Το κλειδί σας αποθηκεύεται με ασφάλεια στον περιηγητή σας και δεν αποστέλλεται πουθενά παρά μόνο απευθείας στον πάροχο AI."
-    },
-    "optionsModelLabel": {
-        "message": "Μοντέλο AI"
-    },
-    "optionsLoadModels": {
-        "message": "Φόρτωση από το API"
-    },
-    "optionsModelHint": {
-        "message": "Επιλέξτε ένα μοντέλο ή φορτώστε την τρέχουσα λίστα μέσω API (απαιτείται αποθηκευμένο έγκυρο κλειδί API)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Γλώσσα σύνοψης"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Γλώσσα του άρθρου"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Γλώσσα περιηγητή"
-    },
-    "optionsSaveBtn": {
-        "message": "Αποθήκευση ρυθμίσεων"
-    },
-    "optionsSaveSuccess": {
-        "message": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία!"
-    },
-    "optionsSaveFail": {
-        "message": "Σφάλμα κατά την αποθήκευση των ρυθμίσεων: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Παρακαλώ εισαγάγετε ένα κλειδί API για να φορτώσετε τα μοντέλα."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Φόρτωση..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Τα μοντέλα φορτώθηκαν με επιτυχία."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "Το API δεν επέστρεψε κανένα μοντέλο."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Αποτυχία φόρτωσης μοντέλων: "
-    },
-    "uiCloseTitle": {
-        "message": "Κλείσιμο"
-    },
-    "uiLoadingText": {
-        "message": "Δημιουργία σύνοψης... παρακαλώ περιμένετε."
-    },
-    "uiErrorMarkdown": {
-        "message": "Σφάλμα κατά την επεξεργασία του Markdown."
-    },
-    "uiErrorLibraries": {
-        "message": "Σφάλμα: Αποτυχία φόρτωσης βιβλιοθηκών απόδοσης."
-    },
-    "bgErrorNoText": {
-        "message": "Η σελίδα δεν περιέχει σημαντικό κείμενο για σύνοψη."
-    },
-    "bgErrorNoKey": {
-        "message": "Λείπει το κλειδί API. Κάντε δεξί κλικ στο εικονίδιο της επέκτασης, επιλέξτε 'Επιλογές' (ή 'Διαχείριση επέκτασης' -> 'Προτιμήσεις') και ορίστε το κλειδί API σας."
-    },
-    "bgErrorUnsupported": {
-        "message": "Ο επιλεγμένος πάροχος AI δεν υποστηρίζεται προς το παρόν."
+    "bgErrorAIService": {
+        "message": "Σφάλμα υπηρεσίας AI: "
     },
     "bgErrorAuthInvalid": {
         "message": "Σφάλμα ελέγχου ταυτότητας: Μη έγκυρο κλειδί API. Ελέγξτε τις ρυθμίσεις της επέκτασης."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Σφάλμα ελέγχου ταυτότητας: Μη εξουσιοδοτημένη πρόσβαση (401/403). Ελέγξτε τις ρυθμίσεις σας."
     },
-    "bgErrorRateLimit": {
-        "message": "Υπέρβαση ορίου ρυθμού (429). Παρακαλώ δοκιμάστε ξανά αργότερα."
+    "bgErrorNetwork": {
+        "message": "Σφάλμα δικτύου: Αδυναμία σύνδεσης με την υπηρεσία AI."
     },
-    "bgErrorAIService": {
-        "message": "Σφάλμα υπηρεσίας AI: "
+    "bgErrorNoKey": {
+        "message": "Λείπει το κλειδί API. Κάντε δεξί κλικ στο εικονίδιο της επέκτασης, επιλέξτε 'Επιλογές' (ή 'Διαχείριση επέκτασης' -> 'Προτιμήσεις') και ορίστε το κλειδί API σας."
+    },
+    "bgErrorNoText": {
+        "message": "Η σελίδα δεν περιέχει σημαντικό κείμενο για σύνοψη."
     },
     "bgErrorNoValidText": {
         "message": "Η τεχνητή νοημοσύνη δεν επέστρεψε έγκυρο κείμενο."
     },
-    "bgErrorNetwork": {
-        "message": "Σφάλμα δικτύου: Αδυναμία σύνδεσης με την υπηρεσία AI."
+    "bgErrorRateLimit": {
+        "message": "Υπέρβαση ορίου ρυθμού (429). Παρακαλώ δοκιμάστε ξανά αργότερα."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Αδυναμία εμφάνισης σφάλματος στο περιβάλλον χρήστη."
     },
+    "bgErrorUnsupported": {
+        "message": "Ο επιλεγμένος πάροχος AI δεν υποστηρίζεται προς το παρόν."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Δεν είναι δυνατή η εκτέλεση σε σελίδες συστήματος."
-    },
-    "promptTags": {
-        "message": "Ετικέτες:"
-    },
-    "promptSummary": {
-        "message": "### Σύντομη περίληψη"
-    },
-    "promptKeyPoints": {
-        "message": "### Κύρια σημεία"
-    },
-    "promptSources": {
-        "message": "### Σχετικές πηγές"
-    },
-    "promptNoSources": {
-        "message": "Δεν αναφέρονται συγκεκριμένες πηγές."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Δεν έχετε κλειδί API; Μπορείτε να αποκτήσετε ένα δωρεάν από"
     },
     "extensionActionTitle": {
         "message": "Σύνοψη με το Scutter Skim"
     },
+    "extensionDescription": {
+        "message": "Εξαγωγή κειμένου από σελίδες και σύνοψη με χρήση τεχνητής νοημοσύνης."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Σύνοψη της τρέχουσας σελίδας"
     },
-    "promptQualityWarning": {
-        "message": "Προειδοποίηση ποιότητας:"
+    "optionsAdvancedSettings": {
+        "message": "Λεπτομερείς ρυθμίσεις AI"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Το Ollama εκτελείται τοπικά. Δεν απαιτείται κλειδί API. Βεβαιωθείτε ότι το Ollama εκτελείται και είναι προσβάσιμο."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Δεν έχετε κλειδί API; Μπορείτε να αποκτήσετε ένα δωρεάν από"
+    },
+    "optionsApiKeyHint": {
+        "message": "Το κλειδί σας αποθηκεύεται με ασφάλεια στον περιηγητή σας και δεν αποστέλλεται πουθενά παρά μόνο απευθείας στον πάροχο AI."
+    },
+    "optionsApiKeyLabel": {
+        "message": "Κλειδί API παρόχου AI"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Εισαγάγετε το κλειδί API σας..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Αφήστε το κενό για να χρησιμοποιήσετε το προεπιλεγμένο API endpoint του παρόχου. Χρήσιμο για custom proxies ή τοπικά μοντέλα."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Base URL (Προαιρετικό)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "π.χ. http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "Ρυθμίσεις AI"
+    },
+    "optionsGroupGeneral": {
+        "message": "Γενικές ρυθμίσεις"
+    },
+    "optionsLoadModels": {
+        "message": "Φόρτωση από το API"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "Το API δεν επέστρεψε κανένα μοντέλο."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Παρακαλώ εισαγάγετε ένα κλειδί API για να φορτώσετε τα μοντέλα."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Αποτυχία φόρτωσης μοντέλων: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Φόρτωση..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Τα μοντέλα φορτώθηκαν με επιτυχία."
+    },
+    "optionsModelHint": {
+        "message": "Επιλέξτε ένα μοντέλο ή φορτώστε την τρέχουσα λίστα μέσω API (απαιτείται αποθηκευμένο έγκυρο κλειδί API)."
+    },
+    "optionsModelLabel": {
+        "message": "Μοντέλο AI"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Γλώσσα του άρθρου"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Γλώσσα περιηγητή"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Γλώσσα σύνοψης"
+    },
+    "optionsResetShortcut": {
+        "message": "Επαναφορά"
+    },
+    "optionsSaveBtn": {
+        "message": "Αποθήκευση ρυθμίσεων"
+    },
+    "optionsSaveFail": {
+        "message": "Σφάλμα κατά την αποθήκευση των ρυθμίσεων: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία!"
+    },
+    "optionsShortcutFail": {
+        "message": "Αποτυχία ενημέρωσης συντόμευσης: "
+    },
+    "optionsShortcutHint": {
+        "message": "Κάντε κλικ στο πεδίο και πατήστε έναν συνδυασμό πλήκτρων (π.χ. Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Συντόμευση πληκτρολογίου"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Η ενημέρωση συντόμευσης δεν υποστηρίζεται σε αυτόν τον περιηγητή."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Αποτυχία επαναφοράς συντόμευσης: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Η συντόμευση επανήλθε στην προεπιλογή."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Η συντόμευση ενημερώθηκε επιτυχώς."
+    },
+    "optionsShowFabHint": {
+        "message": "Εμφανίζει ένα αιωρούμενο κουμπί στις ιστοσελίδες για τη γρήγορη σύνοψή τους σε φορητές συσκευές."
     },
     "optionsShowFabLabel": {
         "message": "Εμφάνιση αιωρούμενου κουμπιού σύνοψης"
     },
-    "optionsShowFabHint": {
-        "message": "Εμφανίζει ένα αιωρούμενο κουμπί στις ιστοσελίδες για τη γρήγορη σύνοψή τους σε φορητές συσκευές."
+    "optionsSubtitle": {
+        "message": "Προτιμήσεις επέκτασης"
+    },
+    "optionsTitle": {
+        "message": "Ρυθμίσεις Scutter Skim"
+    },
+    "promptKeyPoints": {
+        "message": "### Κύρια σημεία"
+    },
+    "promptNoSources": {
+        "message": "Δεν αναφέρονται συγκεκριμένες πηγές."
+    },
+    "promptQualityWarning": {
+        "message": "Προειδοποίηση ποιότητας:"
+    },
+    "promptSources": {
+        "message": "### Σχετικές πηγές"
+    },
+    "promptSummary": {
+        "message": "### Σύντομη περίληψη"
+    },
+    "promptTags": {
+        "message": "Ετικέτες:"
+    },
+    "uiCloseTitle": {
+        "message": "Κλείσιμο"
+    },
+    "uiErrorLibraries": {
+        "message": "Σφάλμα: Αποτυχία φόρτωσης βιβλιοθηκών απόδοσης."
+    },
+    "uiErrorMarkdown": {
+        "message": "Σφάλμα κατά την επεξεργασία του Markdown."
+    },
+    "uiLoadingText": {
+        "message": "Δημιουργία σύνοψης... παρακαλώ περιμένετε."
     }
 }

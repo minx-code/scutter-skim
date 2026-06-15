@@ -1,84 +1,6 @@
 {
-    "extensionName": {
-        "message": "Scutter Skim"
-    },
-    "extensionDescription": {
-        "message": "Eralda lehtedelt tekst ja võta see tehisintellekti abil kokku."
-    },
-    "optionsTitle": {
-        "message": "Scutter Skim seaded"
-    },
-    "optionsApiKeyLabel": {
-        "message": "AI-teenuse API-võti"
-    },
-    "optionsApiKeyPlaceholder": {
-        "message": "Sisesta oma API-võti..."
-    },
-    "optionsApiKeyHint": {
-        "message": "Sinu võtit hoitakse brauseris turvaliselt ja seda ei saadeta kuhugi mujale kui otse AI-teenuse pakkujale."
-    },
-    "optionsModelLabel": {
-        "message": "AI-mudel"
-    },
-    "optionsLoadModels": {
-        "message": "Laadi API-st"
-    },
-    "optionsModelHint": {
-        "message": "Vali mudel või laadi praegune loend API kaudu (nõuab salvestatud kehtivat API-võtit)."
-    },
-    "optionsOutputLangLabel": {
-        "message": "Kokkuvõtte keel"
-    },
-    "optionsOutputLangArticle": {
-        "message": "Artikli keel"
-    },
-    "optionsOutputLangBrowser": {
-        "message": "Brauseri keel"
-    },
-    "optionsSaveBtn": {
-        "message": "Salvesta seaded"
-    },
-    "optionsSaveSuccess": {
-        "message": "Seaded on salvestatud!"
-    },
-    "optionsSaveFail": {
-        "message": "Viga seadete salvestamisel: "
-    },
-    "optionsLoadModelsErrorNoKey": {
-        "message": "Mudelite laadimiseks sisesta palun API-võti."
-    },
-    "optionsLoadModelsLoading": {
-        "message": "Laadimine..."
-    },
-    "optionsLoadModelsSuccess": {
-        "message": "Mudelid on edukalt laaditud."
-    },
-    "optionsLoadModelsEmpty": {
-        "message": "API ei tagastanud ühtegi mudelit."
-    },
-    "optionsLoadModelsFail": {
-        "message": "Mudelite laadimine ebaõnnestus: "
-    },
-    "uiCloseTitle": {
-        "message": "Sulge"
-    },
-    "uiLoadingText": {
-        "message": "Koostan kokkuvõtet... palun oota."
-    },
-    "uiErrorMarkdown": {
-        "message": "Viga Markdowni töötlemisel."
-    },
-    "uiErrorLibraries": {
-        "message": "Viga: Renderdamisteegid ei laadinud."
-    },
-    "bgErrorNoText": {
-        "message": "Leht ei sisalda kokkuvõtte tegemiseks vajalikku teksti."
-    },
-    "bgErrorNoKey": {
-        "message": "API-võti puudub. Paremklõpsa laienduse ikoonil, vali 'Options' (või 'Manage Extension' -> 'Preferences') ja määra oma API-võti."
-    },
-    "bgErrorUnsupported": {
-        "message": "Valitud AI-teenuse pakkuja ei ole hetkel toetatud."
+    "bgErrorAIService": {
+        "message": "AI-teenuse viga: "
     },
     "bgErrorAuthInvalid": {
         "message": "Autentimisviga: Vigane API-võti. Kontrolli laienduse seadeid."
@@ -86,55 +8,181 @@
     "bgErrorAuthUnauthorized": {
         "message": "Autentimisviga: Juurdepääs keelatud (401/403). Kontrolli oma seadeid."
     },
-    "bgErrorRateLimit": {
-        "message": "Päringute limiit ületatud (429). Palun proovi hiljem uuesti."
+    "bgErrorNetwork": {
+        "message": "Võrguviga: AI-teenusega ei saa ühendust luua."
     },
-    "bgErrorAIService": {
-        "message": "AI-teenuse viga: "
+    "bgErrorNoKey": {
+        "message": "API-võti puudub. Paremklõpsa laienduse ikoonil, vali 'Options' (või 'Manage Extension' -> 'Preferences') ja määra oma API-võti."
+    },
+    "bgErrorNoText": {
+        "message": "Leht ei sisalda kokkuvõtte tegemiseks vajalikku teksti."
     },
     "bgErrorNoValidText": {
         "message": "AI ei tagastanud ühtegi kehtivat teksti."
     },
-    "bgErrorNetwork": {
-        "message": "Võrguviga: AI-teenusega ei saa ühendust luua."
+    "bgErrorRateLimit": {
+        "message": "Päringute limiit ületatud (429). Palun proovi hiljem uuesti."
     },
     "bgErrorUIShow": {
         "message": "Scutter Skim: Viga ei saa kasutajaliideses kuvada."
     },
+    "bgErrorUnsupported": {
+        "message": "Valitud AI-teenuse pakkuja ei ole hetkel toetatud."
+    },
     "bgSystemPageWarning": {
         "message": "Scutter Skim: Ei saa käivitada süsteemilehtedel."
-    },
-    "promptTags": {
-        "message": "Sildid:"
-    },
-    "promptSummary": {
-        "message": "### Lühikokkuvõte"
-    },
-    "promptKeyPoints": {
-        "message": "### Põhipunktid"
-    },
-    "promptSources": {
-        "message": "### Asjakohased allikad"
-    },
-    "promptNoSources": {
-        "message": "Konkreetseid allikaid ei mainitud."
-    },
-    "optionsApiKeyHelpText": {
-        "message": "Kas teil pole API-võtit? Saate tasuta võtme hankida siit:"
     },
     "extensionActionTitle": {
         "message": "Võta kokku Scutter Skimiga"
     },
+    "extensionDescription": {
+        "message": "Eralda lehtedelt tekst ja võta see tehisintellekti abil kokku."
+    },
+    "extensionName": {
+        "message": "Scutter Skim"
+    },
     "extensionShortcutDescription": {
         "message": "Võta praegune leht kokku"
     },
-    "promptQualityWarning": {
-        "message": "Kvaliteedihoiatus:"
+    "optionsAdvancedSettings": {
+        "message": "Täpsemad AI-seaded"
+    },
+    "optionsApiKeyHelpOllama": {
+        "message": "Ollama töötab lokaalselt. API-võtit pole vaja. Veendu, et Ollama töötab ja on kättesaadav."
+    },
+    "optionsApiKeyHelpText": {
+        "message": "Kas teil pole API-võtit? Saate tasuta võtme hankida siit:"
+    },
+    "optionsApiKeyHint": {
+        "message": "Sinu võtit hoitakse brauseris turvaliselt ja seda ei saadeta kuhugi mujale kui otse AI-teenuse pakkujale."
+    },
+    "optionsApiKeyLabel": {
+        "message": "AI-teenuse API-võti"
+    },
+    "optionsApiKeyPlaceholder": {
+        "message": "Sisesta oma API-võti..."
+    },
+    "optionsBaseUrlHint": {
+        "message": "Jäta tühjaks, et kasutada teenusepakkuja vaikimisi API-lõpp-punkti. Kasulik kohandatud prokside või lokaalsete mudelite puhul."
+    },
+    "optionsBaseUrlLabel": {
+        "message": "Baas-URL (valikuline)"
+    },
+    "optionsBaseUrlPlaceholder": {
+        "message": "nt http://localhost:11434/v1"
+    },
+    "optionsGroupAI": {
+        "message": "AI konfiguratsioon"
+    },
+    "optionsGroupGeneral": {
+        "message": "Üldised seaded"
+    },
+    "optionsLoadModels": {
+        "message": "Laadi API-st"
+    },
+    "optionsLoadModelsEmpty": {
+        "message": "API ei tagastanud ühtegi mudelit."
+    },
+    "optionsLoadModelsErrorNoKey": {
+        "message": "Mudelite laadimiseks sisesta palun API-võti."
+    },
+    "optionsLoadModelsFail": {
+        "message": "Mudelite laadimine ebaõnnestus: "
+    },
+    "optionsLoadModelsLoading": {
+        "message": "Laadimine..."
+    },
+    "optionsLoadModelsSuccess": {
+        "message": "Mudelid on edukalt laaditud."
+    },
+    "optionsModelHint": {
+        "message": "Vali mudel või laadi praegune loend API kaudu (nõuab salvestatud kehtivat API-võtit)."
+    },
+    "optionsModelLabel": {
+        "message": "AI-mudel"
+    },
+    "optionsOutputLangArticle": {
+        "message": "Artikli keel"
+    },
+    "optionsOutputLangBrowser": {
+        "message": "Brauseri keel"
+    },
+    "optionsOutputLangLabel": {
+        "message": "Kokkuvõtte keel"
+    },
+    "optionsResetShortcut": {
+        "message": "Lähtesta"
+    },
+    "optionsSaveBtn": {
+        "message": "Salvesta seaded"
+    },
+    "optionsSaveFail": {
+        "message": "Viga seadete salvestamisel: "
+    },
+    "optionsSaveSuccess": {
+        "message": "Seaded on salvestatud!"
+    },
+    "optionsShortcutFail": {
+        "message": "Otsetee värskendamine ebaõnnestus: "
+    },
+    "optionsShortcutHint": {
+        "message": "Klõpsa väljal ja vajuta klahvikombinatsiooni (nt Alt+Shift+U)."
+    },
+    "optionsShortcutLabel": {
+        "message": "Klaviatuuri otsetee"
+    },
+    "optionsShortcutNotSupported": {
+        "message": "Otsetee värskendamine pole selles brauseris toetatud."
+    },
+    "optionsShortcutResetFail": {
+        "message": "Otsetee lähtestamine ebaõnnestus: "
+    },
+    "optionsShortcutResetSuccess": {
+        "message": "Otsetee on lähtestatud vaikeseadetele."
+    },
+    "optionsShortcutSuccess": {
+        "message": "Otsetee on edukalt värskendatud."
+    },
+    "optionsShowFabHint": {
+        "message": "Kuvab veebilehtedel ujuva nupu, et neid mobiilseadmetes kiiresti kokku võtta."
     },
     "optionsShowFabLabel": {
         "message": "Kuva ujuv kokkuvõtte nupp"
     },
-    "optionsShowFabHint": {
-        "message": "Kuvab veebilehtedel ujuva nupu, et neid mobiilseadmetes kiiresti kokku võtta."
+    "optionsSubtitle": {
+        "message": "Laienduse eelistused"
+    },
+    "optionsTitle": {
+        "message": "Scutter Skim seaded"
+    },
+    "promptKeyPoints": {
+        "message": "### Põhipunktid"
+    },
+    "promptNoSources": {
+        "message": "Konkreetseid allikaid ei mainitud."
+    },
+    "promptQualityWarning": {
+        "message": "Kvaliteedihoiatus:"
+    },
+    "promptSources": {
+        "message": "### Asjakohased allikad"
+    },
+    "promptSummary": {
+        "message": "### Lühikokkuvõte"
+    },
+    "promptTags": {
+        "message": "Sildid:"
+    },
+    "uiCloseTitle": {
+        "message": "Sulge"
+    },
+    "uiErrorLibraries": {
+        "message": "Viga: Renderdamisteegid ei laadinud."
+    },
+    "uiErrorMarkdown": {
+        "message": "Viga Markdowni töötlemisel."
+    },
+    "uiLoadingText": {
+        "message": "Koostan kokkuvõtet... palun oota."
     }
 }
