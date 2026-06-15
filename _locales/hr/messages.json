@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Sažmi trenutnu stranicu"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Proširenje je ažurirano u pozadini. Molimo osvježite ovu stranicu kako biste koristili gumb za sažimanje (pritisnite F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Napredne postavke umjetne inteligencije"
     },

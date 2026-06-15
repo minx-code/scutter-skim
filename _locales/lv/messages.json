@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Apkopot pašreizējo lapu"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Paplašinājums tika atjaunināts fonā. Lūdzu, atsvaidziniet šo lapu, lai izmantotu kopsavilkuma pogu (nospiediet F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Detalizēti AI iestatījumi"
     },

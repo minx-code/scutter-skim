@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Az aktuális oldal összefoglalása"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: A bővítmény a háttérben frissült. Kérjük, frissítse az oldalt az összefoglaló gomb használatához (nyomja meg az F5 billentyűt)."
+    },
     "optionsAdvancedSettings": {
         "message": "Részletes MI-beállítások"
     },

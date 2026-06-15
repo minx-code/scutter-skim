@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Обобщаване на текущата страница"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Разширението беше актуализирано във фонов режим. Моля, презаредете тази страница, за да използвате бутона за резюме (натиснете F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Разширени настройки на ИИ"
     },

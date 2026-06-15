@@ -102,7 +102,10 @@
             // Send message to background to trigger summarize
             browser.runtime.sendMessage({ action: 'trigger_summarize' }).catch((err) => {
                 console.error('Scutter Skim: Error sending message from FAB.', err);
-                alert('Scutter Skim: Rozšíření bylo aktualizováno na pozadí. Pro správné fungování tohoto tlačítka musíte tuto stránku obnovit (klávesa F5).');
+                const msg =
+                    browser.i18n.getMessage('fabErrorExtensionUpdated') ||
+                    'Scutter Skim: The extension was updated in the background. Please refresh this page to use the summarize button (press F5).';
+                alert(msg);
             });
         });
 

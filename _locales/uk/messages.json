@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Підсумувати поточну сторінку"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Розширення було оновлено у фоновому режимі. Будь ласка, оновіть цю сторінку, щоб скористатися кнопкою підсумовування (натисніть F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Детальні налаштування ШІ"
     },

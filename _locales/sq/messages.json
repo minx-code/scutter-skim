@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Përmblidh faqen aktuale"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Zgjerimi u përditësua në sfond. Ju lutemi rifreskoni këtë faqe për të përdorur butonin e përmbledhjes (shtypni F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Cilësimet e avancuara të AI"
     },

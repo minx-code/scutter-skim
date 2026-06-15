@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Shrnout aktuální stránku"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Rozšíření bylo aktualizováno na pozadí. Pro správné fungování tohoto tlačítka musíte tuto stránku obnovit (klávesa F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Pokročilé nastavení AI"
     },

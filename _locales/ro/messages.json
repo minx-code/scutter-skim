@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Rezumatul paginii curente"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Extensia a fost actualizată în fundal. Vă rugăm să reîmprospătați această pagină pentru a utiliza butonul de sumarizare (apăsați F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Setări AI detaliate"
     },

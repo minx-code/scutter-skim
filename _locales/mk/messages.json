@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Сумирај ја тековната страница"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Екстензијата беше ажурирана во заднина. Ве молиме освежете ја оваа страница за да го користите копчето за сумирање (притиснете F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Детални поставки за вештачка интелигенција"
     },

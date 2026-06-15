@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Resumir la página actual"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: La extensión se ha actualizado en segundo plano. Por favor, actualice esta página para usar el botón de resumir (presione F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Configuración avanzada de IA"
     },

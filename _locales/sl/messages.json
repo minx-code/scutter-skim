@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Povzemi trenutno stran"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Razširitev je bila posodobljena v ozadju. Prosimo, osvežite to stran, da boste lahko uporabili gumb za povzemanje (pritisnite F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Napredne nastavitve umetne inteligence"
     },

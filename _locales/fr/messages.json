@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Résumer la page actuelle"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim : L'extension a été mise à jour en arrière-plan. Veuillez actualiser cette page pour utiliser le bouton de résumé (appuyez sur F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Paramètres IA détaillés"
     },

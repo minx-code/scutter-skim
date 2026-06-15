@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Déan achoimre ar an leathanach reatha"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Nuashonraíodh an síneadh sa chúlra. Athnuaigh an leathanach seo le do thoil chun an cnaipe achoimrithe a úsáid (brúigh F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Socruithe Mionsonraithe AI"
     },

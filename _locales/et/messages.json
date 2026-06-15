@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Võta praegune leht kokku"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Laiendus uuendati taustal. Palun värskendage seda lehte, et kasutada kokkuvõtte nuppu (vajutage F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Täpsemad AI-seaded"
     },

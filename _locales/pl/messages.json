@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Podsumuj bieżącą stronę"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Rozszerzenie zostało zaktualizowane w tle. Odśwież tę stronę, aby użyć przycisku podsumowania (naciśnij F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Zaawansowane ustawienia AI"
     },

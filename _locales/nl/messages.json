@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Vat de huidige pagina samen"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: De extensie is op de achtergrond bijgewerkt. Vernieuw deze pagina om de samenvattingsknop te gebruiken (druk op F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Geavanceerde AI-instellingen"
     },

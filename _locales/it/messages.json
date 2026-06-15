@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Riassumi la pagina corrente"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: L'estensione è stata aggiornata in background. Aggiorna questa pagina per utilizzare il pulsante di riepilogo (premi F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Impostazioni AI avanzate"
     },

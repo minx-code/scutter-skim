@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Oppsummer gjeldende side"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Utvidelsen ble oppdatert i bakgrunnen. Vennligst oppdater denne siden for å bruke oppsummeringsknappen (trykk F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Avanserte AI-innstillinger"
     },

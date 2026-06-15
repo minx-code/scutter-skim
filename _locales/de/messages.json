@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Aktuelle Seite zusammenfassen"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Die Erweiterung wurde im Hintergrund aktualisiert. Bitte laden Sie diese Seite neu, um die Zusammenfassungs-Schaltfläche zu verwenden (drücken Sie F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Detaillierte KI-Einstellungen"
     },

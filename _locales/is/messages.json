@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Taka saman núverandi síðu"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Viðbótin var uppfærð í bakgrunni. Vinsamlegast endurhlaðið þessa síðu til að nota samantektarhnappinn (ýtið á F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Ítarlegar AI-stillingar"
     },

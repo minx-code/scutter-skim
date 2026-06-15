@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Zhrnúť aktuálnu stránku"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Rozšírenie bolo aktualizované na pozadí. Prosím, obnovte túto stránku, aby ste mohli použiť tlačidlo na zhrnutie (stlačte F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Podrobné nastavenia AI"
     },

@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Geçerli sayfayı özetle"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Uzantı arka planda güncellendi. Özetle düğmesini kullanmak için lütfen bu sayfayı yenileyin (F5 tuşuna basın)."
+    },
     "optionsAdvancedSettings": {
         "message": "Gelişmiş Yapay Zeka Ayarları"
     },

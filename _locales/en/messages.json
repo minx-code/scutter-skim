@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Summarize the current page"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: The extension was updated in the background. Please refresh this page to use the summarize button (press F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Detailed AI Settings"
     },

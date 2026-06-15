@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Tiivistä nykyinen sivu"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Laajennus päivitettiin taustalla. Päivitä tämä sivu käyttääksesi tiivistyspainiketta (paina F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Tarkennetut tekoälyasetukset"
     },

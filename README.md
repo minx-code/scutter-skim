@@ -2,7 +2,7 @@
 
 **Scutter Skim** is a Manifest V3 Firefox extension designed to instantly summarize the current web page you are reading using an AI model. With a single click, it extracts the page content, sends it to the AI, and displays a cleanly formatted Markdown summary in an isolated, non-intrusive modal window over the page.
 
-Currently, the extension uses Google's **Gemini 3.1 Flash Lite** model, but it features an AI-agnostic architecture allowing easy integration of other providers in the future.
+Currently, the extension defaults to Google's **Gemini** model, but its AI-agnostic architecture supports multiple major providers including Anthropic (Claude), OpenAI (GPT), and local/custom endpoints like Ollama and Together AI.
 
 ### Core Features
 
@@ -12,7 +12,7 @@ Currently, the extension uses Google's **Gemini 3.1 Flash Lite** model, but it f
 - **Floating Action Button**: A quick-access floating button, ideal for responsive layouts or mobile reading.
 - **Keyboard Shortcuts**: Quickly summarize any page using `Alt+Shift+U` (customizable).
 - **Global Localization**: Supports 30+ languages for the UI and summary output, adapting automatically to your browser or article language.
-- **Isolated UI**: The results modal is rendered inside a closed Shadow DOM, ensuring the host page's CSS never conflicts with the extension's sleek, modern design.
+- **Isolated UI & Markdown**: The results modal is rendered inside a closed Shadow DOM, ensuring the host page's CSS never conflicts with the extension's sleek, modern design. It includes a lightweight Markdown parser to cleanly format headers, lists, and links.
 - **AI Agnostic Design**: Simple, interchangeable class structure for adding new AI providers.
 - **Privacy Focused**: Requires your personal API Key, stored locally in your browser (`browser.storage.local`). The key is only sent directly to the AI provider.
 

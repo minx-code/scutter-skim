@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Agħti sommarju tal-paġna kurrenti"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: L-estensjoni ġiet aġġornata fl-isfond. Jekk jogħġbok aġġorna din il-paġna biex tuża l-buttuna tas-sommarju (agħfas F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Settings Avvanzati tal-AI"
     },

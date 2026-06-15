@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Apibendrinti esamą puslapį"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: plėtinys buvo atnaujintas fone. Norėdami naudoti apibendrinimo mygtuką, atnaujinkite šį puslapį (paspauskite F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Išplėstiniai DI nustatymai"
     },

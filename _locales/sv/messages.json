@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Sammanfatta den aktuella sidan"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Tillägget uppdaterades i bakgrunden. Vänligen uppdatera sidan för att använda sammanfattningsknappen (tryck på F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Avancerade AI-inställningar"
     },

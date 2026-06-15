@@ -44,6 +44,9 @@
     "extensionShortcutDescription": {
         "message": "Σύνοψη της τρέχουσας σελίδας"
     },
+    "fabErrorExtensionUpdated": {
+        "message": "Scutter Skim: Η επέκταση ενημερώθηκε στο παρασκήνιο. Παρακαλούμε ανανεώστε αυτή τη σελίδα για να χρησιμοποιήσετε το κουμπί σύνοψης (πατήστε F5)."
+    },
     "optionsAdvancedSettings": {
         "message": "Λεπτομερείς ρυθμίσεις AI"
     },
