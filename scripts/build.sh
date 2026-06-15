@@ -21,11 +21,14 @@ cp content/fab.css dist/content/
 cp content/fab.js dist/content/
 cp lib/marked.min.js dist/lib/
 cp lib/purify.min.js dist/lib/
+cp lib/Readability.js dist/lib/
 cp options/options.css dist/options/
 cp options/options.html dist/options/
 cp options/options.js dist/options/
 cp services/ai-provider.js dist/services/
 cp services/gemini-provider.js dist/services/
+cp services/openai-provider.js dist/services/
+cp services/anthropic-provider.js dist/services/
 
 # Check if icons exist, if so copy them
 if [ -d "icons" ]; then
