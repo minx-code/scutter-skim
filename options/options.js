@@ -210,11 +210,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Keyboard Shortcut Management
-    if (browser.commands && browser.commands.getAll) {
-        browser.commands.getAll().then((commands) => {
-            const cmd = commands.find((c) => c.name === '_execute_action');
-            if (cmd && cmd.shortcut) shortcutInput.value = cmd.shortcut;
-        });
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const shortcutContainer = document.getElementById('shortcutContainer');
+    
+    if (isMobile && shortcutContainer) {
+        shortcutContainer.style.display = 'none';
+    } else {
+        if (browser.commands && browser.commands.getAll) {
+            browser.commands.getAll().then((commands) => {
+                const cmd = commands.find((c) => c.name === '_execute_action');
+                if (cmd && cmd.shortcut) shortcutInput.value = cmd.shortcut;
+            });
+        }
     }
 
     shortcutInput.addEventListener('keydown', (e) => {
